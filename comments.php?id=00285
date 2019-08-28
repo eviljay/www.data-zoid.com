@@ -1,0 +1,315 @@
+
+<HTML><HEAD>
+<TITLE>colonpipe.com :: don't squeeze the tuba
+
+</TITLE>
+<LINK REL="stylesheet" HREF="zoid2.css">
+<SCRIPT LANGUAGE="javascript">
+<!--//
+
+function mOvr(src,clrOver) {
+  if (!src.contains(event.fromElement)) {
+    src.style.cursor = 'default'; src.bgColor = clrOver;
+  }
+}
+
+function mOut(src,clrIn) {
+  if (!src.contains(event.toElement)) {
+    src.style.cursor = 'default';
+    src.bgColor = clrIn;
+  }
+}
+
+function mClk(src) {
+  if(event.srcElement.tagName=='TD') {
+    src.children.tags('A')[0].click();
+  }
+}
+
+var win=null;
+
+    //-->
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#000000" TOPMARGIN="0" BOTTOMMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0">
+
+<DIV STYLE="text-align: center;">
+
+<TABLE HEIGHT="7" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="topLeft"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+<TD CLASS="topCenter" WIDTH="100%"><IMG SRC="ui/spacer.gif" HEIGHT="1"></TD>
+<TD WIDTH="7" CLASS="topRight"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="leftSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+<TD CLASS="bartop">&nbsp;
+
+<span class"lineyear">MAYBE I'M LAZY, SMACKCROCKER.
+</span>
+</TD>
+<TD WIDTH="7" CLASS="rightSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="leftSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+<TD WIDTH="400"><IMG SRC="colonpipe102.jpg" WIDTH="400" HEIGHT="100">
+</TD>
+<TD CLASS="otherSide" WIDTH="100%" VALIGN="bottom">
+
+<div align="right">
+<span class="tiny">Quick Navigation:&nbsp;&nbsp;<br />
+<a href="index2.php" class="reg">colonpipe.com home</a> :: 
+<a href="ozmidi.php" class="reg">ozmidi Archive</a>&nbsp;&nbsp;<br />
+<a href="rafters" class="reg">Rafters</a> :: 
+<a href="fraxyl" class="reg">fraxyl Design</a> :: 
+<a href="natchcomics" class="reg">Natch Comics</a>&nbsp;&nbsp;<br />
+<a href="flatline" class="reg">Flatline</a> :: 
+<a href="brutallyhonest" class="reg">Brutally Honest Movie Reviews</a>&nbsp;&nbsp;
+</span></div>
+<br />
+
+</TD>
+<TD WIDTH="7" CLASS="rightSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="leftSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+
+<TD VALIGN="top" CLASS="menubg">
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="2"><TR><TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;</TD><TD WIDTH="7" CLASS="sideStop" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="index2.php" CLASS="navsmall" TITLE="This link will take you to the hub of colonpipe.com, the home page. Or something. Jesus, I sound like that sodding paperclip.">Home</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="rafters" CLASS="navsmall" TITLE="The massively controversial and envelope-pushing forum of intense and unfettering discussion...isn't hiding behind this link. (For that, try the toilet transcript.)">Rafters</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="irc.php" CLASS="navsmall" TITLE="Technology abounds! Chat in real time with other people, possibly even living ones!">IRC Chat</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="audio.php" CLASS="navsmall" TITLE="Portal to MIDI and mp3 music. Most of which is shit. Don't say you weren't warned.">Audio</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="ebr.php" CLASS="navsmall" TITLE="Reviews of beverages, most of which claim to give you energy, and coincidentally taste like shit.">Beverage Reviews</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="figures.php" CLASS="navsmall" TITLE="Thoroughly nonexistant merchandise.">Action Figures</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="more.php" CLASS="navsmall" TITLE="Uncategorisable chud.">More..</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="ozmidi.php" CLASS="navsmall" TITLE="An archive of Australian music in MIDI format, dredged up from all over the 'net."><SPAN STYLE="color: #00CC33;">O</SPAN><SPAN STYLE="color: #FFCC33;">z</SPAN> <SPAN STYLE="color: #00CC33;">M</SPAN><SPAN STYLE="color: #FFCC33;">I</SPAN><SPAN STYLE="color: #00CC33;">D</SPAN><SPAN STYLE="color: #FFCC33;">I</SPAN></A> <A HREF="ozmidi.php" CLASS="navsmall" TITLE="An archive of Australian music in MIDI format, dredged up from all over the 'net.">Archive</a></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;"Content" (sic)</TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E"><SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input"><OPTION selected>Stuff be here!</OPTION><OPTION>---</OPTION><OPTION>The data-zoid.com</OPTION><OPTION>guide to:</OPTION><OPTION VALUE="guidetocolonpipe.php">- colonpipe.com</OPTION><OPTION VALUE="footpaths.php">- Footpaths</OPTION><OPTION VALUE="love.php">- Love</OPTION><OPTION VALUE="punctuation.php">- Punctuation</OPTION><OPTION VALUE="shelving.php">- Shelving</OPTION><OPTION VALUE="words.php">- Words</OPTION><OPTION>---</OPTION><OPTION>"Pointless":</OPTION><OPTION VALUE="foreword.php">- Foreword</OPTION><OPTION VALUE="chapters.php">- Chapter List</OPTION><OPTION VALUE="sociology.php">- Online Society</OPTION><OPTION VALUE="sex.php">- Cybersex </OPTION><OPTION>---</OPTION><OPTION>Misc. Shite:</OPTION><OPTION VALUE="shitty_rp_biography.php">- RP Bio</OPTION><OPTION VALUE="doodlebook.php">- The Doodlebook</OPTION><OPTION VALUE="figures.php">- Action Figures</OPTION><OPTION>---</OPTION><OPTION>Ask Datazoid:</OPTION><OPTION VALUE="ask.php">- questions so far </OPTION><OPTION>---</OPTION><OPTION>Flat Pickled Crap:</OPTION><OPTION VALUE="cheese.php">- Cheese..</OPTION><OPTION VALUE="jeffy.php">- Jeffy</OPTION><OPTION VALUE="phorum.php">- Jeffy's Phorum</OPTION></SELECT><BR><img src="images/menuthing.gif" width="105" height="11" alt="Select from menu thing" title="Select from the menu. If this concept eludes you, step away from your computer and count to ten. Immediately. Then seek help. Possibly from a dairy farmer or someone wearing a black hat with a buckle on the front." /><TR><TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Comics</TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="the_colonpipes.php" CLASS="navsmall" TITLE="Random comic of random amusement.">The Colonpipes</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="http://fraxyl.data-zoid.com//roughing" CLASS="navsmall" TITLE="Possibly the dodgiest webcomic in existance. INCLUDING WEEBL AND BOB.">Roughing It</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="http://www.colonpipe.com/fraxyl/subpar" CLASS="navsmall" TITLE="Mike's comics make a vague resurgance.">Sub Par</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="http://www.colonpipe.com/natchcomics" CLASS="navsmall" TITLE="Natch. Now with..nonexistance again. :|">Natch Comics</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Piccies</TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E"><SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input"><OPTION selected>Photos inside!</OPTION><OPTION>---</OPTION><OPTION VALUE="photos.php">Old Photos Index</OPTION><OPTION>---</OPTION><OPTION VALUE="photos_shirtvisit2001.php">ShirtVisit 2001</OPTION><OPTION VALUE="photos_dzwtoa2002.php">DZWTOA 2002</OPTION></SELECT><BR><img src="images/menuthing.gif" width="105" height="11" alt="Select from menu thing" title="Select a category of photos from the menu thingie above this box. It's not that hard, honest!" /><TR><TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;History</TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="timeline.php" CLASS="navsmall" TITLE="A running history of events that have no consequence whatsoever on anything even remotely classificable as important.">Timeline</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Shop Smart</TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="http://www.cafeshops.com/datazoid" CLASS="navsmall" TARGET="new" TITLE="YOU REALLY WANT TO SPEND MONEY HERE. LOTS AND MANY OF THEM MONEYS YES.">Shop Z-Mart</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Housekeeping:</TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="archives.php" CLASS="navsmall" TITLE="Weblog archives. They're more even less interesting in retrospect!">R-chive</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="housekeeping.php" CLASS="navsmall" TITLE="DO NOT STALK THESE PEOPLE.">Staff, links, privacy</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="mobile.php" CLASS="navsmall" TITLE="Mobile phone wallpapers and screensavers and shite. Mostly the latter.">Mobile Stuff</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="email.php" CLASS="navsmall" TITLE="E-mail system. Tell me how much you hate this website.">e-mail</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;ChatClassics</TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E"><SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input"><OPTION selected>Choose Classics</OPTION><OPTION VALUE="chatclassics1.php">Volume 1</OPTION><OPTION VALUE="chatclassics2.php">Volume 2</OPTION><OPTION VALUE="chatclassics3.php">Volume 3</OPTION><OPTION VALUE="chatclassics4.php">Volume 4</OPTION><OPTION VALUE="chatclassics5.php">Volume 5</OPTION><OPTION VALUE="chatclassics6.php">Volume 6</OPTION><OPTION VALUE="toilet.php">Toilet Transcript</OPTION><OPTION VALUE="penis.php">Penis Transcript</OPTION></SELECT><BR><img src="images/menuthing.gif" width="105" height="11" alt="Select from menu thing" title="This menu works in much the same fashion as the one above. Go on, give it a try. It won't hurt. Much." /></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Glossary</TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E"><SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input"><OPTION selected>Choose Letter</OPTION><OPTION VALUE="glossary.php?letter=a">A</OPTION><OPTION VALUE="glossary.php?letter=b">B</OPTION><OPTION VALUE="glossary.php?letter=c">C</OPTION><OPTION VALUE="glossary.php?letter=d">D</OPTION><OPTION VALUE="glossary.php?letter=e">E</OPTION><OPTION VALUE="glossary.php?letter=f">F</OPTION><OPTION VALUE="glossary.php?letter=g">G</OPTION><OPTION VALUE="glossary.php?letter=h">H</OPTION><OPTION VALUE="glossary.php?letter=i">I</OPTION><OPTION VALUE="glossary.php?letter=j">J</OPTION><OPTION VALUE="glossary.php?letter=k">K</OPTION><OPTION VALUE="glossary.php?letter=l">L</OPTION><OPTION VALUE="glossary.php?letter=m">M</OPTION><OPTION VALUE="glossary.php?letter=n">N</OPTION><OPTION VALUE="glossary.php?letter=o">O</OPTION><OPTION VALUE="glossary.php?letter=p">P</OPTION><OPTION VALUE="glossary.php?letter=q">Q</OPTION><OPTION VALUE="glossary.php?letter=r">R</OPTION><OPTION VALUE="glossary.php?letter=s">S</OPTION><OPTION VALUE="glossary.php?letter=t">T</OPTION><OPTION VALUE="glossary.php?letter=u">U</OPTION><OPTION VALUE="glossary.php?letter=v">V</OPTION><OPTION VALUE="glossary.php?letter=w">W</OPTION><OPTION VALUE="glossary.php?letter=x">X</OPTION><OPTION VALUE="glossary.php?letter=y">Y</OPTION><OPTION VALUE="glossary.php?letter=z">Z</OPTION><OPTION VALUE="glossary.php?letter=*">View all</OPTION></SELECT><BR><img src="images/menuthing.gif" width="105" height="11" alt="Select from menu thing" title="Are we learning yet?" /></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Links:</TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">&nbsp;<A HREF="links.php" CLASS="navsmall" TITLE="Links to other places, probably less interesting than this one.">Links</A></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR><TR><TD VALIGN="middle" WIDTH="120" CLASS="menugrad">&nbsp;</TD><TD WIDTH="7" CLASS="rightSide">&nbsp;</TD></TR><TR><TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#000000"><center><SPAN CLASS="tiny">If you liked this page<BR>you might also like:<BR><BR><img src="images/randomimages/carrots.jpg" width="70" height="40"><BR>Carrots
+<BR><BR>or<BR><BR><img src="images/randomimages/pacman.jpg" width="70" height="40"><BR>Pacman
+</span></center></TD><TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD></TR></TABLE>
+</TD>
+
+<TD BGCOLOR="#1A1A32" VALIGN="top">
+
+<TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/topleftshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+<TD BACKGROUND="ui/topcentershade.jpg"></TD>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/toprightshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+</TR>
+<TR>
+<TD BACKGROUND="ui/leftshade.jpg" WIDTH="10"></TD>
+<TD CLASS="log">
+
+ <table width="100%"><tr><td class="menuhead">&nbsp;Only in a leap from the lion's head..</td></tr></table><BR>
+<span class="reg">This is a brief study in logic. Occam's Razor postulates that of all available possibilities, whichever is the least ridiculous is probably the right one. Sherlock Holmes postulates that when everything impossible is removed from the scene, whatever's still hanging around has got to be the truth. Schroedinger postulates that a cat can be a zombie.<br />
+<br />
+Today's film of choice is a "psychological thriller" under the guise of <b>Cold Creek Manor</b>. I've come to the conclusion that a "psychological thriller" is in fact a horror movie with everything good removed from it.<br />
+<br />
+CCM is the story of a frustrated family of New Yorkers, who, upon their young son being ploughed by an SUV in the city, decide to move to the country. Where SUVs are less prevalent. Or something.<br />
+<br />
+So, Irritating Video Journalist Daddy packs up Sleeping With Colleague Mummy, Overdeveloped Teenage Daughter and Annoying Young Son and heads off to purchase a piece of prize real estate in the form of Cold Creek Manor.<br />
+<br />
+Having moved in to their new home, IVJ Daddy and AY Son start snooping about and find a bundle of curious evidence about the previous owners, including a scrapbook created by the previous owner's child, laden with dodgy imagery and even worse poetry about demons, and a bunch of polaroid photos of what I assume to have been the previous owner's wife with her wobbly bits awobble. <br />
+<br />
+To cut a long, tedious and stultifyingly boring story short, previous owner shows up, hangs around, proves himself to be as dodgy as everyone suspects, becomes bad guy, tries to kill everyone. <br />
+<br />
+Now. Leaps of logic.<br />
+<br />
+1. <b>Kid convinced Daddy hit horse with car.</b><br />
+<br />
+Father, drunk from trying to butter up the locals at the saloon, drives home. Previous house owner gives chase, Daddy winds up colliding with a deer. Previous owner retreats. Next morning, kiddies wake up to find Daddy's car is damaged, and their pet horse is dead in the swimming pool, which is in the back yard of the house, clearly flanked by the house on one side and trees and gardens on the other.<br />
+<br />
+<b>OCCAM, SHERLOCK AND SHROEDINGER AGREE:</b><br />
+Daddy did not hit the horse, as there are clearly no skidmarks on the ground, nor is there enough room in the entire yard for Daddy to gain enough speed to collide with a horse and fling it into a swimming pool! Daddy probably hit the deer that Daddy says he hit.<br />
+<br />
+<b>MOVIEMAKERS AGREE:</b><br />
+Daddy did not hit a deer. Daddy hit the horse. Somewhere else. Then dragged the horse's dead carcass back to the pool and dumped it in. At night. Without making a sound. Oh, and Daddy killed the horse with an impact that was only strong enough to damage one headlight and bend his front quarterpanel a tiny bit.<br />
+<br />
+ANYHOW. Second leap of logic ahoy! <br />
+<br />
+Cold Creek Manor is essentially The Ring with The Ring removed. Brief synopsis:<br />
+<br />
+Ring: Chick hires video journalist to discover the meaning of a videotape about a kid who was killed by her parents and dumped down a well.<br />
+<br />
+Manor: Video journalist buys house then discovers previous owner killed his kids and dumped them down a well.<br />
+<br />
+I digress. Second leap. <br />
+<br />
+2. <b>Thin nylon rope can lift anything!</b><br />
+<br />
+Spoilers ahoy. Upon learning that the previous owner probably disposed of his children in a well on the property, IVJ Daddy sends his waterproof handycam down the well on a bit of bright yellow nylon shoelace. He reels in the camera and discovers their remains on the tape.<br />
+<br />
+Daddy goes to the car, as far as I can tell for the sole purpose of seeing whether the tyres had been slashed (what astounding clairvoyance!) while Mummy inexplicably remains near the top of the unguarded well waving a lantern about. Previous house owner leaps from the bushes and pushes Mummy into the hole. Then, uh, disappears. For no reason I can fathom.<br />
+<br />
+ANYHOW. Daddy comes to the rescue and flings the bit of nylon shoelace down the hole for Mummy to climb up on.<br />
+<br />
+<b>OCCAM, SHERLOCK AND SHROEDINGER AGREE:</b><br />
+Nylon shoelace will not hold the weight of Sharon Stone at a length of, eh, thirty feet, probably.<br />
+<br />
+<b>MOVIEMAKERS AGREE:</b><br />
+Sure it will. However, she's going to mostly climb up the REALLY OBVIOUS TREE ROOTS (or "vines", as Dennis Quaid calls them) which could have supported her without the aid of the amazingly yellow string.<br />
+<br />
+Also of note is Christopher Plummer as a senile old man. Not a huge leap, there. Sorry.</span><BR><BR>
+<span class="reg"><img src="ui/postedby.gif" height="14" width="14" align="middle" />&nbsp;Posted by Datazoid on <span class="reg">January 7th, 2005</span>.</span><br><br><CENTER><hr /></CENTER><BR><center><img src="ui/reply.gif" height="14" width="14" align="middle" />&nbsp;<span class="comment">3 comments.<br><br></center></span><span class="reg">..brain cells dying... ow... must not watch StupidMovie...</span><BR>
+<span class="tiny" style="color: #555555;">- Nicki on 07.01.2005.</span><BR><BR><span class="reg">Hey, that was cool. Very nice piece of writing there. I'd eleborate, but I don't know the names of literary devices and methods, so I'll just say it was nifty. I take my hat off to you, sir. The article does, however, end a bit abruptly. A few more 'leaps of logic' would have worked really well, in fact, were *expected*. Setting up this whole system of rating and setting points in a repetitive manner seems a waste for just two. As it is, it seems like you were inturrupted, and rather than delay the update, just posted what you'd written so far...</span><BR>
+<span class="tiny" style="color: #555555;">- Rhubarb on 08.01.2005.</span><BR><BR><span class="reg">Actually, you're right. I was interrupted, but rather than posting what I had immediately without finishing it, I filed it away for future completion only to realise upon returning to it that the rest of Cold Creek Manor consisted of simple stupidity, not actual leaps of logic. So to continue the method used so far, I would have had to have introduced another movie, which a) I couldn't think of, and b) I couldn't easily crowbar into the article. So I posted it anyway. The horse-in-the-swimming-pool scene is golden.</span><BR>
+<span class="tiny" style="color: #555555;">- Russ on 08.01.2005.</span><BR><BR><HR><BR>
+<span class="tiny">Comments remain the property of whoever made them. If you've got a problem with someone's addition, there's sod all I can do about it.</span>
+<BR>
+<BR>
+
+<div align="center"><table>
+<tr>
+<td>
+<SPAN CLASS="comment"><div align="center">..comment on this entry:</div></SPAN>
+<form method="post" action="/comments.php">
+<input type="hidden" name="id" value="00285">
+<span class="tiny">Name:</SPAN><br>
+<input type="text" name="comment_name" value="" style="width:300px;" class="inputtxt">
+          <br>
+          <span class="tiny">E-mail:</SPAN> <SPAN CLASS="red">*</SPAN><br>
+          <input type="text" name="comment_email" value="" style="width:300px;" class="inputtxt">
+          <br>
+          <span class="tiny">Homepage (include "http://"):</SPAN><br>
+          <input type="text" name="comment_homepage" value="" style="width:300px;" class="inputtxt">
+          <br>
+          <span class="tiny">Comment:</SPAN><br>
+          <textarea name="comment" style="width:300px; height:120px;" class="inputtxt"></textarea><br>
+          <br>
+          <DIV style="text-align: center;"><input type="submit" name="add" value="Post my toast, baby." style="width: 150px;" class="input"></DIV>
+      </form>
+</td>
+</tr>
+</table>
+<BR>
+<SPAN CLASS="tiny"><SPAN CLASS="red">*</SPAN> Your e-mail will not be displayed publicly on the comments page, but it will be stored in the database should we wish to contact you. Feel free to view the <a href="privacy.php">privacy policy</a>.</SPAN>
+<BR>
+</div>
+
+<table width="100%">
+<tr>
+    <td align=center><BR><SPAN CLASS="reg">Powered by: <a href="http://www.scratchforward.com/scratchlog" target="_blank">ScratchLog</a></SPAN><BR></td>
+  </tr>
+</table>
+
+</TD>
+<TD BACKGROUND="ui/rightshade.jpg" WIDTH="10"></TD>
+</TR>
+<TR>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/bottomleftshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+<TD BACKGROUND="ui/bottomshade.jpg"></TD>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/bottomrightshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+</TR>
+</TABLE>
+
+
+</TD>
+
+<TD WIDTH="120" BGCOLOR="#1A1A32" VALIGN="top">
+
+<BR />
+
+<DIV ALIGN="center">
+<A HREF="linkto.php" TITLE="Link to colonpipe.com"><IMG SRC="buttons/dzcom/colonpipe88x31.gif" WIDTH="88" HEIGHT="31" BORDER="0" ALT="colonpipe.com" /></A><BR />
+<BR />
+<A HREF="linkto.php" TITLE="Link to data-zoid.com"><IMG SRC="buttons/colonpipe_sms_88x31.gif" WIDTH="88" HEIGHT="31" BORDER="0" ALT="data-zoid.com" /></A><BR />
+<BR />
+<A HREF="http://fraxyl.data-zoid.com/" TITLE="fraxyl Design."><IMG SRC="fraxyl/images/frxyl88x31.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://fraxyl.data-zoid.com/roughing" TITLE="Roughing It."><IMG SRC="fraxyl/roughing/ri88x31.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.the-underdogs.org/" TARGET="new" TITLE="Home Of The Underdogs."><IMG SRC="images/hotu.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.thewhitlams.com/" TARGET="new" TITLE="The Whitlams."><IMG SRC="buttons/whitlams.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.deviantart.com/" TARGET="new" TITLE="DeviantART: Where Art Meets Application."><IMG SRC="buttons/deviantART.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<a href="http://www.rantmorgan.com/" target="_blank">
+<img src="http://www.rantmorgan.com/images/button.gif" border="0" alt="Rant Morgan's 'How To' Guides, quizzes, polls, and more!" title="Rant Morgan's 'How To' Guides, quizzes, polls, and more!" WIDTH="88" HEIGHT="31" ></a><BR />
+<BR />
+<a href="http://www.makemeking.com" title="Make Me King!"><img src="http://www.makemeking.com/images/king.gif" width="88" height="31"></a><BR />
+<BR /><A HREF="http://www.cockeyed.com/" TARGET="new" TITLE="cockeyed.com!"><IMG SRC="buttons/cockeyed.gif" WIDTH="79" HEIGHT="63" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://kevan.org/brain.cgi?name=Datazoid" CLASS="reg">munch!</A><BR />
+<BR />
+<A HREF="http://www.alterianlegends.net/" TARGET="new" TITLE="Alterian Legends. Blame BK, or something."><IMG SRC="alterianlegends/alterianlegends_88x31blue.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<a href="http://geourl.org/near/?p=http://www.data-zoid.com/" title="check out my neighbors in meatspace"><img src="http://geourl.org/geourl.png" border=0 width=52 height=14 /></a><BR />
+<BR />
+<A HREF="http://www.boycott-riaa.com" CLASS="reg">RIAA</A><BR />
+<BR />
+
+
+<BR />
+<BR /></DIV>
+
+</TD>
+
+<TD WIDTH="7" CLASS="rightSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+
+</TABLE>
+
+
+
+
+
+<TABLE HEIGHT="7" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="botLeft"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+<TD CLASS="botCenter" WIDTH="100%"><IMG SRC="ui/spacer.gif" HEIGHT="1"></TD>
+<TD WIDTH="7" CLASS="botRight"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" HEIGHT="6" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD CLASS="log" ALIGN="center">
+<BR>
+<table width="90%"><tr><td>
+<DIV ALIGN="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-9034153012081733";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_channel ="";
+google_alternate_color = "000000";
+google_color_border = ["2D5893","333333","191933"];
+google_color_bg = ["99AACC","000000","333366"];
+google_color_link = ["000000","FFFFFF","99CC33"];
+google_color_url = ["000099","999999","FFCC00"];
+google_color_text = ["003366","CCCCCC","FFFFFF"];
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<BR>
+<BR>
+<a href="http://www.fullyramblomatic.com/"><img src="ad_fullyramblomatic1.gif" width="468" height="60" border="0"></a>
+<BR>
+<BR>
+<SPAN CLASS="tiny">All content is &copy; Russ Gawthorpe, 2003 and all subsequent years, unless otherwise credited. So, uh, no copy-and-pasting, you bastard. Yeah.
+<BR>
+<BR>
+This page was generated in a refrigerator.
+<BR>
+<BR></SPAN></div>
+<SPAN  class="tiny" STYLE="color: #555555;">So. You're reading the bit at the bottom again. how about I suggest some things you could be doing instead? Then, when you get to the end of the paragraph, you can feel vaguely fulfilled and perhaps even go out and do one or all of them? Or you can just think "Hey, he's just knocking off ideas from Monkey Island!", but it's all good in the end. Anyhow, why not wash the car, or buy some groceries? Donate someone's body to science! Invent a new way to varnish wood! Learn a new language! Learn two new languages! Find some bugs! Then race 'em! Kill the losers. <IMG SRC="yahoo_poker.gif" ALIGN="middle">
+<BR>
+<BR>
+Some random words to make the search engines freak out:<BR>
+Sphagnum Grease! Nipples on tap! Parsley wedges! Sputnik Cheesecake! Leprosy on Toast! Cardboard Bollocks! Chutney On A Stick! Toilet Paper Sorbet! Exploding Frog! Brrt-Nyitnyit! Champion Glee! Spherical Dormouse!</SPAN><BR>
+</td></tr></table>
+<BR>
+<BR>
+</TD>
+</TR>
+
+ </TABLE>
+
+</DIV>
+
+</BODY>
+</HTML>

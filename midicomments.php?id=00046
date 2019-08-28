@@ -1,0 +1,601 @@
+
+<HTML><HEAD>
+<TITLE>data-zoid.com :: don't swallow the tuber
+
+</TITLE>
+<LINK REL="stylesheet" HREF="zoid2.css">
+<SCRIPT LANGUAGE="javascript">
+<!--//
+
+function mOvr(src,clrOver) {
+  if (!src.contains(event.fromElement)) {
+    src.style.cursor = 'default'; src.bgColor = clrOver;
+  }
+}
+
+function mOut(src,clrIn) {
+  if (!src.contains(event.toElement)) {
+    src.style.cursor = 'default';
+    src.bgColor = clrIn;
+  }
+}
+
+function mClk(src) {
+  if(event.srcElement.tagName=='TD') {
+    src.children.tags('A')[0].click();
+  }
+}
+
+var win=null;
+
+    //-->
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#000000" TOPMARGIN="0" BOTTOMMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0">
+
+<DIV STYLE="text-align: center;">
+
+<TABLE HEIGHT="7" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="topLeft"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+<TD CLASS="topCenter" WIDTH="100%"><IMG SRC="ui/spacer.gif" HEIGHT="1"></TD>
+<TD WIDTH="7" CLASS="topRight"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="leftSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+<TD CLASS="bartop">&nbsp;
+
+<span class"lineyear">1267 potatos!
+</span>
+</TD>
+<TD WIDTH="7" CLASS="rightSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="leftSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+<TD WIDTH="400"><IMG SRC="ui/datrix.jpg" WIDTH="400" HEIGHT="100"></TD>
+<TD CLASS="otherSide" WIDTH="100%" VALIGN="bottom">
+
+<div align="right">
+<span class="tiny">Quick Navigation:&nbsp;&nbsp;<br />
+<a href="rafters" class="reg">Rafters</a> :: 
+<a href="fraxyl" class="reg">fraxyl Design</a> :: 
+<a href="natchcomics" class="reg">Natch Comics</a>&nbsp;&nbsp;<br />
+<a href="flatline" class="reg">Flatline</a> :: 
+<a href="brutallyhonest" class="reg">Brutally Honest Movie Reviews</a>&nbsp;&nbsp;
+</span></div>
+<br />
+
+</TD>
+<TD WIDTH="7" CLASS="rightSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="leftSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+
+<TD VALIGN="top" CLASS="menubg">
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="2">
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;teh Navigator</TD>
+<TD WIDTH="7" CLASS="sideStop" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="index2.php" CLASS="navsmall">Home</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="brutallyhonest" CLASS="navsmall">Brutally Honest</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="fraxyl" CLASS="navsmall">fraxyl Design</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="fraxyl/roughing" CLASS="navsmall">Roughing It</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="flatline" CLASS="navsmall">Flatline</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="rafters" CLASS="navsmall">Rafters</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="ray" CLASS="navsmall">The Ghost Of Ray</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="natchcomics" CLASS="navsmall">Natch Comics</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="zahoo.html" CLASS="navsmall">Zahoo!</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;History</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="timeline.php" CLASS="navsmall">Timeline</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;data-zoid.com</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="persinfo.php" CLASS="navsmall">Zoidography</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="midi.php" CLASS="navsmall">MIDI Files</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="photos.php" CLASS="navsmall">Photos</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Housekeeping</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="archives.php" CLASS="navsmall">R-chive</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="staff.php" CLASS="navsmall">Acknowledgements</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="linkto.php" CLASS="navsmall">Link to data-zoid.com</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.data-zoid.com/rafters/viewforum.php?f=6" CLASS="navsmall">Guestbook</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="mailto:datazoid@data-zoid.com" CLASS="navsmall">e-mail</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Flat Pickled Cap</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E">
+
+<SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input">
+<OPTION selected>Choose Cap</OPTION>
+<OPTION VALUE="cheese.php">Cheese..scraped..</OPTION>
+<OPTION VALUE="jeffy.php">Jeffy</OPTION>
+<OPTION VALUE="phorum.php">Jeffy's Phorum</OPTION>
+</SELECT>
+
+</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;ChatClassics</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E">
+
+<SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input">
+<OPTION selected>Choose Classics</OPTION>
+<OPTION VALUE="chatclassics1.php">Volume 1</OPTION>
+<OPTION VALUE="chatclassics2.php">Volume 2</OPTION>
+<OPTION VALUE="chatclassics3.php">Volume 3</OPTION>
+<OPTION VALUE="chatclassics4.php">Volume 4</OPTION>
+<OPTION VALUE="chatclassics5.php">Volume 5</OPTION>
+<OPTION VALUE="chatclassics6.php">Volume 6</OPTION>
+<OPTION VALUE="toilet.php">Toilet Transcript</OPTION>
+</SELECT>
+
+</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Glossary</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E">
+
+<SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input">
+<OPTION selected>Choose Letter</OPTION>
+<OPTION VALUE="glossary.php?letter=a">A</OPTION>
+<OPTION VALUE="glossary.php?letter=b">B</OPTION>
+<OPTION VALUE="glossary.php?letter=c">C</OPTION>
+<OPTION VALUE="glossary.php?letter=d">D</OPTION>
+<OPTION VALUE="glossary.php?letter=e">E</OPTION>
+<OPTION VALUE="glossary.php?letter=f">F</OPTION>
+<OPTION VALUE="glossary.php?letter=g">G</OPTION>
+<OPTION VALUE="glossary.php?letter=h">H</OPTION>
+<OPTION VALUE="glossary.php?letter=i">I</OPTION>
+<OPTION VALUE="glossary.php?letter=j">J</OPTION>
+<OPTION VALUE="glossary.php?letter=k">K</OPTION>
+<OPTION VALUE="glossary.php?letter=l">L</OPTION>
+<OPTION VALUE="glossary.php?letter=m">M</OPTION>
+<OPTION VALUE="glossary.php?letter=n">N</OPTION>
+<OPTION VALUE="glossary.php?letter=o">O</OPTION>
+<OPTION VALUE="glossary.php?letter=p">P</OPTION>
+<OPTION VALUE="glossary.php?letter=q">Q</OPTION>
+<OPTION VALUE="glossary.php?letter=r">R</OPTION>
+<OPTION VALUE="glossary.php?letter=s">S</OPTION>
+<OPTION VALUE="glossary.php?letter=t">T</OPTION>
+<OPTION VALUE="glossary.php?letter=u">U</OPTION>
+<OPTION VALUE="glossary.php?letter=v">V</OPTION>
+<OPTION VALUE="glossary.php?letter=w">W</OPTION>
+<OPTION VALUE="glossary.php?letter=x">X</OPTION>
+<OPTION VALUE="glossary.php?letter=y">Y</OPTION>
+<OPTION VALUE="glossary.php?letter=z">Z</OPTION>
+<OPTION VALUE="glossary.php?letter=*">View all</OPTION>
+</SELECT>
+
+</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Tunes</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.thewhitlams.com/" CLASS="navsmall">The Whitlams</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://burge.u69.us/whitlams" CLASS="navsmall">^ Unofficial Forum</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.machinegunfellatio.com/" CLASS="navsmall">Machine Gun Fellatio</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.mp3.com/capturethestars" CLASS="navsmall">Capture The Stars</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.sting.com/" CLASS="navsmall">Sting</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Development</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.phpbb.com/" CLASS="navsmall">phpBB.com</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.phpbbhacks.com/" CLASS="navsmall">phpBBhacks.com</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.cerebuswebmaster.com/" CLASS="navsmall">Quote script</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.crear.de/index.html?php-world/english/php-world.html" CLASS="navsmall">phpGlossar</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.scratchforward.com/scratchlog" CLASS="navsmall">ScratchLog</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;We Support:</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.unadopted.com/" CLASS="navsmall">unadopted.com</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://searian.tripod.com/" CLASS="navsmall">The Searian</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://searian.blogspot.com/" CLASS="navsmall">The Searian 'blog</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;We're Acquiring:</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.geocities.com/subparcomic/index.html" CLASS="navsmall">Sub Par Comics</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;We Recommend:</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.tuxedo.org/~esr/jargon/html/index.html" CLASS="navsmall">The Jargon File</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.straightdope.com" CLASS="navsmall">The Straight Dope</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;We Laugh At:</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.onion.com" CLASS="navsmall">The Onion</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.geocities.com/bgm_online/index.html" CLASS="navsmall">BGM Online</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.sev.com.au/" CLASS="navsmall">Sev</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.totalobscurity.com/" CLASS="navsmall">Total Obscurity</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#009933');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.catenema.com/" CLASS="navsmall">CatEnema</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+
+
+
+
+
+<TR><TD VALIGN="middle" WIDTH="120" CLASS="menugrad">
+&nbsp;</TD><TD WIDTH="7" CLASS="rightSide">&nbsp;</TD></TR>
+
+</TABLE>
+</TD>
+
+<TD BGCOLOR="#1A1A32" VALIGN="top">
+
+<TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/topleftshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+<TD BACKGROUND="ui/topcentershade.jpg"></TD>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/toprightshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+</TR>
+<TR>
+<TD BACKGROUND="ui/leftshade.jpg" WIDTH="10"></TD>
+<TD CLASS="log">
+
+ <span class="reg"><img src="ui/midi.gif" width="14" height="14" align="middle">&nbsp;<a href="MIDIFiles/ZRoyalInTheAfternoon.mid" targe="new"><B>The Whitlams - Royal In The Afternoon</B></a></span><BR>
+<span class="reg">From <i>Torch The Moon</i>. I apologise for the use of sawtooth leeds in this, but I can't stand the way the MIDI distortion guitar sounds as lower bass notes. I think this sounds better, but it's probably relative to one's soundcard or MIDI synth. Meh.</span><BR>
+<span class="reg">- Datazoid on March 12th, 2003.</span><br><br><CENTER><hr /></CENTER><BR><center><img src="ui/reply.gif" width="14" height="14" align="middle">&nbsp;<span class="comment">1 comment.<br><br></span></center><span class="reg"><I>You've missed the whole meter of the song.  It's not straight time, it's with swung quavers -- that is two quavers equal a crotchet-quaver triplet.  There are swung quaver offbeats everywhere, and that's why this sounds like a country tune and not royal.<br />
+<br />
+--JD</I></span><BR>
+<span class="reg">- <a href="mailto:jdevlin@iinet.net.au">Josh</a> on 13.03.2003.</span><BR><BR><CENTER><hr /></CENTER><BR><BR>
+<span class="tiny">Comments remain the property of whoever made them. If you've got a problem with someone's addition, there's sod all I can do about it.</span>
+<BR>
+<BR>
+
+<CENTER><table width="430" border="0">
+<tr>
+<td>
+<span class="comment"><CENTER>..comment on this MIDI file:</CENTER></span>
+<form method="post" action="/midicomments.php">
+<input type="hidden" name="id" value="00046">
+<div align="center"><span class="tiny">Name:</span><br>
+<input type="text" name="comment_name" value="" style="width:300px;" class="input">
+          <br>
+          <span class="tiny">E-mail:</span><br>
+          <input type="text" name="comment_email" value="" style="width:300px;" class="input">
+          <br>
+          <span class="tiny">Homepage (include "http://"):</span><br>
+          <input type="text" name="comment_homepage" value="" style="width:300px;" class="input">
+          <br>
+          <span class="tiny">Comment:</span><br>
+          <textarea name="comment" cols="40" rows="7" class="input"></textarea>
+          <br>
+          <input type="submit" name="add" value="Make me a critic!" style="width: 150px;" class="input">
+        </div>
+      </form>
+</td>
+</tr>
+</table>
+<BR>
+
+<span class="reg">Take me <a href="midi.php">back to the midi page</a>, please.</span></CENTER>
+
+<table width="100%">
+  <tr>
+    <td align=center><BR><span class="reg">Powered by: <a href="http://www.scratchforward.com/scratchlog" target="_blank">ScratchLog</a></span><BR></td>
+  </tr>
+</table>
+
+</TD>
+<TD BACKGROUND="ui/rightshade.jpg" WIDTH="10"></TD>
+</TR>
+<TR>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/bottomleftshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+<TD BACKGROUND="ui/bottomshade.jpg"></TD>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/bottomrightshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+</TR>
+</TABLE>
+
+
+</TD>
+
+<TD WIDTH="120" BGCOLOR="#1A1A32" VALIGN="top">
+
+<BR />
+
+<DIV ALIGN="center"><A HREF="http://fraxyl.data-zoid.com/" TITLE="fraxyl Design."><IMG SRC="fraxyl/images/frxyl88x31.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.the-underdogs.org/" TARGET="new" TITLE="Home Of The Underdogs."><IMG SRC="buttons/hotu88x40.gif" WIDTH="88" HEIGHT="40" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.thewhitlams.com/" TARGET="new" TITLE="The Whitlams."><IMG SRC="buttons/whitlams.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://chat.yahoo.com/" TARGET="new" TITLE="Yahoo! Chat. And why I have a button for this eludes me. I just like wasting bandwidth, I think."><IMG SRC="buttons/bn-chat.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.projectmonkey.com/" TARGET="new" TITLE="teh funy!121~@"><IMG SRC="buttons/pmbutton.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.deviantart.com/" TARGET="new" TITLE="DeviantART: Where Art Meets Application."><IMG SRC="buttons/deviantART.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.gfxartist.com/" TARGET="new" TITLE="Another artist community."><IMG SRC="buttons/gfxbutton.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://tiles.ice.org/" TARGET="new" TITLE="And another."><IMG SRC="buttons/tiles.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.somethingawful.com/" TARGET="new" TITLE="Heheh."><IMG SRC="buttons/button-sa.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://aaronennes.tripod.com/" TARGET="new" TITLE="This rocks."><IMG SRC="buttons/joey_button.jpg" WIDTH="88" HEIGHT="33" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.vanbasco.com/" TARGET="new" TITLE="MIDI file stuff."><IMG SRC="buttons/vanbasco.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://kevan.org/brain.cgi?name=Datazoid" CLASS="reg">munch!</A>
+<BR />
+<BR /></DIV>
+</TD>
+
+<TD WIDTH="7" CLASS="rightSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+
+</TABLE>
+
+
+
+
+
+<TABLE HEIGHT="7" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="botLeft"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+<TD CLASS="botCenter" WIDTH="100%"><IMG SRC="ui/spacer.gif" HEIGHT="1"></TD>
+<TD WIDTH="7" CLASS="botRight"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" HEIGHT="6" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD CLASS="log" ALIGN="center">
+<BR>
+<IMG SRC="ad_diozatad.gif" WIDTH="440" HEIGHT="60"><BR>
+<BR>
+<SPAN CLASS="tiny">All content is &copy; Russ Gawthorpe, 2003 and all subsequent years, unless otherwise credited. data-zoid.com is a collective work, all contributors are credited where possible. No unauthorised duplication, lest ye be smitten with a mighty walrus. Fear the walrus, for he is not your friend.</SPAN><BR>
+<BR>
+<BR>
+</TD>
+</TR>
+
+ </TABLE>
+
+</DIV>
+
+</BODY>
+</HTML>

@@ -1,0 +1,63 @@
+P { font-family: Courier;
+font-size: x-small;
+color: #00FF00;
+position: relative;
+}
+ 
+A:link  { font-family: Courier;
+font-size: x-small;
+color: #ff9933;
+position: relative;
+text-decoration: none; 
+
+}
+
+A:visited  { font-family: Courier;
+font-size: x-small;
+position: relative;
+color: #dd7711;
+text-decoration: none; 
+
+}
+
+Table { font-family: Courier; 
+font-size: x-small; 
+color: #00FF00; 
+position: relative; 
+}
+
+NEWS {font-family: Courier;
+font-size: x-small;
+color: #00FF00;
+font-style: italics;
+}
+
+B {font-family: Courier;
+font-size: x-small;
+color: #00FF00;
+font-style: bold;
+}
+
+H1 {font-family: Courier;
+font-size: x-small;
+color: #00FF00;
+font-style: normal;
+}
+
+HR { color: #334433;
+}
+
+Body { font-family: Courier; 
+font-size: x-small; 
+color: #00FF00; 
+position: relative; 
+}
+
+td {
+	text-align : left;
+	vertical-align : top;
+}
+
+
+
+

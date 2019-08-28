@@ -1,0 +1,570 @@
+
+<HTML><HEAD>
+<TITLE>colonpipe.com :: don't beat the bishop
+
+</TITLE>
+<LINK REL="stylesheet" HREF="zoid2.css">
+<SCRIPT LANGUAGE="javascript">
+<!--//
+
+function mOvr(src,clrOver) {
+  if (!src.contains(event.fromElement)) {
+    src.style.cursor = 'default'; src.bgColor = clrOver;
+  }
+}
+
+function mOut(src,clrIn) {
+  if (!src.contains(event.toElement)) {
+    src.style.cursor = 'default';
+    src.bgColor = clrIn;
+  }
+}
+
+function mClk(src) {
+  if(event.srcElement.tagName=='TD') {
+    src.children.tags('A')[0].click();
+  }
+}
+
+var win=null;
+
+    //-->
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#000000" TOPMARGIN="0" BOTTOMMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0">
+
+<DIV STYLE="text-align: center;">
+
+<TABLE HEIGHT="7" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="topLeft"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+<TD CLASS="topCenter" WIDTH="100%"><IMG SRC="ui/spacer.gif" HEIGHT="1"></TD>
+<TD WIDTH="7" CLASS="topRight"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="leftSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+<TD CLASS="bartop">&nbsp;
+
+<span class"lineyear">Psh. Everyone knows that D-Day celebrations are just a big advertising campaign for Medal of Honour.
+</span>
+</TD>
+<TD WIDTH="7" CLASS="rightSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="leftSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+<TD WIDTH="400"><IMG SRC="colonpipe102.jpg" WIDTH="400" HEIGHT="100">
+</TD>
+<TD CLASS="otherSide" WIDTH="100%" VALIGN="bottom">
+
+<div align="right">
+<span class="tiny">Quick Navigation:&nbsp;&nbsp;<br />
+<a href="index2.php" class="reg">colonpipe.com home</a> :: 
+<a href="ozmidi.php" class="reg">ozmidi Archive</a>&nbsp;&nbsp;<br />
+<a href="http://rafters.data-zoid.com/" class="reg">Rafters</a> :: 
+<a href="fraxyl" class="reg">fraxyl Design</a> :: 
+<a href="natchcomics" class="reg">Natch Comics</a>&nbsp;&nbsp;
+</span></div>
+<br />
+
+</TD>
+<TD WIDTH="7" CLASS="rightSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="leftSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+
+<TD VALIGN="top" CLASS="menubg">
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="2">
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;</TD>
+<TD WIDTH="7" CLASS="sideStop" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="index2.php" CLASS="navsmall" TITLE="This link will take you to the hub of colonpipe.com, the home page. Or something. Jesus, I sound like that sodding paperclip.">Home</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://rafters.data-zoid.com/" CLASS="navsmall" TITLE="The massively controversial and envelope-pushing forum of intense and unfettering discussion...isn't hiding behind this link. (For that, try the toilet transcript.)">Rafters</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="irc.php" CLASS="navsmall" TITLE="Technology abounds! Chat in real time with other people, possibly even living ones!">IRC Chat</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="audio.php" CLASS="navsmall" TITLE="Portal to MIDI and mp3 music. Most of which is shit. Don't say you weren't warned.">Audio</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="ebr.php" CLASS="navsmall" TITLE="Reviews of beverages, most of which claim to give you energy, and coincidentally taste like shit.">Beverage Reviews</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="figures.php" CLASS="navsmall" TITLE="Thoroughly nonexistant merchandise.">Action Figures</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="more.php" CLASS="navsmall" TITLE="Uncategorisable chud.">More..</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;"Content" (sic)</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E">
+
+<SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input">
+<OPTION selected>Stuff be here!</OPTION>
+<OPTION>---</OPTION>
+<OPTION>The data-zoid.com</OPTION>
+<OPTION>guide to:</OPTION>
+<OPTION VALUE="guidetocolonpipe.php">- colonpipe.com</OPTION>
+<OPTION VALUE="footpaths.php">- Footpaths</OPTION>
+<OPTION VALUE="love.php">- Love</OPTION>
+<OPTION VALUE="punctuation.php">- Punctuation</OPTION>
+<OPTION VALUE="shelving.php">- Shelving</OPTION>
+<OPTION VALUE="words.php">- Words</OPTION>
+<OPTION>---</OPTION>
+<OPTION>"Pointless":</OPTION>
+<OPTION VALUE="foreword.php">- Foreword</OPTION>
+<OPTION VALUE="chapters.php">- Chapter List</OPTION>
+<OPTION VALUE="sociology.php">- Online Society</OPTION>
+<OPTION VALUE="sex.php">- Cybersex </OPTION>
+<OPTION>---</OPTION>
+<OPTION>Misc. Shite:</OPTION>
+<OPTION VALUE="shitty_rp_biography.php">- RP Bio</OPTION>
+<OPTION VALUE="doodlebook.php">- The Doodlebook</OPTION>
+<OPTION VALUE="figures.php">- Action Figures</OPTION>
+<OPTION>---</OPTION>
+<OPTION>Ask Datazoid:</OPTION>
+<OPTION VALUE="ask.php">- questions so far </OPTION>
+<OPTION>---</OPTION>
+<OPTION>Flat Pickled Crap:</OPTION>
+<OPTION VALUE="cheese.php">- Cheese..</OPTION>
+<OPTION VALUE="jeffy.php">- Jeffy</OPTION>
+<OPTION VALUE="phorum.php">- Jeffy's Phorum</OPTION>
+</SELECT><BR>
+<img src="images/menuthing.gif" width="105" height="11" alt="Select from menu thing" title="Select from the menu. If this concept eludes you, step away from your computer and count to ten. Immediately. Then seek help. Possibly from a dairy farmer or someone wearing a black hat with a buckle on the front." />
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Comics</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="searchstring_comics.php" CLASS="navsmall" TITLE="Comics inspired by searchstrings linking to colonpipe.com!">Searchstring Comics</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="the_colonpipes.php" CLASS="navsmall" TITLE="Random comic of random amusement.">The Colonpipes</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://fraxyl.data-zoid.com//roughing" CLASS="navsmall" TITLE="Possibly the dodgiest webcomic in existance. INCLUDING WEEBL AND BOB.">Roughing It</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.colonpipe.com/fraxyl/subpar" CLASS="navsmall" TITLE="Mike's comics make a vague resurgance.">Sub Par</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.colonpipe.com/natchcomics" CLASS="navsmall" TITLE="Natch. Now with..nonexistance again. :|">Natch Comics</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Piccies</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E">
+
+<SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input">
+<OPTION selected>Photos inside!</OPTION>
+<OPTION>---</OPTION>
+<OPTION VALUE="photos.php">Old Photos Index</OPTION>
+<OPTION>---</OPTION>
+<OPTION VALUE="photos_shirtvisit2001.php">ShirtVisit 2001</OPTION>
+<OPTION VALUE="photos_dzwtoa2002.php">DZWTOA 2002</OPTION>
+</SELECT><BR>
+<img src="images/menuthing.gif" width="105" height="11" alt="Select from menu thing" title="Select a category of photos from the menu thingie above this box. It's not that hard, honest!" />
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;History</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="timeline.php" CLASS="navsmall" TITLE="A running history of events that have no consequence whatsoever on anything even remotely classificable as important.">Timeline</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Shop Smart</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.cafeshops.com/datazoid" CLASS="navsmall" TARGET="new" TITLE="YOU REALLY WANT TO SPEND MONEY HERE. LOTS AND MANY OF THEM MONEYS YES.">Shop Z-Mart</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Housekeeping:</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="archives.php" CLASS="navsmall" TITLE="Weblog archives. They're more even less interesting in retrospect!">R-chive</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="housekeeping.php" CLASS="navsmall" TITLE="DO NOT STALK THESE PEOPLE.">Staff, links, privacy</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="mobile.php" CLASS="navsmall" TITLE="Mobile phone wallpapers and screensavers and shite. Mostly the latter.">Mobile Stuff</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="email.php" CLASS="navsmall" TITLE="E-mail system. Tell me how much you hate this website.">e-mail</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;ChatClassics</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E">
+
+<SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input">
+<OPTION selected>Choose Classics</OPTION>
+<OPTION VALUE="chatclassics1.php">Volume 1</OPTION>
+<OPTION VALUE="chatclassics2.php">Volume 2</OPTION>
+<OPTION VALUE="chatclassics3.php">Volume 3</OPTION>
+<OPTION VALUE="chatclassics4.php">Volume 4</OPTION>
+<OPTION VALUE="chatclassics5.php">Volume 5</OPTION>
+<OPTION VALUE="chatclassics6.php">Volume 6</OPTION>
+<OPTION VALUE="toilet.php">Toilet Transcript</OPTION>
+<OPTION VALUE="penis.php">Penis Transcript</OPTION>
+</SELECT><BR>
+<img src="images/menuthing.gif" width="105" height="11" alt="Select from menu thing" title="This menu works in much the same fashion as the one above. Go on, give it a try. It won't hurt. Much." />
+
+</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Glossary</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E">
+
+<SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input">
+<OPTION selected>Choose Letter</OPTION>
+<OPTION VALUE="glossary.php?letter=a">A</OPTION>
+<OPTION VALUE="glossary.php?letter=b">B</OPTION>
+<OPTION VALUE="glossary.php?letter=c">C</OPTION>
+<OPTION VALUE="glossary.php?letter=d">D</OPTION>
+<OPTION VALUE="glossary.php?letter=e">E</OPTION>
+<OPTION VALUE="glossary.php?letter=f">F</OPTION>
+<OPTION VALUE="glossary.php?letter=g">G</OPTION>
+<OPTION VALUE="glossary.php?letter=h">H</OPTION>
+<OPTION VALUE="glossary.php?letter=i">I</OPTION>
+<OPTION VALUE="glossary.php?letter=j">J</OPTION>
+<OPTION VALUE="glossary.php?letter=k">K</OPTION>
+<OPTION VALUE="glossary.php?letter=l">L</OPTION>
+<OPTION VALUE="glossary.php?letter=m">M</OPTION>
+<OPTION VALUE="glossary.php?letter=n">N</OPTION>
+<OPTION VALUE="glossary.php?letter=o">O</OPTION>
+<OPTION VALUE="glossary.php?letter=p">P</OPTION>
+<OPTION VALUE="glossary.php?letter=q">Q</OPTION>
+<OPTION VALUE="glossary.php?letter=r">R</OPTION>
+<OPTION VALUE="glossary.php?letter=s">S</OPTION>
+<OPTION VALUE="glossary.php?letter=t">T</OPTION>
+<OPTION VALUE="glossary.php?letter=u">U</OPTION>
+<OPTION VALUE="glossary.php?letter=v">V</OPTION>
+<OPTION VALUE="glossary.php?letter=w">W</OPTION>
+<OPTION VALUE="glossary.php?letter=x">X</OPTION>
+<OPTION VALUE="glossary.php?letter=y">Y</OPTION>
+<OPTION VALUE="glossary.php?letter=z">Z</OPTION>
+<OPTION VALUE="glossary.php?letter=*">View all</OPTION>
+</SELECT><BR>
+<img src="images/menuthing.gif" width="105" height="11" alt="Select from menu thing" title="Are we learning yet?" />
+
+</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Links:</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="links.php" CLASS="navsmall" TITLE="Links to other places, probably less interesting than this one.">Links</A>
+</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+
+<TR><TD VALIGN="middle" WIDTH="120" CLASS="menugrad">
+&nbsp;</TD><TD WIDTH="7" CLASS="rightSide">&nbsp;</TD></TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#000000">
+<center><SPAN CLASS="tiny">If you liked this page<BR>
+you might also like:<BR>
+<BR>
+<img src="images/randomimages/bee.jpg" width="70" height="40"><BR>Bee
+<BR>
+<BR>
+or<BR>
+<BR>
+<img src="images/randomimages/desert.jpg" width="70" height="40"><BR>Desert
+</span></center>
+</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+
+</TABLE>
+
+</TD>
+
+<TD BGCOLOR="#1A1A32" VALIGN="top">
+
+<TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/topleftshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+<TD BACKGROUND="ui/topcentershade.jpg"></TD>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/toprightshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+</TR>
+<TR>
+<TD BACKGROUND="ui/leftshade.jpg" WIDTH="10"></TD>
+<TD CLASS="log">
+
+ <table width="100%"><tr><td class="menuhead">&nbsp;Can I haaaave a bizcuit?</td></tr></table><BR>
+<span class="reg">Hooray for Carl Barron. And also for a <a href="ebr_timtamchilichoc.php">bizarre new biscuit</a> from Arnotts. Which I've wedged into an Exotic Beverage Review because I can't be arsed making a new reviewing category for biscuits. So there.</span><BR><BR>
+<span class="reg"><img src="ui/postedby.gif" height="14" width="14" align="middle" />&nbsp;Posted by Datazoid on <span class="reg">February 20th, 2005</span>.</span><br><br><CENTER><hr /></CENTER><BR><center><img src="ui/reply.gif" height="14" width="14" align="middle" />&nbsp;<span class="comment">13 comments.<br><br></center></span><span class="reg">Zing!</span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://colonpipe.com/fraxyl">fraxyl</a> on 24.02.2005.</span><BR><BR><span class="reg"> <h1>Please check the sites about<A HREF="http://www.juris-net.com/casino-web-site.html"> blackjack secrets </A>  blackjack secrets  <A HREF="http://www.juris-net.com/casino-web-site.html">http://www.juris-net.com/casino-web-site.html</A> <br/><A HREF="http://www.juris-net.com/video-poker-games.html"> offshore gambling </A>  offshore gambling  <A HREF="http://www.juris-net.com/video-poker-games.html">http://www.juris-net.com/video-poker-games.html</A> <br/><A HREF="http://www.juris-net.com/internet-blackjack.html"> blackjack cheat card </A>  blackjack cheat card  <A HREF="http://www.juris-net.com/internet-blackjack.html">http://www.juris-net.com/internet-blackjack.html</A> <br/><A HREF="http://www.juris-net.com/instructions-on-how-to-play-poker.html"> seneca alleghany casino </A>  seneca alleghany casino  <A HREF="http://www.juris-net.com/instructions-on-how-to-play-poker.html">http://www.juris-net.com/instructions-on-how-to-play-poker.html</A> <br/><A HREF="http://www.juris-net.com/casinos-in-oklahoma.html"> blackjack accessories </A>  blackjack accessories  <A HREF="http://www.juris-net.com/casinos-in-oklahoma.html">http://www.juris-net.com/casinos-in-oklahoma.html</A> <br/><A HREF="http://www.juris-net.com/craps-game.html"> video poker sites </A>  video poker sites  <A HREF="http://www.juris-net.com/craps-game.html">http://www.juris-net.com/craps-game.html</A> <br/><A HREF="http://www.juris-net.com/poker-girls.html"> gambling benefits </A>  gambling benefits  <A HREF="http://www.juris-net.com/poker-girls.html">http://www.juris-net.com/poker-girls.html</A> <br/><A HREF="http://www.juris-net.com/nevada-jack-poker-chips.html"> demo keno </A>  demo keno  <A HREF="http://www.juris-net.com/nevada-jack-poker-chips.html">http://www.juris-net.com/nevada-jack-poker-chips.html</A> <br/><A HREF="http://www.juris-net.com/las-vegas-slot-dealers.html"> map of las vegas strip casinos </A>  map of las vegas strip casinos  <A HREF="http://www.juris-net.com/las-vegas-slot-dealers.html">http://www.juris-net.com/las-vegas-slot-dealers.html</A> <br/><A HREF="http://www.juris-net.com/world-poker-championship.html"> always win craps stategies </A>  always win craps stategies  <A HREF="http://www.juris-net.com/world-poker-championship.html">http://www.juris-net.com/world-poker-championship.html</A> <br/><A HREF="http://www.juris-net.com/looney-toones-blackjack.html"> craps list of hedge bets </A>  craps list of hedge bets  <A HREF="http://www.juris-net.com/looney-toones-blackjack.html">http://www.juris-net.com/looney-toones-blackjack.html</A> <br/><A HREF="http://www.juris-net.com/roulette-wheel-layout.html"> keno computer games </A>  keno computer games  <A HREF="http://www.juris-net.com/roulette-wheel-layout.html">http://www.juris-net.com/roulette-wheel-layout.html</A> <br/><A HREF="http://www.juris-net.com/free-craps-game.html"> nashville nic roulette </A>  nashville nic roulette  <A HREF="http://www.juris-net.com/free-craps-game.html">http://www.juris-net.com/free-craps-game.html</A> <br/><A HREF="http://www.juris-net.com/craps-table-design.html"> leigh keno </A>  leigh keno  <A HREF="http://www.juris-net.com/craps-table-design.html">http://www.juris-net.com/craps-table-design.html</A> <br/><A HREF="http://www.juris-net.com/blackjack-avion.html"> roulette gaming rules </A>  roulette gaming rules  <A HREF="http://www.juris-net.com/blackjack-avion.html">http://www.juris-net.com/blackjack-avion.html</A> <br/><A HREF="http://www.juris-net.com/ada-blackjack.html"> free keno downloads </A>  free keno downloads  <A HREF="http://www.juris-net.com/ada-blackjack.html">http://www.juris-net.com/ada-blackjack.html</A> <br/><A HREF="http://www.juris-net.com/best-casino-gambling-site-online.html"> black jack tips </A>  black jack tips  <A HREF="http://www.juris-net.com/best-casino-gambling-site-online.html">http://www.juris-net.com/best-casino-gambling-site-online.html</A> <br/><A HREF="http://www.juris-net.com/practice-black-jack.html"> emerald queen casino </A>  emerald queen casino  <A HREF="http://www.juris-net.com/practice-black-jack.html">http://www.juris-net.com/practice-black-jack.html</A> <br/><A HREF="http://www.juris-net.com/roulette-blackjack-slots-poker.html"> free roulette games </A>  free roulette games  <A HREF="http://www.juris-net.com/roulette-blackjack-slots-poker.html">http://www.juris-net.com/roulette-blackjack-slots-poker.html</A> <br/><A HREF="http://www.juris-net.com/adult-blackjack-swf.html"> common interface slots </A>  common interface slots  <A HREF="http://www.juris-net.com/adult-blackjack-swf.html">http://www.juris-net.com/adult-blackjack-swf.html</A> <br/><A HREF="http://www.juris-net.com/3d-blackjack-trainer.html"> electronic hand held black jack </A>  electronic hand held black jack  <A HREF="http://www.juris-net.com/3d-blackjack-trainer.html">http://www.juris-net.com/3d-blackjack-trainer.html</A> <br/><A HREF="http://www.juris-net.com/gambling-odds-roulette.html"> roulette stories </A>  roulette stories  <A HREF="http://www.juris-net.com/gambling-odds-roulette.html">http://www.juris-net.com/gambling-odds-roulette.html</A> <br/><A HREF="http://www.juris-net.com/keno-card.html"> slot machines play free games </A>  slot machines play free games  <A HREF="http://www.juris-net.com/keno-card.html">http://www.juris-net.com/keno-card.html</A> <br/><A HREF="http://www.juris-net.com/online-free-keno-game.html"> black jack training </A>  black jack training  <A HREF="http://www.juris-net.com/online-free-keno-game.html">http://www.juris-net.com/online-free-keno-game.html</A> <br/><A HREF="http://www.juris-net.com/roulette-discussion.html"> casino regina </A>  casino regina  <A HREF="http://www.juris-net.com/roulette-discussion.html">http://www.juris-net.com/roulette-discussion.html</A> <br/><A HREF="http://www.juris-net.com/computer-roulette-games.html"> free download slot machines </A>  free download slot machines  <A HREF="http://www.juris-net.com/computer-roulette-games.html">http://www.juris-net.com/computer-roulette-games.html</A> <br/><A HREF="http://www.juris-net.com/gen-john-black-jack-pershing.html"> casino express </A>  casino express  <A HREF="http://www.juris-net.com/gen-john-black-jack-pershing.html">http://www.juris-net.com/gen-john-black-jack-pershing.html</A> <br/><A HREF="http://www.juris-net.com/internet-black-jack-acronym.html"> powerball keno </A>  powerball keno  <A HREF="http://www.juris-net.com/internet-black-jack-acronym.html">http://www.juris-net.com/internet-black-jack-acronym.html</A> <br/><A HREF="http://www.juris-net.com/online-internet-roulette.html"> video keno </A>  video keno  <A HREF="http://www.juris-net.com/online-internet-roulette.html">http://www.juris-net.com/online-internet-roulette.html</A> <br/><A HREF="http://www.juris-net.com/roulette-casino.html"> dfw casino dealers </A>  dfw casino dealers  <A HREF="http://www.juris-net.com/roulette-casino.html">http://www.juris-net.com/roulette-casino.html</A> <br/><A HREF="http://www.juris-net.com/roulette-spins.html"> uk casinos </A>  uk casinos  <A HREF="http://www.juris-net.com/roulette-spins.html">http://www.juris-net.com/roulette-spins.html</A> <br/><A HREF="http://www.juris-net.com/who-offers-the-best-roulette-game-online.html"> hoyle casino </A>  hoyle casino  <A HREF="http://www.juris-net.com/who-offers-the-best-roulette-game-online.html">http://www.juris-net.com/who-offers-the-best-roulette-game-online.html</A> <br/><A HREF="http://www.juris-net.com/antique-appraisers-keno-brothers.html"> black jack playfield </A>  black jack playfield  <A HREF="http://www.juris-net.com/antique-appraisers-keno-brothers.html">http://www.juris-net.com/antique-appraisers-keno-brothers.html</A> <br/><A HREF="http://www.juris-net.com/free-pocket-pc-keno.html"> slot machine winning secrets </A>  slot machine winning secrets  <A HREF="http://www.juris-net.com/free-pocket-pc-keno.html">http://www.juris-net.com/free-pocket-pc-keno.html</A> <br/><A HREF="http://www.juris-net.com/probability-or-win-and-keno.html"> blackjack card counting </A>  blackjack card counting  <A HREF="http://www.juris-net.com/probability-or-win-and-keno.html">http://www.juris-net.com/probability-or-win-and-keno.html</A> <br/>- Tons of interesdting stuff!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.juris-net.com/gambling-horse-pick-racing.html">cyber gambling</a> on 09.05.2005.</span><BR><BR><span class="reg"> <h1>Please check the pages about<A HREF="http://texas-hold-em.warrenzanes.com/"> texas hold em </A>  texas hold em  <A HREF="http://texas-hold-em.warrenzanes.com/">http://texas-hold-em.warrenzanes.com/</A> <br/><A HREF="http://free-texas-hold-em-poker-games.warrenzanes.com/"> free texas hold em poker games </A>  free texas hold em poker games  <A HREF="http://free-texas-hold-em-poker-games.warrenzanes.com/">http://free-texas-hold-em-poker-games.warrenzanes.com/</A> <br/><A HREF="http://texas-holdem-tables.warrenzanes.com/"> texas holdem tables </A>  texas holdem tables  <A HREF="http://texas-holdem-tables.warrenzanes.com/">http://texas-holdem-tables.warrenzanes.com/</A> <br/><A HREF="http://poker.lisaandjamie.com/"> poker </A>  poker  <A HREF="http://poker.lisaandjamie.com/">http://poker.lisaandjamie.com/</A> <br/><A HREF="http://texas-holdem.lisaandjamie.com/"> texas holdem </A>  texas holdem  <A HREF="http://texas-holdem.lisaandjamie.com/">http://texas-holdem.lisaandjamie.com/</A> <br/><A HREF="http://free-strip-poker.lisaandjamie.com/"> free strip poker </A>  free strip poker  <A HREF="http://free-strip-poker.lisaandjamie.com/">http://free-strip-poker.lisaandjamie.com/</A> <br/><A HREF="http://free-poker-chip-set.lisaandjamie.com/"> free poker chip set </A>  free poker chip set  <A HREF="http://free-poker-chip-set.lisaandjamie.com/">http://free-poker-chip-set.lisaandjamie.com/</A> <br/><A HREF="http://learn-to-play-poker.pileband.com/"> learn to play poker </A>  learn to play poker  <A HREF="http://learn-to-play-poker.pileband.com/">http://learn-to-play-poker.pileband.com/</A> <br/><A HREF="http://online-poker-tools.pileband.com/"> online poker tools </A>  online poker tools  <A HREF="http://online-poker-tools.pileband.com/">http://online-poker-tools.pileband.com/</A> <br/><A HREF="http://free-poker-game-download.warrenzanes.com/"> free poker game download </A>  free poker game download  <A HREF="http://free-poker-game-download.warrenzanes.com/">http://free-poker-game-download.warrenzanes.com/</A> <br/><A HREF="http://texas-holdem-online.fresnay.net/"> texas holdem online </A>  texas holdem online  <A HREF="http://texas-holdem-online.fresnay.net/">http://texas-holdem-online.fresnay.net/</A> <br/><A HREF="http://world-poker.fresnay.net/"> world poker </A>  world poker  <A HREF="http://world-poker.fresnay.net/">http://world-poker.fresnay.net/</A> <br/><A HREF="http://poker-rule.az-greenvalley.com/"> poker rule </A>  poker rule  <A HREF="http://poker-rule.az-greenvalley.com/">http://poker-rule.az-greenvalley.com/</A> <br/><A HREF="http://hold-em.az-greenvalley.com/"> hold em </A>  hold em  <A HREF="http://hold-em.az-greenvalley.com/">http://hold-em.az-greenvalley.com/</A> <br/><A HREF="http://poker-games.fresnay.net/"> poker games </A>  poker games  <A HREF="http://poker-games.fresnay.net/">http://poker-games.fresnay.net/</A> <br/><A HREF="http://hold-em-poker.pileband.com/"> hold em poker </A>  hold em poker  <A HREF="http://hold-em-poker.pileband.com/">http://hold-em-poker.pileband.com/</A> <br/><A HREF="http://texas-hold-em.bentrecords.net/"> texas hold em </A>  texas hold em  <A HREF="http://texas-hold-em.bentrecords.net/">http://texas-hold-em.bentrecords.net/</A> <br/><A HREF="http://free-texas-hold-em.bentrecords.net/"> free texas hold em </A>  free texas hold em  <A HREF="http://free-texas-hold-em.bentrecords.net/">http://free-texas-hold-em.bentrecords.net/</A> <br/><A HREF="http://poker-forum.bentrecords.net/"> poker forum </A>  poker forum  <A HREF="http://poker-forum.bentrecords.net/">http://poker-forum.bentrecords.net/</A> <br/><A HREF="http://free-rules-for-poker.bentrecords.net/"> free rules for poker </A>  free rules for poker  <A HREF="http://free-rules-for-poker.bentrecords.net/">http://free-rules-for-poker.bentrecords.net/</A> <br/><A HREF="http://video-poker-strategy.bentrecords.net/"> video poker strategy </A>  video poker strategy  <A HREF="http://video-poker-strategy.bentrecords.net/">http://video-poker-strategy.bentrecords.net/</A> <br/><A HREF="http://party-poker-bonus-code.bentrecords.net/"> party poker bonus code </A>  party poker bonus code  <A HREF="http://party-poker-bonus-code.bentrecords.net/">http://party-poker-bonus-code.bentrecords.net/</A> <br/><A HREF="http://poker-on-line.bentrecords.net/"> poker on line </A>  poker on line  <A HREF="http://poker-on-line.bentrecords.net/">http://poker-on-line.bentrecords.net/</A> <br/><A HREF="http://texas-holdem-tables.e-poker-winner.com/"> texas holdem tables </A>  texas holdem tables  <A HREF="http://texas-holdem-tables.e-poker-winner.com/">http://texas-holdem-tables.e-poker-winner.com/</A> <br/><A HREF="http://poker-star.winning-e-poker.com/"> poker star </A>  poker star  <A HREF="http://poker-star.winning-e-poker.com/">http://poker-star.winning-e-poker.com/</A> <br/><A HREF="http://online-texas-hold-em.win-poker-games.com/"> online texas hold em </A>  online texas hold em  <A HREF="http://online-texas-hold-em.win-poker-games.com/">http://online-texas-hold-em.win-poker-games.com/</A> <br/><A HREF="http://poker-players.win-poker-games.com/"> poker players </A>  poker players  <A HREF="http://poker-players.win-poker-games.com/">http://poker-players.win-poker-games.com/</A> <br/><A HREF="http://texas-holdem-tips.win-poker-games.com/"> texas holdem tips </A>  texas holdem tips  <A HREF="http://texas-holdem-tips.win-poker-games.com/">http://texas-holdem-tips.win-poker-games.com/</A> <br/><A HREF="http://free-texas-hold-em.play-e-poker.com/"> free texas hold em </A>  free texas hold em  <A HREF="http://free-texas-hold-em.play-e-poker.com/">http://free-texas-hold-em.play-e-poker.com/</A> <br/><A HREF="http://rules-for-texas-hold-em.play-e-poker.com/"> rules for texas hold em </A>  rules for texas hold em  <A HREF="http://rules-for-texas-hold-em.play-e-poker.com/">http://rules-for-texas-hold-em.play-e-poker.com/</A> <br/>- Tons of interesdting stuff!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://poker-rooms.fresnay.net/">poker rooms</a> on 27.05.2005.</span><BR><BR><span class="reg"> <h1>Please check out the pages about<A HREF="http://www.racepointfunding.com/loans.html"> loans </A>  loans  <A HREF="http://www.racepointfunding.com/loans.html">http://www.racepointfunding.com/loans.html</A> <br/><A HREF="http://www.racepointfunding.com/home-loans.html"> home loans </A>  home loans  <A HREF="http://www.racepointfunding.com/home-loans.html">http://www.racepointfunding.com/home-loans.html</A> <br/><A HREF="http://www.racepointfunding.com/payday-loans.html"> payday loans </A>  payday loans  <A HREF="http://www.racepointfunding.com/payday-loans.html">http://www.racepointfunding.com/payday-loans.html</A> <br/><A HREF="http://www.racepointfunding.com/home-equity-loan.html"> home equity loan </A>  home equity loan  <A HREF="http://www.racepointfunding.com/home-equity-loan.html">http://www.racepointfunding.com/home-equity-loan.html</A> <br/><A HREF="http://www.racepointfunding.com/payday-loan.html"> payday loan </A>  payday loan  <A HREF="http://www.racepointfunding.com/payday-loan.html">http://www.racepointfunding.com/payday-loan.html</A> <br/><A HREF="http://www.racepointfunding.com/refinance.html"> refinance </A>  refinance  <A HREF="http://www.racepointfunding.com/refinance.html">http://www.racepointfunding.com/refinance.html</A> <br/><A HREF="http://www.racepointfunding.com/personal-loans.html"> personal loans </A>  personal loans  <A HREF="http://www.racepointfunding.com/personal-loans.html">http://www.racepointfunding.com/personal-loans.html</A> <br/><A HREF="http://www.racepointfunding.com/debt-consolidation-loan.html"> debt consolidation loan </A>  debt consolidation loan  <A HREF="http://www.racepointfunding.com/debt-consolidation-loan.html">http://www.racepointfunding.com/debt-consolidation-loan.html</A> <br/><A HREF="http://www.racepointfunding.com/payday-advance.html"> payday advance </A>  payday advance  <A HREF="http://www.racepointfunding.com/payday-advance.html">http://www.racepointfunding.com/payday-advance.html</A> <br/><A HREF="http://www.racepointfunding.com/credit-card-offers.html"> credit card offers </A>  credit card offers  <A HREF="http://www.racepointfunding.com/credit-card-offers.html">http://www.racepointfunding.com/credit-card-offers.html</A> <br/>... Thanks!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.racepointfunding.com/loans.html">loans</a> on 30.05.2005.</span><BR><BR><span class="reg"> <h1>Please visit the sites dedicated to<A HREF="http://www.e-poker-888.com/poker.html"> poker </A>  poker  <A HREF="http://www.e-poker-888.com/poker.html">http://www.e-poker-888.com/poker.html</A> <br/><A HREF="http://www.e-poker-888.com/texas-holdem.html"> texas holdem </A>  texas holdem  <A HREF="http://www.e-poker-888.com/texas-holdem.html">http://www.e-poker-888.com/texas-holdem.html</A> <br/><A HREF="http://www.e-poker-888.com/online-poker.html"> online poker </A>  online poker  <A HREF="http://www.e-poker-888.com/online-poker.html">http://www.e-poker-888.com/online-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/world-series-of-poker.html"> world series of poker </A>  world series of poker  <A HREF="http://www.e-poker-888.com/world-series-of-poker.html">http://www.e-poker-888.com/world-series-of-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/party-poker.html"> party poker </A>  party poker  <A HREF="http://www.e-poker-888.com/party-poker.html">http://www.e-poker-888.com/party-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/video-poker.html"> video poker </A>  video poker  <A HREF="http://www.e-poker-888.com/video-poker.html">http://www.e-poker-888.com/video-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/poker-games.html"> poker games </A>  poker games  <A HREF="http://www.e-poker-888.com/poker-games.html">http://www.e-poker-888.com/poker-games.html</A> <br/><A HREF="http://www.e-poker-888.com/celebrity-poker.html"> celebrity poker </A>  celebrity poker  <A HREF="http://www.e-poker-888.com/celebrity-poker.html">http://www.e-poker-888.com/celebrity-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/strip-poker-games.html"> strip poker games </A>  strip poker games  <A HREF="http://www.e-poker-888.com/strip-poker-games.html">http://www.e-poker-888.com/strip-poker-games.html</A> <br/><A HREF="http://www.e-poker-888.com/free-poker-chip-set.html"> free poker chip set </A>  free poker chip set  <A HREF="http://www.e-poker-888.com/free-poker-chip-set.html">http://www.e-poker-888.com/free-poker-chip-set.html</A> <br/><A HREF="http://www.e-poker-888.com/hold-em-poker.html"> hold em poker </A>  hold em poker  <A HREF="http://www.e-poker-888.com/hold-em-poker.html">http://www.e-poker-888.com/hold-em-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/free-poker-game.html"> free poker game </A>  free poker game  <A HREF="http://www.e-poker-888.com/free-poker-game.html">http://www.e-poker-888.com/free-poker-game.html</A> <br/><A HREF="http://www.e-poker-888.com/free-rules-for-poker.html"> free rules for poker </A>  free rules for poker  <A HREF="http://www.e-poker-888.com/free-rules-for-poker.html">http://www.e-poker-888.com/free-rules-for-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/free-video-strip-poker.html"> free video strip poker </A>  free video strip poker  <A HREF="http://www.e-poker-888.com/free-video-strip-poker.html">http://www.e-poker-888.com/free-video-strip-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/poker-hand.html"> poker hand </A>  poker hand  <A HREF="http://www.e-poker-888.com/poker-hand.html">http://www.e-poker-888.com/poker-hand.html</A> <br/><A HREF="http://www.e-poker-888.com/rules-for-poker-games.html"> rules for poker games </A>  rules for poker games  <A HREF="http://www.e-poker-888.com/rules-for-poker-games.html">http://www.e-poker-888.com/rules-for-poker-games.html</A> <br/><A HREF="http://www.e-poker-888.com/texas-holdem-tips.html"> texas holdem tips </A>  texas holdem tips  <A HREF="http://www.e-poker-888.com/texas-holdem-tips.html">http://www.e-poker-888.com/texas-holdem-tips.html</A> <br/><A HREF="http://www.e-poker-888.com/video-poker-strategy.html"> video poker strategy </A>  video poker strategy  <A HREF="http://www.e-poker-888.com/video-poker-strategy.html">http://www.e-poker-888.com/video-poker-strategy.html</A> <br/><A HREF="http://www.e-poker-888.com/free-online-poker-game.html"> free online poker game </A>  free online poker game  <A HREF="http://www.e-poker-888.com/free-online-poker-game.html">http://www.e-poker-888.com/free-online-poker-game.html</A> <br/><A HREF="http://www.e-poker-888.com/free-texas-hold-em-online-play.html"> free texas hold em online play </A>  free texas hold em online play  <A HREF="http://www.e-poker-888.com/free-texas-hold-em-online-play.html">http://www.e-poker-888.com/free-texas-hold-em-online-play.html</A> <br/><A HREF="http://www.e-poker-888.com/video-poker-software.html"> video poker software </A>  video poker software  <A HREF="http://www.e-poker-888.com/video-poker-software.html">http://www.e-poker-888.com/video-poker-software.html</A> <br/><A HREF="http://www.e-poker-888.com/poker-strip.html"> poker strip </A>  poker strip  <A HREF="http://www.e-poker-888.com/poker-strip.html">http://www.e-poker-888.com/poker-strip.html</A> <br/><A HREF="http://www.e-poker-888.com/gambling-poker.html"> gambling poker </A>  gambling poker  <A HREF="http://www.e-poker-888.com/gambling-poker.html">http://www.e-poker-888.com/gambling-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/yahoo-poker.html"> yahoo poker </A>  yahoo poker  <A HREF="http://www.e-poker-888.com/yahoo-poker.html">http://www.e-poker-888.com/yahoo-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/free-video-poker-game.html"> free video poker game </A>  free video poker game  <A HREF="http://www.e-poker-888.com/free-video-poker-game.html">http://www.e-poker-888.com/free-video-poker-game.html</A> <br/><A HREF="http://www.e-poker-888.com/play-texas-holdem.html"> play texas holdem </A>  play texas holdem  <A HREF="http://www.e-poker-888.com/play-texas-holdem.html">http://www.e-poker-888.com/play-texas-holdem.html</A> <br/><A HREF="http://www.e-poker-888.com/card-poker.html"> card poker </A>  card poker  <A HREF="http://www.e-poker-888.com/card-poker.html">http://www.e-poker-888.com/card-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/poker-rule.html"> poker rule </A>  poker rule  <A HREF="http://www.e-poker-888.com/poker-rule.html">http://www.e-poker-888.com/poker-rule.html</A> <br/><A HREF="http://www.e-poker-888.com/online-video-poker-game.html"> online video poker game </A>  online video poker game  <A HREF="http://www.e-poker-888.com/online-video-poker-game.html">http://www.e-poker-888.com/online-video-poker-game.html</A> <br/><A HREF="http://www.e-poker-888.com/hold-em.html"> hold em </A>  hold em  <A HREF="http://www.e-poker-888.com/hold-em.html">http://www.e-poker-888.com/hold-em.html</A> <br/>... Thanks!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.e-poker-888.com/free-poker-chip-set.html">free poker chip set</a> on 06.06.2005.</span><BR><BR><span class="reg"> <h1>Please check some relevant pages about<A HREF="http://www.poker-7.com/poker-games.html"> poker games </A>  poker games  <A HREF="http://www.poker-7.com/poker-games.html">http://www.poker-7.com/poker-games.html</A> <br/><A HREF="http://www.poker-7.com/texas-hold-em.html"> texas hold em </A>  texas hold em  <A HREF="http://www.poker-7.com/texas-hold-em.html">http://www.poker-7.com/texas-hold-em.html</A> <br/><A HREF="http://www.poker-7.com/party-poker.html"> party poker </A>  party poker  <A HREF="http://www.poker-7.com/party-poker.html">http://www.poker-7.com/party-poker.html</A> <br/><A HREF="http://www.poker-7.com/online-poker.html"> online poker </A>  online poker  <A HREF="http://www.poker-7.com/online-poker.html">http://www.poker-7.com/online-poker.html</A> <br/><A HREF="http://www.poker-7.com/empire-poker.html"> empire poker </A>  empire poker  <A HREF="http://www.poker-7.com/empire-poker.html">http://www.poker-7.com/empire-poker.html</A> <br/>- Tons of interesdting stuff!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.poker-7.com/online-poker.html">online poker</a> on 07.06.2005.</span><BR><BR><span class="reg"> <h1>Please check the sites dedicated to<A HREF="http://www.casino-y.com/blackjack.html"> blackjack </A>  blackjack  <A HREF="http://www.casino-y.com/blackjack.html">http://www.casino-y.com/blackjack.html</A> <br/><A HREF="http://www.casino-y.com/free-slots.html"> free slots </A>  free slots  <A HREF="http://www.casino-y.com/free-slots.html">http://www.casino-y.com/free-slots.html</A> <br/><A HREF="http://www.casino-y.com/gambling.html"> gambling </A>  gambling  <A HREF="http://www.casino-y.com/gambling.html">http://www.casino-y.com/gambling.html</A> <br/><A HREF="http://www.casino-y.com/online-casino.html"> online casino </A>  online casino  <A HREF="http://www.casino-y.com/online-casino.html">http://www.casino-y.com/online-casino.html</A> <br/><A HREF="http://www.casino-y.com/online-gambling.html"> online gambling </A>  online gambling  <A HREF="http://www.casino-y.com/online-gambling.html">http://www.casino-y.com/online-gambling.html</A> <br/>- Tons of interesdting stuff!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.casino-y.com/blackjack.html">blackjack</a> on 07.06.2005.</span><BR><BR><span class="reg"> <h1>You can also check out some information dedicated to<A HREF="http://www.poker-4-u.com/texas-hold-em.html"> texas hold em </A>  texas hold em  <A HREF="http://www.poker-4-u.com/texas-hold-em.html">http://www.poker-4-u.com/texas-hold-em.html</A> <br/>... </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.poker-4-u.com/texas-hold-em.html">texas hold em</a> on 08.06.2005.</span><BR><BR><span class="reg"> <h1>You are invited to check out the pages dedicated to<A HREF="http://www.casino7-online.com/online-casino.html"> online casino </A>  online casino  <A HREF="http://www.casino7-online.com/online-casino.html">http://www.casino7-online.com/online-casino.html</A> <br/>... Thanks!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.casino7-online.com/free-slots.html">free slots</a> on 08.06.2005.</span><BR><BR><span class="reg"> <h1>You are invited to check out the sites on<A HREF="http://www.poker-24x7.com/online-poker.html"> online poker </A>  online poker  http://www.poker-24x7.com/online-poker.html <A HREF="http://www.poker-24x7.com/online-poker.html">http://www.poker-24x7.com/online-poker.html</A> <br/><A HREF="http://www.poker-24x7.com/pacific-poker.html"> pacific poker </A>  pacific poker  http://www.poker-24x7.com/pacific-poker.html <A HREF="http://www.poker-24x7.com/pacific-poker.html">http://www.poker-24x7.com/pacific-poker.html</A> <br/>- Tons of interesdting stuff!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.poker-24x7.com/texas-holdem.html"> texas holdem </a> on 09.07.2005.</span><BR><BR><span class="reg"> <h1>You may find it interesting to check the pages dedicated to<A HREF="http://www.thesmart-casino.com/free-slots.html"> free slots </A>  free slots  http://www.thesmart-casino.com/free-slots.html <A HREF="http://www.thesmart-casino.com/free-slots.html">http://www.thesmart-casino.com/free-slots.html</A> <br/><A HREF="http://www.thesmart-casino.com/online-casinos.html"> online casinos </A>  online casinos  http://www.thesmart-casino.com/online-casinos.html <A HREF="http://www.thesmart-casino.com/online-casinos.html">http://www.thesmart-casino.com/online-casinos.html</A> <br/><A HREF="http://www.thesmart-casino.com/blackjack.html"> blackjack </A>  blackjack  http://www.thesmart-casino.com/blackjack.html <A HREF="http://www.thesmart-casino.com/blackjack.html">http://www.thesmart-casino.com/blackjack.html</A> <br/><A HREF="http://www.thesmart-casino.com/roulette.html"> roulette </A>  roulette  http://www.thesmart-casino.com/roulette.html <A HREF="http://www.thesmart-casino.com/roulette.html">http://www.thesmart-casino.com/roulette.html</A> <br/><A HREF="http://www.thesmart-casino.com/online-gambling.html"> online gambling </A>  online gambling  http://www.thesmart-casino.com/online-gambling.html <A HREF="http://www.thesmart-casino.com/online-gambling.html">http://www.thesmart-casino.com/online-gambling.html</A> <br/><A HREF="http://www.thesmart-casino.com/casino.html"> casino </A>  casino  http://www.thesmart-casino.com/casino.html <A HREF="http://www.thesmart-casino.com/casino.html">http://www.thesmart-casino.com/casino.html</A> <br/><A HREF="http://www.thesmart-casino.com/online-casino.html"> online casino </A>  online casino  http://www.thesmart-casino.com/online-casino.html <A HREF="http://www.thesmart-casino.com/online-casino.html">http://www.thesmart-casino.com/online-casino.html</A> <br/><A HREF="http://www.thesmart-casino.com/slot-machines.html"> slot machines </A>  slot machines  http://www.thesmart-casino.com/slot-machines.html <A HREF="http://www.thesmart-casino.com/slot-machines.html">http://www.thesmart-casino.com/slot-machines.html</A> <br/><A HREF="http://www.thesmart-casino.com/gambling.html"> gambling </A>  gambling  http://www.thesmart-casino.com/gambling.html <A HREF="http://www.thesmart-casino.com/gambling.html">http://www.thesmart-casino.com/gambling.html</A> <br/>... </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.thesmart-casino.com/online-casinos.html"> online casinos </a> on 09.07.2005.</span><BR><BR><span class="reg"> <h1>You can also take a look at the sites dedicated to<A HREF="http://www.westvalleyhigh.us/casino.html"> casino </A>  casino  http://www.westvalleyhigh.us/casino.html <A HREF="http://www.westvalleyhigh.us/casino.html">http://www.westvalleyhigh.us/casino.html</A> <br/>. </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.westvalleyhigh.us/roulette.html"> roulette </a> on 10.07.2005.</span><BR><BR><span class="reg"> <h1>You can also check out the pages on<A HREF="http://www.atlantis-asia.com/texas-holdem.html"> free texas holdem software </A>  free texas holdem software  http://www.atlantis-asia.com/texas-holdem.html <A HREF="http://www.atlantis-asia.com/texas-holdem.html">http://www.atlantis-asia.com/texas-holdem.html</A> <br/>. </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.atlantis-asia.com/texas-holdem.html"> free texas holdem play </a> on 06.08.2005.</span><BR><BR><HR><BR>
+<span class="tiny">Comments remain the property of whoever made them. If you've got a problem with someone's addition, there's sod all I can do about it.</span>
+<BR>
+<BR>
+
+<div align="center"><table>
+<tr>
+<td>
+<SPAN CLASS="comment"><div align="center">..comment on this entry:</div></SPAN>
+<form method="post" action="/comments.php">
+<input type="hidden" name="id" value="00307">
+<span class="tiny">Name:</SPAN><br>
+<input type="text" name="comment_name" value="" style="width:300px;" class="inputtxt">
+          <br>
+          <span class="tiny">E-mail:</SPAN> <SPAN CLASS="red">*</SPAN><br>
+          <input type="text" name="comment_email" value="" style="width:300px;" class="inputtxt">
+          <br>
+          <span class="tiny">Homepage (include "http://"):</SPAN><br>
+          <input type="text" name="comment_homepage" value="" style="width:300px;" class="inputtxt">
+          <br>
+          <span class="tiny">Comment:</SPAN><br>
+          <textarea name="comment" style="width:300px; height:120px;" class="inputtxt"></textarea><br>
+          <br>
+          <DIV style="text-align: center;"><input type="submit" name="add" value="Post my toast, baby." style="width: 150px;" class="input"></DIV>
+      </form>
+</td>
+</tr>
+</table>
+<BR>
+<SPAN CLASS="tiny"><SPAN CLASS="red">*</SPAN> Your e-mail will not be displayed publicly on the comments page, but it will be stored in the database should we wish to contact you. Feel free to view the <a href="privacy.php">privacy policy</a>.</SPAN>
+<BR>
+</div>
+
+<table width="100%">
+<tr>
+    <td align=center><BR><SPAN CLASS="reg">Powered by: <a href="http://www.scratchforward.com/scratchlog" target="_blank">ScratchLog</a></SPAN><BR></td>
+  </tr>
+</table>
+
+</TD>
+<TD BACKGROUND="ui/rightshade.jpg" WIDTH="10"></TD>
+</TR>
+<TR>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/bottomleftshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+<TD BACKGROUND="ui/bottomshade.jpg"></TD>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/bottomrightshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+</TR>
+</TABLE>
+
+
+</TD>
+
+<TD WIDTH="120" BGCOLOR="#1A1A32" VALIGN="top">
+
+<BR />
+
+<DIV ALIGN="center">
+<A HREF="linkto.php" TITLE="Link to colonpipe.com"><IMG SRC="buttons/dzcom/colonpipe88x31.gif" WIDTH="88" HEIGHT="31" BORDER="0" ALT="colonpipe.com" /></A><BR />
+<BR />
+<A HREF="linkto.php" TITLE="Link to data-zoid.com"><IMG SRC="buttons/colonpipe_sms_88x31.gif" WIDTH="88" HEIGHT="31" BORDER="0" ALT="data-zoid.com" /></A><BR />
+<BR />
+<A HREF="http://fraxyl.data-zoid.com/" TITLE="fraxyl Design."><IMG SRC="fraxyl/images/frxyl88x31.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://fraxyl.data-zoid.com/roughing" TITLE="Roughing It."><IMG SRC="fraxyl/roughing/ri88x31.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.the-underdogs.org/" TARGET="new" TITLE="Home Of The Underdogs."><IMG SRC="images/hotu.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.thewhitlams.com/" TARGET="new" TITLE="The Whitlams."><IMG SRC="buttons/whitlams.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.deviantart.com/" TARGET="new" TITLE="DeviantART: Where Art Meets Application."><IMG SRC="buttons/deviantART.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<a href="http://www.rantmorgan.com/" target="_blank">
+<img src="http://www.rantmorgan.com/images/button.gif" border="0" alt="Rant Morgan's 'How To' Guides, quizzes, polls, and more!" title="Rant Morgan's 'How To' Guides, quizzes, polls, and more!" WIDTH="88" HEIGHT="31" ></a><BR />
+<BR />
+<a href="http://www.makemeking.com" title="Make Me King!"><img src="http://www.makemeking.com/images/king.gif" width="88" height="31"></a><BR />
+<BR /><A HREF="http://www.cockeyed.com/" TARGET="new" TITLE="cockeyed.com!"><IMG SRC="buttons/cockeyed.gif" WIDTH="79" HEIGHT="63" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://kevan.org/brain.cgi?name=Datazoid" CLASS="reg">munch!</A><BR />
+<BR />
+<A HREF="http://www.alterianlegends.net/" TARGET="new" TITLE="Alterian Legends. Blame BK, or something."><IMG SRC="alterianlegends/alterianlegends_88x31blue.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<a href="http://geourl.org/near/?p=http://www.data-zoid.com/" title="check out my neighbors in meatspace"><img src="http://geourl.org/geourl.png" border=0 width=52 height=14 /></a><BR />
+<BR />
+<A HREF="http://www.boycott-riaa.com" CLASS="reg">RIAA</A><BR />
+<BR />
+
+<BR />
+<BR /></DIV>
+
+</TD>
+
+<TD WIDTH="7" CLASS="rightSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+
+</TABLE>
+
+
+
+
+
+<TABLE HEIGHT="7" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="botLeft"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+<TD CLASS="botCenter" WIDTH="100%"><IMG SRC="ui/spacer.gif" HEIGHT="1"></TD>
+<TD WIDTH="7" CLASS="botRight"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" HEIGHT="6" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD CLASS="log" ALIGN="center">
+<BR>
+<table width="90%"><tr><td>
+<DIV ALIGN="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-9034153012081733";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_channel ="";
+google_alternate_color = "000000";
+google_color_border = ["2D5893","333333","191933"];
+google_color_bg = ["99AACC","000000","333366"];
+google_color_link = ["000000","FFFFFF","99CC33"];
+google_color_url = ["000099","999999","FFCC00"];
+google_color_text = ["003366","CCCCCC","FFFFFF"];
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<BR>
+<BR>
+<img src="ad_Casio.jpg" width="468" height="60" border="0">
+<BR>
+<BR>
+<SPAN CLASS="tiny">All content is &copy; Russ Gawthorpe, 2003 and all subsequent years, unless otherwise credited. The walrus may have farted, but we're not totally sure.
+<BR>
+<BR>
+This page was generated in your head.
+<BR>
+<BR></SPAN></div>
+<SPAN  class="tiny" STYLE="color: #555555;">So. You're reading the bit at the bottom again. how about I suggest some things you could be doing instead? Then, when you get to the end of the paragraph, you can feel vaguely fulfilled and perhaps even go out and do one or all of them? Or you can just think "Hey, he's just knocking off ideas from Monkey Island!", but it's all good in the end. Anyhow, why not wash the car, or buy some groceries? Donate someone's body to science! Invent a new way to varnish wood! Learn a new language! Learn two new languages! Find some bugs! Then race 'em! Kill the losers.<BR>
+<BR>
+<DIV style="text-align: center;"><SPAN STYLE="color: #FF0000;">This webpage best viewed with a monitor resolution of 9x2 and a depth of 12 fathoms. A web browser is recommended, but not entirely necessary.</SPAN></DIV>
+<BR>
+Some random words to make the search engines freak out:<BR>
+Saggitarius Stroodle! Garlic Mungbean! Serendipitous Tutu! Abnormal Finch! Mongbotty Organist! Sputnik Charmer! Lilliputian Spectator! Nipple Garnish! Splade Turnip! Funk Delicious! Gosling Batter! Chip Supreme! Retentive Scorpion! Sardine Wrangler! Aerodynamic Kumquat!</SPAN><BR>
+</td></tr></table>
+<BR>
+<BR>
+</TD>
+</TR>
+
+ </TABLE>
+
+</DIV>
+
+</BODY>
+</HTML>

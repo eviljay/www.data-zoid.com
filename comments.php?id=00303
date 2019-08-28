@@ -1,0 +1,585 @@
+
+<HTML><HEAD>
+<TITLE>colonpipe.com :: don't liquify grease
+
+</TITLE>
+<LINK REL="stylesheet" HREF="zoid2.css">
+<SCRIPT LANGUAGE="javascript">
+<!--//
+
+function mOvr(src,clrOver) {
+  if (!src.contains(event.fromElement)) {
+    src.style.cursor = 'default'; src.bgColor = clrOver;
+  }
+}
+
+function mOut(src,clrIn) {
+  if (!src.contains(event.toElement)) {
+    src.style.cursor = 'default';
+    src.bgColor = clrIn;
+  }
+}
+
+function mClk(src) {
+  if(event.srcElement.tagName=='TD') {
+    src.children.tags('A')[0].click();
+  }
+}
+
+var win=null;
+
+    //-->
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#000000" TOPMARGIN="0" BOTTOMMARGIN="0" LEFTMARGIN="0" RIGHTMARGIN="0">
+
+<DIV STYLE="text-align: center;">
+
+<TABLE HEIGHT="7" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="topLeft"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+<TD CLASS="topCenter" WIDTH="100%"><IMG SRC="ui/spacer.gif" HEIGHT="1"></TD>
+<TD WIDTH="7" CLASS="topRight"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="leftSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+<TD CLASS="bartop">&nbsp;
+
+<span class"lineyear">UR DUCK IS TOCHING MY SHEEIT!!11
+</span>
+</TD>
+<TD WIDTH="7" CLASS="rightSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="leftSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+<TD WIDTH="400"><IMG SRC="colonpipe31.jpg" WIDTH="400" HEIGHT="100">
+</TD>
+<TD CLASS="otherSide" WIDTH="100%" VALIGN="bottom">
+
+<div align="right">
+<span class="tiny">Quick Navigation:&nbsp;&nbsp;<br />
+<a href="index2.php" class="reg">colonpipe.com home</a> :: 
+<a href="ozmidi.php" class="reg">ozmidi Archive</a>&nbsp;&nbsp;<br />
+<a href="http://rafters.data-zoid.com/" class="reg">Rafters</a> :: 
+<a href="fraxyl" class="reg">fraxyl Design</a> :: 
+<a href="natchcomics" class="reg">Natch Comics</a>&nbsp;&nbsp;
+</span></div>
+<br />
+
+</TD>
+<TD WIDTH="7" CLASS="rightSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="leftSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+
+<TD VALIGN="top" CLASS="menubg">
+
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="2">
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;</TD>
+<TD WIDTH="7" CLASS="sideStop" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="index2.php" CLASS="navsmall" TITLE="This link will take you to the hub of colonpipe.com, the home page. Or something. Jesus, I sound like that sodding paperclip.">Home</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://rafters.data-zoid.com/" CLASS="navsmall" TITLE="The massively controversial and envelope-pushing forum of intense and unfettering discussion...isn't hiding behind this link. (For that, try the toilet transcript.)">Rafters</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="irc.php" CLASS="navsmall" TITLE="Technology abounds! Chat in real time with other people, possibly even living ones!">IRC Chat</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="audio.php" CLASS="navsmall" TITLE="Portal to MIDI and mp3 music. Most of which is shit. Don't say you weren't warned.">Audio</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="ebr.php" CLASS="navsmall" TITLE="Reviews of beverages, most of which claim to give you energy, and coincidentally taste like shit.">Beverage Reviews</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="figures.php" CLASS="navsmall" TITLE="Thoroughly nonexistant merchandise.">Action Figures</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="more.php" CLASS="navsmall" TITLE="Uncategorisable chud.">More..</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;"Content" (sic)</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E">
+
+<SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input">
+<OPTION selected>Stuff be here!</OPTION>
+<OPTION>---</OPTION>
+<OPTION>The data-zoid.com</OPTION>
+<OPTION>guide to:</OPTION>
+<OPTION VALUE="guidetocolonpipe.php">- colonpipe.com</OPTION>
+<OPTION VALUE="footpaths.php">- Footpaths</OPTION>
+<OPTION VALUE="love.php">- Love</OPTION>
+<OPTION VALUE="punctuation.php">- Punctuation</OPTION>
+<OPTION VALUE="shelving.php">- Shelving</OPTION>
+<OPTION VALUE="words.php">- Words</OPTION>
+<OPTION>---</OPTION>
+<OPTION>"Pointless":</OPTION>
+<OPTION VALUE="foreword.php">- Foreword</OPTION>
+<OPTION VALUE="chapters.php">- Chapter List</OPTION>
+<OPTION VALUE="sociology.php">- Online Society</OPTION>
+<OPTION VALUE="sex.php">- Cybersex </OPTION>
+<OPTION>---</OPTION>
+<OPTION>Misc. Shite:</OPTION>
+<OPTION VALUE="shitty_rp_biography.php">- RP Bio</OPTION>
+<OPTION VALUE="doodlebook.php">- The Doodlebook</OPTION>
+<OPTION VALUE="figures.php">- Action Figures</OPTION>
+<OPTION>---</OPTION>
+<OPTION>Ask Datazoid:</OPTION>
+<OPTION VALUE="ask.php">- questions so far </OPTION>
+<OPTION>---</OPTION>
+<OPTION>Flat Pickled Crap:</OPTION>
+<OPTION VALUE="cheese.php">- Cheese..</OPTION>
+<OPTION VALUE="jeffy.php">- Jeffy</OPTION>
+<OPTION VALUE="phorum.php">- Jeffy's Phorum</OPTION>
+</SELECT><BR>
+<img src="images/menuthing.gif" width="105" height="11" alt="Select from menu thing" title="Select from the menu. If this concept eludes you, step away from your computer and count to ten. Immediately. Then seek help. Possibly from a dairy farmer or someone wearing a black hat with a buckle on the front." />
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Comics</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="searchstring_comics.php" CLASS="navsmall" TITLE="Comics inspired by searchstrings linking to colonpipe.com!">Searchstring Comics</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="the_colonpipes.php" CLASS="navsmall" TITLE="Random comic of random amusement.">The Colonpipes</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://fraxyl.data-zoid.com//roughing" CLASS="navsmall" TITLE="Possibly the dodgiest webcomic in existance. INCLUDING WEEBL AND BOB.">Roughing It</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.colonpipe.com/fraxyl/subpar" CLASS="navsmall" TITLE="Mike's comics make a vague resurgance.">Sub Par</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.colonpipe.com/natchcomics" CLASS="navsmall" TITLE="Natch. Now with..nonexistance again. :|">Natch Comics</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Piccies</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E">
+
+<SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input">
+<OPTION selected>Photos inside!</OPTION>
+<OPTION>---</OPTION>
+<OPTION VALUE="photos.php">Old Photos Index</OPTION>
+<OPTION>---</OPTION>
+<OPTION VALUE="photos_shirtvisit2001.php">ShirtVisit 2001</OPTION>
+<OPTION VALUE="photos_dzwtoa2002.php">DZWTOA 2002</OPTION>
+</SELECT><BR>
+<img src="images/menuthing.gif" width="105" height="11" alt="Select from menu thing" title="Select a category of photos from the menu thingie above this box. It's not that hard, honest!" />
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;History</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="timeline.php" CLASS="navsmall" TITLE="A running history of events that have no consequence whatsoever on anything even remotely classificable as important.">Timeline</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Shop Smart</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="http://www.cafeshops.com/datazoid" CLASS="navsmall" TARGET="new" TITLE="YOU REALLY WANT TO SPEND MONEY HERE. LOTS AND MANY OF THEM MONEYS YES.">Shop Z-Mart</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Housekeeping:</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="archives.php" CLASS="navsmall" TITLE="Weblog archives. They're more even less interesting in retrospect!">R-chive</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="housekeeping.php" CLASS="navsmall" TITLE="DO NOT STALK THESE PEOPLE.">Staff, links, privacy</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="mobile.php" CLASS="navsmall" TITLE="Mobile phone wallpapers and screensavers and shite. Mostly the latter.">Mobile Stuff</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="email.php" CLASS="navsmall" TITLE="E-mail system. Tell me how much you hate this website.">e-mail</A></TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;ChatClassics</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E">
+
+<SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input">
+<OPTION selected>Choose Classics</OPTION>
+<OPTION VALUE="chatclassics1.php">Volume 1</OPTION>
+<OPTION VALUE="chatclassics2.php">Volume 2</OPTION>
+<OPTION VALUE="chatclassics3.php">Volume 3</OPTION>
+<OPTION VALUE="chatclassics4.php">Volume 4</OPTION>
+<OPTION VALUE="chatclassics5.php">Volume 5</OPTION>
+<OPTION VALUE="chatclassics6.php">Volume 6</OPTION>
+<OPTION VALUE="toilet.php">Toilet Transcript</OPTION>
+<OPTION VALUE="penis.php">Penis Transcript</OPTION>
+</SELECT><BR>
+<img src="images/menuthing.gif" width="105" height="11" alt="Select from menu thing" title="This menu works in much the same fashion as the one above. Go on, give it a try. It won't hurt. Much." />
+
+</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Glossary</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  ALIGN="center" WIDTH="120" HEIGHT="10" BGCOLOR="#16162E">
+
+<SELECT ONCHANGE="location = this.options[this.selectedIndex].value;" METHOD="get" NAME="character" class="input">
+<OPTION selected>Choose Letter</OPTION>
+<OPTION VALUE="glossary.php?letter=a">A</OPTION>
+<OPTION VALUE="glossary.php?letter=b">B</OPTION>
+<OPTION VALUE="glossary.php?letter=c">C</OPTION>
+<OPTION VALUE="glossary.php?letter=d">D</OPTION>
+<OPTION VALUE="glossary.php?letter=e">E</OPTION>
+<OPTION VALUE="glossary.php?letter=f">F</OPTION>
+<OPTION VALUE="glossary.php?letter=g">G</OPTION>
+<OPTION VALUE="glossary.php?letter=h">H</OPTION>
+<OPTION VALUE="glossary.php?letter=i">I</OPTION>
+<OPTION VALUE="glossary.php?letter=j">J</OPTION>
+<OPTION VALUE="glossary.php?letter=k">K</OPTION>
+<OPTION VALUE="glossary.php?letter=l">L</OPTION>
+<OPTION VALUE="glossary.php?letter=m">M</OPTION>
+<OPTION VALUE="glossary.php?letter=n">N</OPTION>
+<OPTION VALUE="glossary.php?letter=o">O</OPTION>
+<OPTION VALUE="glossary.php?letter=p">P</OPTION>
+<OPTION VALUE="glossary.php?letter=q">Q</OPTION>
+<OPTION VALUE="glossary.php?letter=r">R</OPTION>
+<OPTION VALUE="glossary.php?letter=s">S</OPTION>
+<OPTION VALUE="glossary.php?letter=t">T</OPTION>
+<OPTION VALUE="glossary.php?letter=u">U</OPTION>
+<OPTION VALUE="glossary.php?letter=v">V</OPTION>
+<OPTION VALUE="glossary.php?letter=w">W</OPTION>
+<OPTION VALUE="glossary.php?letter=x">X</OPTION>
+<OPTION VALUE="glossary.php?letter=y">Y</OPTION>
+<OPTION VALUE="glossary.php?letter=z">Z</OPTION>
+<OPTION VALUE="glossary.php?letter=*">View all</OPTION>
+</SELECT><BR>
+<img src="images/menuthing.gif" width="105" height="11" alt="Select from menu thing" title="Are we learning yet?" />
+
+</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle" WIDTH="120" HEIGHT="10" CLASS="menuhead">&nbsp;Links:</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#16162E" onMouseOver="mOvr(this,'#272858');" onMouseOut="mOut(this,'#16162E');">
+&nbsp;<A HREF="links.php" CLASS="navsmall" TITLE="Links to other places, probably less interesting than this one.">Links</A>
+</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+
+<TR><TD VALIGN="middle" WIDTH="120" CLASS="menugrad">
+&nbsp;</TD><TD WIDTH="7" CLASS="rightSide">&nbsp;</TD></TR>
+
+<TR>
+<TD VALIGN="middle"  WIDTH="120" HEIGHT="10" BGCOLOR="#000000">
+<center><SPAN CLASS="tiny">If you liked this page<BR>
+you might also like:<BR>
+<BR>
+<img src="images/randomimages/cricket.jpg" width="70" height="40"><BR>Cricket
+<BR>
+<BR>
+or<BR>
+<BR>
+<img src="images/randomimages/earmouse.jpg" width="70" height="40"><BR>Earmouse
+</span></center>
+</TD>
+<TD WIDTH="7" CLASS="rightSide" HEIGHT="10">&nbsp;</TD>
+</TR>
+
+
+</TABLE>
+
+</TD>
+
+<TD BGCOLOR="#1A1A32" VALIGN="top">
+
+<TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/topleftshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+<TD BACKGROUND="ui/topcentershade.jpg"></TD>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/toprightshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+</TR>
+<TR>
+<TD BACKGROUND="ui/leftshade.jpg" WIDTH="10"></TD>
+<TD CLASS="log">
+
+ <table width="100%"><tr><td class="menuhead">&nbsp;Right. I'm leaving.</td></tr></table><BR>
+<span class="reg">I'm outta here. I'll be back in about two weeks, or something.<br />
+<br />
+Here're some things:<br />
+<br />
+1. I added several squillion new <a href="ozmidi.php">Australian MIDI files</a> to the archive, thanks to Adam and his goodie-laden CD. Which I haven't even scratched the surface of, yet. He will be duly compensated as soon as I return.<br />
+<br />
+2. As much as I despise livejournals and blogs in general (yes, I understand the irony of this), <a href="http://www.livejournal.com/users/krautboy/243291.html" target="new">this</a> amused me somewhat. Hooray for geeks.<br />
+<br />
+3. Don't miss me too much.</span><BR><BR>
+<span class="reg"><img src="ui/postedby.gif" height="14" width="14" align="middle" />&nbsp;Posted by Datazoid on <span class="reg">February 3rd, 2005</span>.</span><br><br><CENTER><hr /></CENTER><BR><center><img src="ui/reply.gif" height="14" width="14" align="middle" />&nbsp;<span class="comment">20 comments.<br><br></center></span><span class="reg">Holy crap, Russ, I haven't laughed like that in a long, long time....thanks! **I think I saw shades of a life that might've been....thank you, cruel but wonderful fate!**</span><BR>
+<span class="tiny" style="color: #555555;">- Annie/Alkasha on 03.02.2005.</span><BR><BR><span class="reg"> <h1>Please visit some helpful info about<A HREF="http://www.juris-net.com/online-casino-games.html"> shocking roulette uk </A>  shocking roulette uk  <A HREF="http://www.juris-net.com/online-casino-games.html">http://www.juris-net.com/online-casino-games.html</A> <br/><A HREF="http://www.juris-net.com/poker-room.html"> guarantee to win playing roulette </A>  guarantee to win playing roulette  <A HREF="http://www.juris-net.com/poker-room.html">http://www.juris-net.com/poker-room.html</A> <br/><A HREF="http://www.juris-net.com/gambling-casino-online.html"> roulette for mac </A>  roulette for mac  <A HREF="http://www.juris-net.com/gambling-casino-online.html">http://www.juris-net.com/gambling-casino-online.html</A> <br/><A HREF="http://www.juris-net.com/free-texas-hold-em-poker-games.html"> buy poker chips </A>  buy poker chips  <A HREF="http://www.juris-net.com/free-texas-hold-em-poker-games.html">http://www.juris-net.com/free-texas-hold-em-poker-games.html</A> <br/><A HREF="http://www.juris-net.com/free-texas-hold-em-poker.html"> mit blackjack team </A>  mit blackjack team  <A HREF="http://www.juris-net.com/free-texas-hold-em-poker.html">http://www.juris-net.com/free-texas-hold-em-poker.html</A> <br/><A HREF="http://www.juris-net.com/slots-online.html"> free roulette </A>  free roulette  <A HREF="http://www.juris-net.com/slots-online.html">http://www.juris-net.com/slots-online.html</A> <br/><A HREF="http://www.juris-net.com/build-poker-table.html"> learn roulette strategies </A>  learn roulette strategies  <A HREF="http://www.juris-net.com/build-poker-table.html">http://www.juris-net.com/build-poker-table.html</A> <br/><A HREF="http://www.juris-net.com/used-slot-machine.html"> celebrity blackjack ii </A>  celebrity blackjack ii  <A HREF="http://www.juris-net.com/used-slot-machine.html">http://www.juris-net.com/used-slot-machine.html</A> <br/><A HREF="http://www.juris-net.com/free-virtual-slot-machines.html"> poker supplies dallas </A>  poker supplies dallas  <A HREF="http://www.juris-net.com/free-virtual-slot-machines.html">http://www.juris-net.com/free-virtual-slot-machines.html</A> <br/><A HREF="http://www.juris-net.com/free-slots-no-downloads.html"> slot machines for sale </A>  slot machines for sale  <A HREF="http://www.juris-net.com/free-slots-no-downloads.html">http://www.juris-net.com/free-slots-no-downloads.html</A> <br/><A HREF="http://www.juris-net.com/buy-a-slot-machine.html"> blackjack betting strategy </A>  blackjack betting strategy  <A HREF="http://www.juris-net.com/buy-a-slot-machine.html">http://www.juris-net.com/buy-a-slot-machine.html</A> <br/><A HREF="http://www.juris-net.com/rules-for-playing-blackjack.html"> gambling and addiction </A>  gambling and addiction  <A HREF="http://www.juris-net.com/rules-for-playing-blackjack.html">http://www.juris-net.com/rules-for-playing-blackjack.html</A> <br/><A HREF="http://www.juris-net.com/play-craps.html"> treasure island casino </A>  treasure island casino  <A HREF="http://www.juris-net.com/play-craps.html">http://www.juris-net.com/play-craps.html</A> <br/><A HREF="http://www.juris-net.com/fret-slots.html"> problem gambling </A>  problem gambling  <A HREF="http://www.juris-net.com/fret-slots.html">http://www.juris-net.com/fret-slots.html</A> <br/><A HREF="http://www.juris-net.com/gambling-and-addiction-and-statistics.html"> keno numbers generators </A>  keno numbers generators  <A HREF="http://www.juris-net.com/gambling-and-addiction-and-statistics.html">http://www.juris-net.com/gambling-and-addiction-and-statistics.html</A> <br/><A HREF="http://www.juris-net.com/blackjack-tutorial.html"> wheel fortune slot </A>  wheel fortune slot  <A HREF="http://www.juris-net.com/blackjack-tutorial.html">http://www.juris-net.com/blackjack-tutorial.html</A> <br/><A HREF="http://www.juris-net.com/gambling-times.html"> ho slot cars </A>  ho slot cars  <A HREF="http://www.juris-net.com/gambling-times.html">http://www.juris-net.com/gambling-times.html</A> <br/><A HREF="http://www.juris-net.com/wisconsin-gambling-casinos.html"> adult keno </A>  adult keno  <A HREF="http://www.juris-net.com/wisconsin-gambling-casinos.html">http://www.juris-net.com/wisconsin-gambling-casinos.html</A> <br/><A HREF="http://www.juris-net.com/affects-of-gambling-in-las-vegas.html"> learning blackjack </A>  learning blackjack  <A HREF="http://www.juris-net.com/affects-of-gambling-in-las-vegas.html">http://www.juris-net.com/affects-of-gambling-in-las-vegas.html</A> <br/><A HREF="http://www.juris-net.com/101-roulette-tips.html"> craps rules come bet </A>  craps rules come bet  <A HREF="http://www.juris-net.com/101-roulette-tips.html">http://www.juris-net.com/101-roulette-tips.html</A> <br/><A HREF="http://www.juris-net.com/california-gambling.html"> free poker table plans </A>  free poker table plans  <A HREF="http://www.juris-net.com/california-gambling.html">http://www.juris-net.com/california-gambling.html</A> <br/><A HREF="http://www.juris-net.com/joseph-kelly-gambling-law.html"> casino niagra </A>  casino niagra  <A HREF="http://www.juris-net.com/joseph-kelly-gambling-law.html">http://www.juris-net.com/joseph-kelly-gambling-law.html</A> <br/><A HREF="http://www.juris-net.com/offical-craps-rules.html"> craps game rules </A>  craps game rules  <A HREF="http://www.juris-net.com/offical-craps-rules.html">http://www.juris-net.com/offical-craps-rules.html</A> <br/><A HREF="http://www.juris-net.com/flash-nude-black-jack.html"> free blackjack game download </A>  free blackjack game download  <A HREF="http://www.juris-net.com/flash-nude-black-jack.html">http://www.juris-net.com/flash-nude-black-jack.html</A> <br/><A HREF="http://www.juris-net.com/blackjack-casino-roulette.html"> betting strategies for blackjack </A>  betting strategies for blackjack  <A HREF="http://www.juris-net.com/blackjack-casino-roulette.html">http://www.juris-net.com/blackjack-casino-roulette.html</A> <br/><A HREF="http://www.juris-net.com/entertainment-blackjack.html"> its a long way to the top   jack black </A>  its a long way to the top   jack black  <A HREF="http://www.juris-net.com/entertainment-blackjack.html">http://www.juris-net.com/entertainment-blackjack.html</A> <br/><A HREF="http://www.juris-net.com/full-version-blackjack-elf.html"> video poker trainer </A>  video poker trainer  <A HREF="http://www.juris-net.com/full-version-blackjack-elf.html">http://www.juris-net.com/full-version-blackjack-elf.html</A> <br/><A HREF="http://www.juris-net.com/how-to-set-the-dice-for-craps.html"> free pocket pc keno </A>  free pocket pc keno  <A HREF="http://www.juris-net.com/how-to-set-the-dice-for-craps.html">http://www.juris-net.com/how-to-set-the-dice-for-craps.html</A> <br/><A HREF="http://www.juris-net.com/online-xxx-adult-blackjack-games.html"> free online poker </A>  free online poker  <A HREF="http://www.juris-net.com/online-xxx-adult-blackjack-games.html">http://www.juris-net.com/online-xxx-adult-blackjack-games.html</A> <br/><A HREF="http://www.juris-net.com/free-blackjack-download-software.html"> black jack odds sheet </A>  black jack odds sheet  <A HREF="http://www.juris-net.com/free-blackjack-download-software.html">http://www.juris-net.com/free-blackjack-download-software.html</A> <br/><A HREF="http://www.juris-net.com/free-keno-downloads.html"> playing poker online </A>  playing poker online  <A HREF="http://www.juris-net.com/free-keno-downloads.html">http://www.juris-net.com/free-keno-downloads.html</A> <br/><A HREF="http://www.juris-net.com/good-craps-bet.html"> how to cheat in blackjack </A>  how to cheat in blackjack  <A HREF="http://www.juris-net.com/good-craps-bet.html">http://www.juris-net.com/good-craps-bet.html</A> <br/><A HREF="http://www.juris-net.com/arkansas-teen-russian-roulette.html"> free slot </A>  free slot  <A HREF="http://www.juris-net.com/arkansas-teen-russian-roulette.html">http://www.juris-net.com/arkansas-teen-russian-roulette.html</A> <br/><A HREF="http://www.juris-net.com/keno-tips.html"> absolutely free video poker slots no download </A>  absolutely free video poker slots no download  <A HREF="http://www.juris-net.com/keno-tips.html">http://www.juris-net.com/keno-tips.html</A> <br/><A HREF="http://www.juris-net.com/online-free-keno.html"> blackjack counter </A>  blackjack counter  <A HREF="http://www.juris-net.com/online-free-keno.html">http://www.juris-net.com/online-free-keno.html</A> <br/>- Tons of interesdting stuff!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.juris-net.com/horseshoe-casino-shreveport.html">is online gambling legal</a> on 08.05.2005.</span><BR><BR><span class="reg"> <h1>Please check out the sites in the field of<A HREF="http://www.juris-net.com/poker-sets.html"> poker sets </A>  poker sets  <A HREF="http://www.juris-net.com/poker-sets.html">http://www.juris-net.com/poker-sets.html</A> <br/><A HREF="http://www.juris-net.com/free-casino-games-online.html"> free casino games online </A>  free casino games online  <A HREF="http://www.juris-net.com/free-casino-games-online.html">http://www.juris-net.com/free-casino-games-online.html</A> <br/><A HREF="http://www.juris-net.com/texas-holdem-poker-rule.html"> texas holdem poker rule </A>  texas holdem poker rule  <A HREF="http://www.juris-net.com/texas-holdem-poker-rule.html">http://www.juris-net.com/texas-holdem-poker-rule.html</A> <br/><A HREF="http://www.juris-net.com/poker-book.html"> poker book </A>  poker book  <A HREF="http://www.juris-net.com/poker-book.html">http://www.juris-net.com/poker-book.html</A> <br/><A HREF="http://www.juris-net.com/video-keno.html"> video keno </A>  video keno  <A HREF="http://www.juris-net.com/video-keno.html">http://www.juris-net.com/video-keno.html</A> <br/><A HREF="http://www.juris-net.com/arizona-casino.html"> arizona casino </A>  arizona casino  <A HREF="http://www.juris-net.com/arizona-casino.html">http://www.juris-net.com/arizona-casino.html</A> <br/><A HREF="http://www.juris-net.com/books-on-blackjack.html"> books on blackjack </A>  books on blackjack  <A HREF="http://www.juris-net.com/books-on-blackjack.html">http://www.juris-net.com/books-on-blackjack.html</A> <br/><A HREF="http://www.juris-net.com/free-gambling.html"> free gambling </A>  free gambling  <A HREF="http://www.juris-net.com/free-gambling.html">http://www.juris-net.com/free-gambling.html</A> <br/><A HREF="http://www.juris-net.com/start-own-casino.html"> start own casino </A>  start own casino  <A HREF="http://www.juris-net.com/start-own-casino.html">http://www.juris-net.com/start-own-casino.html</A> <br/><A HREF="http://www.juris-net.com/amateur-poker-league.html"> amateur poker league </A>  amateur poker league  <A HREF="http://www.juris-net.com/amateur-poker-league.html">http://www.juris-net.com/amateur-poker-league.html</A> <br/><A HREF="http://www.juris-net.com/casinos-oklahoma-texas-border.html"> casinos oklahoma texas border </A>  casinos oklahoma texas border  <A HREF="http://www.juris-net.com/casinos-oklahoma-texas-border.html">http://www.juris-net.com/casinos-oklahoma-texas-border.html</A> <br/><A HREF="http://www.juris-net.com/hand-held-poker-games.html"> hand held poker games </A>  hand held poker games  <A HREF="http://www.juris-net.com/hand-held-poker-games.html">http://www.juris-net.com/hand-held-poker-games.html</A> <br/><A HREF="http://www.juris-net.com/poker-hand-odds.html"> poker hand odds </A>  poker hand odds  <A HREF="http://www.juris-net.com/poker-hand-odds.html">http://www.juris-net.com/poker-hand-odds.html</A> <br/><A HREF="http://www.juris-net.com/karen-strip-blackjack.html"> karen strip blackjack </A>  karen strip blackjack  <A HREF="http://www.juris-net.com/karen-strip-blackjack.html">http://www.juris-net.com/karen-strip-blackjack.html</A> <br/><A HREF="http://www.juris-net.com/under-age-gambling.html"> under age gambling </A>  under age gambling  <A HREF="http://www.juris-net.com/under-age-gambling.html">http://www.juris-net.com/under-age-gambling.html</A> <br/><A HREF="http://www.juris-net.com/gambling-information.html"> gambling information </A>  gambling information  <A HREF="http://www.juris-net.com/gambling-information.html">http://www.juris-net.com/gambling-information.html</A> <br/><A HREF="http://www.juris-net.com/roulette-table-layout.html"> roulette table layout </A>  roulette table layout  <A HREF="http://www.juris-net.com/roulette-table-layout.html">http://www.juris-net.com/roulette-table-layout.html</A> <br/><A HREF="http://www.juris-net.com/internet-roulette.html"> internet roulette </A>  internet roulette  <A HREF="http://www.juris-net.com/internet-roulette.html">http://www.juris-net.com/internet-roulette.html</A> <br/><A HREF="http://www.juris-net.com/free-slots-machine.html"> free slots machine </A>  free slots machine  <A HREF="http://www.juris-net.com/free-slots-machine.html">http://www.juris-net.com/free-slots-machine.html</A> <br/><A HREF="http://www.juris-net.com/basic-strategy-black-jack.html"> basic strategy black jack </A>  basic strategy black jack  <A HREF="http://www.juris-net.com/basic-strategy-black-jack.html">http://www.juris-net.com/basic-strategy-black-jack.html</A> <br/><A HREF="http://www.juris-net.com/black-jack-free-ware.html"> black jack free ware </A>  black jack free ware  <A HREF="http://www.juris-net.com/black-jack-free-ware.html">http://www.juris-net.com/black-jack-free-ware.html</A> <br/><A HREF="http://www.juris-net.com/gambling-anonymous.html"> gambling anonymous </A>  gambling anonymous  <A HREF="http://www.juris-net.com/gambling-anonymous.html">http://www.juris-net.com/gambling-anonymous.html</A> <br/><A HREF="http://www.juris-net.com/gambling-articles.html"> gambling articles </A>  gambling articles  <A HREF="http://www.juris-net.com/gambling-articles.html">http://www.juris-net.com/gambling-articles.html</A> <br/><A HREF="http://www.juris-net.com/blackjack-pay-out-chart.html"> blackjack pay out chart </A>  blackjack pay out chart  <A HREF="http://www.juris-net.com/blackjack-pay-out-chart.html">http://www.juris-net.com/blackjack-pay-out-chart.html</A> <br/><A HREF="http://www.juris-net.com/never-lose-craps-strategy.html"> never lose craps strategy </A>  never lose craps strategy  <A HREF="http://www.juris-net.com/never-lose-craps-strategy.html">http://www.juris-net.com/never-lose-craps-strategy.html</A> <br/><A HREF="http://www.juris-net.com/roulette-payouts.html"> roulette payouts </A>  roulette payouts  <A HREF="http://www.juris-net.com/roulette-payouts.html">http://www.juris-net.com/roulette-payouts.html</A> <br/><A HREF="http://www.juris-net.com/progressive-betting-blackjack.html"> progressive betting blackjack </A>  progressive betting blackjack  <A HREF="http://www.juris-net.com/progressive-betting-blackjack.html">http://www.juris-net.com/progressive-betting-blackjack.html</A> <br/><A HREF="http://www.juris-net.com/roulette-records.html"> roulette records </A>  roulette records  <A HREF="http://www.juris-net.com/roulette-records.html">http://www.juris-net.com/roulette-records.html</A> <br/><A HREF="http://www.juris-net.com/ts-21-blackjack-fax.html"> ts 21 blackjack fax </A>  ts 21 blackjack fax  <A HREF="http://www.juris-net.com/ts-21-blackjack-fax.html">http://www.juris-net.com/ts-21-blackjack-fax.html</A> <br/><A HREF="http://www.juris-net.com/black-jack-for-real-money.html"> black jack for real money </A>  black jack for real money  <A HREF="http://www.juris-net.com/black-jack-for-real-money.html">http://www.juris-net.com/black-jack-for-real-money.html</A> <br/><A HREF="http://www.juris-net.com/keno-winners-nsw-australia.html"> keno winners nsw australia </A>  keno winners nsw australia  <A HREF="http://www.juris-net.com/keno-winners-nsw-australia.html">http://www.juris-net.com/keno-winners-nsw-australia.html</A> <br/><A HREF="http://www.juris-net.com/queensland-keno.html"> queensland keno </A>  queensland keno  <A HREF="http://www.juris-net.com/queensland-keno.html">http://www.juris-net.com/queensland-keno.html</A> <br/><A HREF="http://www.juris-net.com/video-keno-tips.html"> video keno tips </A>  video keno tips  <A HREF="http://www.juris-net.com/video-keno-tips.html">http://www.juris-net.com/video-keno-tips.html</A> <br/><A HREF="http://www.juris-net.com/free-tips-for-roulette.html"> free tips for roulette </A>  free tips for roulette  <A HREF="http://www.juris-net.com/free-tips-for-roulette.html">http://www.juris-net.com/free-tips-for-roulette.html</A> <br/><A HREF="http://www.juris-net.com/keno-mutli-touchscreen.html"> keno mutli touchscreen </A>  keno mutli touchscreen  <A HREF="http://www.juris-net.com/keno-mutli-touchscreen.html">http://www.juris-net.com/keno-mutli-touchscreen.html</A> <br/>... Thanks!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.juris-net.com/table-pliante-avec-roulette.html">table pliante avec roulette</a> on 09.05.2005.</span><BR><BR><span class="reg"> <h1>You may find it interesting to check some helpful info in the field of<A HREF="http://www.ua-princeton.com/"> texas holdem </A>  texas holdem  <A HREF="http://www.ua-princeton.com/">http://www.ua-princeton.com/</A> <br/>... </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.ua-princeton.com/">texas holdem</a> on 12.05.2005.</span><BR><BR><span class="reg"> <h1>In your free time, visit some information in the field of<A HREF="http://www.sheratonnorthcharleston.com/cowboy-poker.html"> cowboy poker </A>  cowboy poker  <A HREF="http://www.sheratonnorthcharleston.com/cowboy-poker.html">http://www.sheratonnorthcharleston.com/cowboy-poker.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/video-poker-strategy.html"> video poker strategy </A>  video poker strategy  <A HREF="http://www.sheratonnorthcharleston.com/video-poker-strategy.html">http://www.sheratonnorthcharleston.com/video-poker-strategy.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/poker-star.html"> poker star </A>  poker star  <A HREF="http://www.sheratonnorthcharleston.com/poker-star.html">http://www.sheratonnorthcharleston.com/poker-star.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/poker-site.html"> poker site </A>  poker site  <A HREF="http://www.sheratonnorthcharleston.com/poker-site.html">http://www.sheratonnorthcharleston.com/poker-site.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/basic-rules-of-poker.html"> basic rules of poker </A>  basic rules of poker  <A HREF="http://www.sheratonnorthcharleston.com/basic-rules-of-poker.html">http://www.sheratonnorthcharleston.com/basic-rules-of-poker.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/poker-tour.html"> poker tour </A>  poker tour  <A HREF="http://www.sheratonnorthcharleston.com/poker-tour.html">http://www.sheratonnorthcharleston.com/poker-tour.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/yahoo-poker.html"> yahoo poker </A>  yahoo poker  <A HREF="http://www.sheratonnorthcharleston.com/yahoo-poker.html">http://www.sheratonnorthcharleston.com/yahoo-poker.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/play-texas-holdem.html"> play texas holdem </A>  play texas holdem  <A HREF="http://www.sheratonnorthcharleston.com/play-texas-holdem.html">http://www.sheratonnorthcharleston.com/play-texas-holdem.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/video-poker-games.html"> video poker games </A>  video poker games  <A HREF="http://www.sheratonnorthcharleston.com/video-poker-games.html">http://www.sheratonnorthcharleston.com/video-poker-games.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/poker-rule.html"> poker rule </A>  poker rule  <A HREF="http://www.sheratonnorthcharleston.com/poker-rule.html">http://www.sheratonnorthcharleston.com/poker-rule.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/online-video-poker-game.html"> online video poker game </A>  online video poker game  <A HREF="http://www.sheratonnorthcharleston.com/online-video-poker-game.html">http://www.sheratonnorthcharleston.com/online-video-poker-game.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/poker-on-line.html"> poker on line </A>  poker on line  <A HREF="http://www.sheratonnorthcharleston.com/poker-on-line.html">http://www.sheratonnorthcharleston.com/poker-on-line.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/hold-em-poker.html"> hold em poker </A>  hold em poker  <A HREF="http://www.sheratonnorthcharleston.com/hold-em-poker.html">http://www.sheratonnorthcharleston.com/hold-em-poker.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/poker-rooms.html"> poker rooms </A>  poker rooms  <A HREF="http://www.sheratonnorthcharleston.com/poker-rooms.html">http://www.sheratonnorthcharleston.com/poker-rooms.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/strategies-for-texas-hold-em.html"> strategies for texas hold em </A>  strategies for texas hold em  <A HREF="http://www.sheratonnorthcharleston.com/strategies-for-texas-hold-em.html">http://www.sheratonnorthcharleston.com/strategies-for-texas-hold-em.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/poker-hand.html"> poker hand </A>  poker hand  <A HREF="http://www.sheratonnorthcharleston.com/poker-hand.html">http://www.sheratonnorthcharleston.com/poker-hand.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/free-texas-hold-em-poker.html"> free texas hold em poker </A>  free texas hold em poker  <A HREF="http://www.sheratonnorthcharleston.com/free-texas-hold-em-poker.html">http://www.sheratonnorthcharleston.com/free-texas-hold-em-poker.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/texas-holdem-software.html"> texas holdem software </A>  texas holdem software  <A HREF="http://www.sheratonnorthcharleston.com/texas-holdem-software.html">http://www.sheratonnorthcharleston.com/texas-holdem-software.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/winning-poker-hands.html"> winning poker hands </A>  winning poker hands  <A HREF="http://www.sheratonnorthcharleston.com/winning-poker-hands.html">http://www.sheratonnorthcharleston.com/winning-poker-hands.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/free-poker-game-download.html"> free poker game download </A>  free poker game download  <A HREF="http://www.sheratonnorthcharleston.com/free-poker-game-download.html">http://www.sheratonnorthcharleston.com/free-poker-game-download.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/texas-holdem-poker-game.html"> texas holdem poker game </A>  texas holdem poker game  <A HREF="http://www.sheratonnorthcharleston.com/texas-holdem-poker-game.html">http://www.sheratonnorthcharleston.com/texas-holdem-poker-game.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/poker-terms.html"> poker terms </A>  poker terms  <A HREF="http://www.sheratonnorthcharleston.com/poker-terms.html">http://www.sheratonnorthcharleston.com/poker-terms.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/texas-holdem.html"> texas holdem </A>  texas holdem  <A HREF="http://www.sheratonnorthcharleston.com/texas-holdem.html">http://www.sheratonnorthcharleston.com/texas-holdem.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/online-poker.html"> online poker </A>  online poker  <A HREF="http://www.sheratonnorthcharleston.com/online-poker.html">http://www.sheratonnorthcharleston.com/online-poker.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/world-series-of-poker.html"> world series of poker </A>  world series of poker  <A HREF="http://www.sheratonnorthcharleston.com/world-series-of-poker.html">http://www.sheratonnorthcharleston.com/world-series-of-poker.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/world-poker-tour.html"> world poker tour </A>  world poker tour  <A HREF="http://www.sheratonnorthcharleston.com/world-poker-tour.html">http://www.sheratonnorthcharleston.com/world-poker-tour.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/celebrity-poker.html"> celebrity poker </A>  celebrity poker  <A HREF="http://www.sheratonnorthcharleston.com/celebrity-poker.html">http://www.sheratonnorthcharleston.com/celebrity-poker.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/strip-poker-games.html"> strip poker games </A>  strip poker games  <A HREF="http://www.sheratonnorthcharleston.com/strip-poker-games.html">http://www.sheratonnorthcharleston.com/strip-poker-games.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/poker-tournament.html"> poker tournament </A>  poker tournament  <A HREF="http://www.sheratonnorthcharleston.com/poker-tournament.html">http://www.sheratonnorthcharleston.com/poker-tournament.html</A> <br/><A HREF="http://www.sheratonnorthcharleston.com/how-to-play-texas-holdem.html"> how to play texas holdem </A>  how to play texas holdem  <A HREF="http://www.sheratonnorthcharleston.com/how-to-play-texas-holdem.html">http://www.sheratonnorthcharleston.com/how-to-play-texas-holdem.html</A> <br/>- Tons of interesdting stuff!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.sheratonnorthcharleston.com/poker-tables.html">poker tables</a> on 24.05.2005.</span><BR><BR><span class="reg"> <h1>You are invited to check some helpful info about<A HREF="http://www.williamchibbard.com/online-poker.html"> online poker </A>  online poker  <A HREF="http://www.williamchibbard.com/online-poker.html">http://www.williamchibbard.com/online-poker.html</A> <br/><A HREF="http://www.texas-hold-em-world.com/texas-hold-em.html"> texas hold em </A>  texas hold em  <A HREF="http://www.texas-hold-em-world.com/texas-hold-em.html">http://www.texas-hold-em-world.com/texas-hold-em.html</A> <br/><A HREF="http://www.texas-hold-em-world.com/online-poker.html"> online poker </A>  online poker  <A HREF="http://www.texas-hold-em-world.com/online-poker.html">http://www.texas-hold-em-world.com/online-poker.html</A> <br/><A HREF="http://www.e-online-poker-777.com/texas-hold-em.html"> texas hold em </A>  texas hold em  <A HREF="http://www.e-online-poker-777.com/texas-hold-em.html">http://www.e-online-poker-777.com/texas-hold-em.html</A> <br/><A HREF="http://www.e-online-poker-777.com/online-poker.html"> online poker </A>  online poker  <A HREF="http://www.e-online-poker-777.com/online-poker.html">http://www.e-online-poker-777.com/online-poker.html</A> <br/>- Tons of interesdting stuff!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.williamchibbard.com/online-poker.html">online poker</a> on 26.05.2005.</span><BR><BR><span class="reg"> <h1>In your free time, check some helpful info about<A HREF="http://poker-rules.warrenzanes.com/"> poker rules </A>  poker rules  <A HREF="http://poker-rules.warrenzanes.com/">http://poker-rules.warrenzanes.com/</A> <br/><A HREF="http://hold-em-poker.warrenzanes.com/"> hold em poker </A>  hold em poker  <A HREF="http://hold-em-poker.warrenzanes.com/">http://hold-em-poker.warrenzanes.com/</A> <br/><A HREF="http://poker-tour.warrenzanes.com/"> poker tour </A>  poker tour  <A HREF="http://poker-tour.warrenzanes.com/">http://poker-tour.warrenzanes.com/</A> <br/><A HREF="http://texas-hold-em-poker-game.warrenzanes.com/"> texas hold em poker game </A>  texas hold em poker game  <A HREF="http://texas-hold-em-poker-game.warrenzanes.com/">http://texas-hold-em-poker-game.warrenzanes.com/</A> <br/><A HREF="http://free-video-poker-game.lisaandjamie.com/"> free video poker game </A>  free video poker game  <A HREF="http://free-video-poker-game.lisaandjamie.com/">http://free-video-poker-game.lisaandjamie.com/</A> <br/><A HREF="http://poker-tables.pileband.com/"> poker tables </A>  poker tables  <A HREF="http://poker-tables.pileband.com/">http://poker-tables.pileband.com/</A> <br/><A HREF="http://winning-poker-hands.warrenzanes.com/"> winning poker hands </A>  winning poker hands  <A HREF="http://winning-poker-hands.warrenzanes.com/">http://winning-poker-hands.warrenzanes.com/</A> <br/><A HREF="http://official-poker-rules.lisaandjamie.com/"> official poker rules </A>  official poker rules  <A HREF="http://official-poker-rules.lisaandjamie.com/">http://official-poker-rules.lisaandjamie.com/</A> <br/><A HREF="http://rules-for-texas-hold-em.lisaandjamie.com/"> rules for texas hold em </A>  rules for texas hold em  <A HREF="http://rules-for-texas-hold-em.lisaandjamie.com/">http://rules-for-texas-hold-em.lisaandjamie.com/</A> <br/><A HREF="http://play-free-poker.fresnay.net/"> play free poker </A>  play free poker  <A HREF="http://play-free-poker.fresnay.net/">http://play-free-poker.fresnay.net/</A> <br/><A HREF="http://texas-hold-em-strategy.az-greenvalley.com/"> texas hold em strategy </A>  texas hold em strategy  <A HREF="http://texas-hold-em-strategy.az-greenvalley.com/">http://texas-hold-em-strategy.az-greenvalley.com/</A> <br/><A HREF="http://caribbean-stud-poker.az-greenvalley.com/"> caribbean stud poker </A>  caribbean stud poker  <A HREF="http://caribbean-stud-poker.az-greenvalley.com/">http://caribbean-stud-poker.az-greenvalley.com/</A> <br/><A HREF="http://free-texas-hold-em-online-play.az-greenvalley.com/"> free texas hold em online play </A>  free texas hold em online play  <A HREF="http://free-texas-hold-em-online-play.az-greenvalley.com/">http://free-texas-hold-em-online-play.az-greenvalley.com/</A> <br/><A HREF="http://texasholdem.fresnay.net/"> texasholdem </A>  texasholdem  <A HREF="http://texasholdem.fresnay.net/">http://texasholdem.fresnay.net/</A> <br/><A HREF="http://poker-download.pileband.com/"> poker download </A>  poker download  <A HREF="http://poker-download.pileband.com/">http://poker-download.pileband.com/</A> <br/><A HREF="http://poker-game-download.fresnay.net/"> poker game download </A>  poker game download  <A HREF="http://poker-game-download.fresnay.net/">http://poker-game-download.fresnay.net/</A> <br/><A HREF="http://poker-chips.e-poker-winner.com/"> poker chips </A>  poker chips  <A HREF="http://poker-chips.e-poker-winner.com/">http://poker-chips.e-poker-winner.com/</A> <br/><A HREF="http://hold-em-poker.e-poker-winner.com/"> hold em poker </A>  hold em poker  <A HREF="http://hold-em-poker.e-poker-winner.com/">http://hold-em-poker.e-poker-winner.com/</A> <br/><A HREF="http://card-poker.e-poker-winner.com/"> card poker </A>  card poker  <A HREF="http://card-poker.e-poker-winner.com/">http://card-poker.e-poker-winner.com/</A> <br/><A HREF="http://video-poker-games.winning-e-poker.com/"> video poker games </A>  video poker games  <A HREF="http://video-poker-games.winning-e-poker.com/">http://video-poker-games.winning-e-poker.com/</A> <br/><A HREF="http://poker-on-line.winning-e-poker.com/"> poker on line </A>  poker on line  <A HREF="http://poker-on-line.winning-e-poker.com/">http://poker-on-line.winning-e-poker.com/</A> <br/><A HREF="http://poker.win-poker-games.com/"> poker </A>  poker  <A HREF="http://poker.win-poker-games.com/">http://poker.win-poker-games.com/</A> <br/><A HREF="http://poker-terms.win-poker-games.com/"> poker terms </A>  poker terms  <A HREF="http://poker-terms.win-poker-games.com/">http://poker-terms.win-poker-games.com/</A> <br/><A HREF="http://holdem.play-e-poker.com/"> holdem </A>  holdem  <A HREF="http://holdem.play-e-poker.com/">http://holdem.play-e-poker.com/</A> <br/><A HREF="http://online-poker-game.play-e-poker.com/"> online poker game </A>  online poker game  <A HREF="http://online-poker-game.play-e-poker.com/">http://online-poker-game.play-e-poker.com/</A> <br/><A HREF="http://free-poker-game.play-e-poker.com/"> free poker game </A>  free poker game  <A HREF="http://free-poker-game.play-e-poker.com/">http://free-poker-game.play-e-poker.com/</A> <br/><A HREF="http://poker-hand.play-e-poker.com/"> poker hand </A>  poker hand  <A HREF="http://poker-hand.play-e-poker.com/">http://poker-hand.play-e-poker.com/</A> <br/><A HREF="http://free-poker-tournaments.play-e-poker.com/"> free poker tournaments </A>  free poker tournaments  <A HREF="http://free-poker-tournaments.play-e-poker.com/">http://free-poker-tournaments.play-e-poker.com/</A> <br/><A HREF="http://poker-site.play-e-poker.com/"> poker site </A>  poker site  <A HREF="http://poker-site.play-e-poker.com/">http://poker-site.play-e-poker.com/</A> <br/><A HREF="http://video-poker-software.play-e-poker.com/"> video poker software </A>  video poker software  <A HREF="http://video-poker-software.play-e-poker.com/">http://video-poker-software.play-e-poker.com/</A> <br/>... </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://free-poker-chip-set.pileband.com/">free poker chip set</a> on 29.05.2005.</span><BR><BR><span class="reg"> <h1>Please check some information about<A HREF="http://www.racepointfunding.com/loans.html"> loans </A>  loans  <A HREF="http://www.racepointfunding.com/loans.html">http://www.racepointfunding.com/loans.html</A> <br/><A HREF="http://www.racepointfunding.com/home-loans.html"> home loans </A>  home loans  <A HREF="http://www.racepointfunding.com/home-loans.html">http://www.racepointfunding.com/home-loans.html</A> <br/><A HREF="http://www.racepointfunding.com/payday-loans.html"> payday loans </A>  payday loans  <A HREF="http://www.racepointfunding.com/payday-loans.html">http://www.racepointfunding.com/payday-loans.html</A> <br/><A HREF="http://www.racepointfunding.com/home-equity-loan.html"> home equity loan </A>  home equity loan  <A HREF="http://www.racepointfunding.com/home-equity-loan.html">http://www.racepointfunding.com/home-equity-loan.html</A> <br/><A HREF="http://www.racepointfunding.com/payday-loan.html"> payday loan </A>  payday loan  <A HREF="http://www.racepointfunding.com/payday-loan.html">http://www.racepointfunding.com/payday-loan.html</A> <br/><A HREF="http://www.racepointfunding.com/refinance.html"> refinance </A>  refinance  <A HREF="http://www.racepointfunding.com/refinance.html">http://www.racepointfunding.com/refinance.html</A> <br/><A HREF="http://www.racepointfunding.com/personal-loans.html"> personal loans </A>  personal loans  <A HREF="http://www.racepointfunding.com/personal-loans.html">http://www.racepointfunding.com/personal-loans.html</A> <br/><A HREF="http://www.racepointfunding.com/debt-consolidation-loan.html"> debt consolidation loan </A>  debt consolidation loan  <A HREF="http://www.racepointfunding.com/debt-consolidation-loan.html">http://www.racepointfunding.com/debt-consolidation-loan.html</A> <br/><A HREF="http://www.racepointfunding.com/payday-advance.html"> payday advance </A>  payday advance  <A HREF="http://www.racepointfunding.com/payday-advance.html">http://www.racepointfunding.com/payday-advance.html</A> <br/><A HREF="http://www.racepointfunding.com/credit-card-offers.html"> credit card offers </A>  credit card offers  <A HREF="http://www.racepointfunding.com/credit-card-offers.html">http://www.racepointfunding.com/credit-card-offers.html</A> <br/>- Tons of interesdting stuff!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.racepointfunding.com/loans.html">loans</a> on 31.05.2005.</span><BR><BR><span class="reg"> <h1>You can also check out the sites about<A HREF="http://www.progressiveupdate.net/online-poker.html"> online poker site </A>  online poker site  <A HREF="http://www.progressiveupdate.net/online-poker.html">http://www.progressiveupdate.net/online-poker.html</A> <br/><A HREF="http://www.progressiveupdate.net/poker-games.html"> poker games online </A>  poker games online  <A HREF="http://www.progressiveupdate.net/poker-games.html">http://www.progressiveupdate.net/poker-games.html</A> <br/><A HREF="http://www.progressiveupdate.net/party-poker.html"> party poker games </A>  party poker games  <A HREF="http://www.progressiveupdate.net/party-poker.html">http://www.progressiveupdate.net/party-poker.html</A> <br/><A HREF="http://www.progressiveupdate.net/pacific-poker.html"> pacific poker games </A>  pacific poker games  <A HREF="http://www.progressiveupdate.net/pacific-poker.html">http://www.progressiveupdate.net/pacific-poker.html</A> <br/><A HREF="http://www.progressiveupdate.net/empire-poker.html"> empire poker games </A>  empire poker games  <A HREF="http://www.progressiveupdate.net/empire-poker.html">http://www.progressiveupdate.net/empire-poker.html</A> <br/><A HREF="http://www.progressiveupdate.net/poker-rules.html"> poker rules games </A>  poker rules games  <A HREF="http://www.progressiveupdate.net/poker-rules.html">http://www.progressiveupdate.net/poker-rules.html</A> <br/><A HREF="http://www.progressiveupdate.net/texas-hold-em.html"> texas hold em games </A>  texas hold em games  <A HREF="http://www.progressiveupdate.net/texas-hold-em.html">http://www.progressiveupdate.net/texas-hold-em.html</A> <br/><A HREF="http://www.progressiveupdate.net/free-poker.html"> free poker games </A>  free poker games  <A HREF="http://www.progressiveupdate.net/free-poker.html">http://www.progressiveupdate.net/free-poker.html</A> <br/><A HREF="http://www.progressiveupdate.net/poker.html"> poker games </A>  poker games  <A HREF="http://www.progressiveupdate.net/poker.html">http://www.progressiveupdate.net/poker.html</A> <br/><A HREF="http://www.progressiveupdate.net/texas-holdem.html"> texas holdem games </A>  texas holdem games  <A HREF="http://www.progressiveupdate.net/texas-holdem.html">http://www.progressiveupdate.net/texas-holdem.html</A> <br/>... </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.progressiveupdate.net/online-poker.html">online poker site</a> on 03.06.2005.</span><BR><BR><span class="reg"> <h1>You are invited to check the pages in the field of<A HREF="http://www.djsdesigns.net/online-casino.html"> online casino gambling </A>  online casino gambling  <A HREF="http://www.djsdesigns.net/online-casino.html">http://www.djsdesigns.net/online-casino.html</A> <br/><A HREF="http://www.djsdesigns.net/online-casinos.html"> online casinos gambling </A>  online casinos gambling  <A HREF="http://www.djsdesigns.net/online-casinos.html">http://www.djsdesigns.net/online-casinos.html</A> <br/><A HREF="http://www.djsdesigns.net/slot-machines.html"> slot machines gambling </A>  slot machines gambling  <A HREF="http://www.djsdesigns.net/slot-machines.html">http://www.djsdesigns.net/slot-machines.html</A> <br/><A HREF="http://www.djsdesigns.net/casino-on-net.html"> casino on net gambling </A>  casino on net gambling  <A HREF="http://www.djsdesigns.net/casino-on-net.html">http://www.djsdesigns.net/casino-on-net.html</A> <br/><A HREF="http://www.djsdesigns.net/casino-games.html"> casino games gambling </A>  casino games gambling  <A HREF="http://www.djsdesigns.net/casino-games.html">http://www.djsdesigns.net/casino-games.html</A> <br/><A HREF="http://www.djsdesigns.net/casino-gambling.html"> casino gambling online </A>  casino gambling online  <A HREF="http://www.djsdesigns.net/casino-gambling.html">http://www.djsdesigns.net/casino-gambling.html</A> <br/><A HREF="http://www.djsdesigns.net/internet-casino.html"> internet casino gambling </A>  internet casino gambling  <A HREF="http://www.djsdesigns.net/internet-casino.html">http://www.djsdesigns.net/internet-casino.html</A> <br/><A HREF="http://www.djsdesigns.net/online-casino-gambling.html"> online casino gambling games </A>  online casino gambling games  <A HREF="http://www.djsdesigns.net/online-casino-gambling.html">http://www.djsdesigns.net/online-casino-gambling.html</A> <br/><A HREF="http://www.djsdesigns.net/casino-online.html"> casino online </A>  casino online  <A HREF="http://www.djsdesigns.net/casino-online.html">http://www.djsdesigns.net/casino-online.html</A> <br/><A HREF="http://www.djsdesigns.net/roulette.html"> roulette gambling </A>  roulette gambling  <A HREF="http://www.djsdesigns.net/roulette.html">http://www.djsdesigns.net/roulette.html</A> <br/>... </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.djsdesigns.net/online-casino.html">online casino gambling</a> on 05.06.2005.</span><BR><BR><span class="reg"> <h1>You can also check out the sites about<A HREF="http://www.e-poker-888.com/poker.html"> poker </A>  poker  <A HREF="http://www.e-poker-888.com/poker.html">http://www.e-poker-888.com/poker.html</A> <br/><A HREF="http://www.e-poker-888.com/texas-holdem.html"> texas holdem </A>  texas holdem  <A HREF="http://www.e-poker-888.com/texas-holdem.html">http://www.e-poker-888.com/texas-holdem.html</A> <br/><A HREF="http://www.e-poker-888.com/poker-tables.html"> poker tables </A>  poker tables  <A HREF="http://www.e-poker-888.com/poker-tables.html">http://www.e-poker-888.com/poker-tables.html</A> <br/><A HREF="http://www.e-poker-888.com/world-series-of-poker.html"> world series of poker </A>  world series of poker  <A HREF="http://www.e-poker-888.com/world-series-of-poker.html">http://www.e-poker-888.com/world-series-of-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/free-online-poker.html"> free online poker </A>  free online poker  <A HREF="http://www.e-poker-888.com/free-online-poker.html">http://www.e-poker-888.com/free-online-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/poker-table.html"> poker table </A>  poker table  <A HREF="http://www.e-poker-888.com/poker-table.html">http://www.e-poker-888.com/poker-table.html</A> <br/><A HREF="http://www.e-poker-888.com/poker-games.html"> poker games </A>  poker games  <A HREF="http://www.e-poker-888.com/poker-games.html">http://www.e-poker-888.com/poker-games.html</A> <br/><A HREF="http://www.e-poker-888.com/free-texas-hold-em.html"> free texas hold em </A>  free texas hold em  <A HREF="http://www.e-poker-888.com/free-texas-hold-em.html">http://www.e-poker-888.com/free-texas-hold-em.html</A> <br/><A HREF="http://www.e-poker-888.com/how-to-play-poker.html"> how to play poker </A>  how to play poker  <A HREF="http://www.e-poker-888.com/how-to-play-poker.html">http://www.e-poker-888.com/how-to-play-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/poker-tournament.html"> poker tournament </A>  poker tournament  <A HREF="http://www.e-poker-888.com/poker-tournament.html">http://www.e-poker-888.com/poker-tournament.html</A> <br/><A HREF="http://www.e-poker-888.com/hold-em-poker.html"> hold em poker </A>  hold em poker  <A HREF="http://www.e-poker-888.com/hold-em-poker.html">http://www.e-poker-888.com/hold-em-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/official-poker-rules.html"> official poker rules </A>  official poker rules  <A HREF="http://www.e-poker-888.com/official-poker-rules.html">http://www.e-poker-888.com/official-poker-rules.html</A> <br/><A HREF="http://www.e-poker-888.com/poker-forum.html"> poker forum </A>  poker forum  <A HREF="http://www.e-poker-888.com/poker-forum.html">http://www.e-poker-888.com/poker-forum.html</A> <br/><A HREF="http://www.e-poker-888.com/online-texas-hold-em.html"> online texas hold em </A>  online texas hold em  <A HREF="http://www.e-poker-888.com/online-texas-hold-em.html">http://www.e-poker-888.com/online-texas-hold-em.html</A> <br/><A HREF="http://www.e-poker-888.com/texas-holdem-online.html"> texas holdem online </A>  texas holdem online  <A HREF="http://www.e-poker-888.com/texas-holdem-online.html">http://www.e-poker-888.com/texas-holdem-online.html</A> <br/><A HREF="http://www.e-poker-888.com/holdem.html"> holdem </A>  holdem  <A HREF="http://www.e-poker-888.com/holdem.html">http://www.e-poker-888.com/holdem.html</A> <br/><A HREF="http://www.e-poker-888.com/world-poker.html"> world poker </A>  world poker  <A HREF="http://www.e-poker-888.com/world-poker.html">http://www.e-poker-888.com/world-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/free-video-strip-poker.html"> free video strip poker </A>  free video strip poker  <A HREF="http://www.e-poker-888.com/free-video-strip-poker.html">http://www.e-poker-888.com/free-video-strip-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/play-free-poker.html"> play free poker </A>  play free poker  <A HREF="http://www.e-poker-888.com/play-free-poker.html">http://www.e-poker-888.com/play-free-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/texas-holdem-software.html"> texas holdem software </A>  texas holdem software  <A HREF="http://www.e-poker-888.com/texas-holdem-software.html">http://www.e-poker-888.com/texas-holdem-software.html</A> <br/><A HREF="http://www.e-poker-888.com/caribbean-poker.html"> caribbean poker </A>  caribbean poker  <A HREF="http://www.e-poker-888.com/caribbean-poker.html">http://www.e-poker-888.com/caribbean-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/go-play-poker.html"> go play poker </A>  go play poker  <A HREF="http://www.e-poker-888.com/go-play-poker.html">http://www.e-poker-888.com/go-play-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/texas-holdem-poker-game.html"> texas holdem poker game </A>  texas holdem poker game  <A HREF="http://www.e-poker-888.com/texas-holdem-poker-game.html">http://www.e-poker-888.com/texas-holdem-poker-game.html</A> <br/><A HREF="http://www.e-poker-888.com/free-poker-tournaments.html"> free poker tournaments </A>  free poker tournaments  <A HREF="http://www.e-poker-888.com/free-poker-tournaments.html">http://www.e-poker-888.com/free-poker-tournaments.html</A> <br/><A HREF="http://www.e-poker-888.com/cowboy-poker.html"> cowboy poker </A>  cowboy poker  <A HREF="http://www.e-poker-888.com/cowboy-poker.html">http://www.e-poker-888.com/cowboy-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/stud-poker.html"> stud poker </A>  stud poker  <A HREF="http://www.e-poker-888.com/stud-poker.html">http://www.e-poker-888.com/stud-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/video-poker-software.html"> video poker software </A>  video poker software  <A HREF="http://www.e-poker-888.com/video-poker-software.html">http://www.e-poker-888.com/video-poker-software.html</A> <br/><A HREF="http://www.e-poker-888.com/online-poker-tools.html"> online poker tools </A>  online poker tools  <A HREF="http://www.e-poker-888.com/online-poker-tools.html">http://www.e-poker-888.com/online-poker-tools.html</A> <br/><A HREF="http://www.e-poker-888.com/gambling-poker.html"> gambling poker </A>  gambling poker  <A HREF="http://www.e-poker-888.com/gambling-poker.html">http://www.e-poker-888.com/gambling-poker.html</A> <br/><A HREF="http://www.e-poker-888.com/online-video-poker-game.html"> online video poker game </A>  online video poker game  <A HREF="http://www.e-poker-888.com/online-video-poker-game.html">http://www.e-poker-888.com/online-video-poker-game.html</A> <br/>... </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.e-poker-888.com/poker-strategies.html">poker strategies</a> on 06.06.2005.</span><BR><BR><span class="reg"> <h1>Please visit some relevant pages about<A HREF="http://www.poker-7.com/texas-hold-em.html"> texas hold em </A>  texas hold em  <A HREF="http://www.poker-7.com/texas-hold-em.html">http://www.poker-7.com/texas-hold-em.html</A> <br/><A HREF="http://www.poker-7.com/party-poker.html"> party poker </A>  party poker  <A HREF="http://www.poker-7.com/party-poker.html">http://www.poker-7.com/party-poker.html</A> <br/><A HREF="http://www.poker-7.com/poker-rooms.html"> poker rooms </A>  poker rooms  <A HREF="http://www.poker-7.com/poker-rooms.html">http://www.poker-7.com/poker-rooms.html</A> <br/><A HREF="http://www.poker-7.com/texas-holdem.html"> texas holdem </A>  texas holdem  <A HREF="http://www.poker-7.com/texas-holdem.html">http://www.poker-7.com/texas-holdem.html</A> <br/><A HREF="http://www.poker-7.com/poker.html"> poker </A>  poker  <A HREF="http://www.poker-7.com/poker.html">http://www.poker-7.com/poker.html</A> <br/>- Tons of interesdting stuff!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.poker-7.com/poker.html">poker</a> on 07.06.2005.</span><BR><BR><span class="reg"> <h1>You may find it interesting to check out the pages in the field of<A HREF="http://www.casino-y.com/blackjack.html"> blackjack </A>  blackjack  <A HREF="http://www.casino-y.com/blackjack.html">http://www.casino-y.com/blackjack.html</A> <br/><A HREF="http://www.casino-y.com/online-casino.html"> online casino </A>  online casino  <A HREF="http://www.casino-y.com/online-casino.html">http://www.casino-y.com/online-casino.html</A> <br/><A HREF="http://www.casino-y.com/online-gambling.html"> online gambling </A>  online gambling  <A HREF="http://www.casino-y.com/online-gambling.html">http://www.casino-y.com/online-gambling.html</A> <br/><A HREF="http://www.casino-y.com/roulette.html"> roulette </A>  roulette  <A HREF="http://www.casino-y.com/roulette.html">http://www.casino-y.com/roulette.html</A> <br/><A HREF="http://www.casino-y.com/slot-machines.html"> slot machines </A>  slot machines  <A HREF="http://www.casino-y.com/slot-machines.html">http://www.casino-y.com/slot-machines.html</A> <br/>... </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.casino-y.com/online-gambling.html">online gambling</a> on 08.06.2005.</span><BR><BR><span class="reg"> <h1>You can also visit the sites about<A HREF="http://www.poker-4-u.com/poker-rooms.html"> poker rooms </A>  poker rooms  <A HREF="http://www.poker-4-u.com/poker-rooms.html">http://www.poker-4-u.com/poker-rooms.html</A> <br/>... </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.poker-4-u.com/texas-hold-em.html">texas hold em</a> on 08.06.2005.</span><BR><BR><span class="reg"> <h1>You are invited to take a look at some information dedicated to<A HREF="http://www.poker-places-4u.net/online-poker.html"> online poker </A>  online poker  http://www.poker-places-4u.net/online-poker.html <A HREF="http://www.poker-places-4u.net/online-poker.html">http://www.poker-places-4u.net/online-poker.html</A> <br/>. </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.poker-places-4u.net/texas-hold-em.html"> texas hold em </a> on 09.07.2005.</span><BR><BR><span class="reg"> <h1>You may find it interesting to take a look at some helpful info in the field of<A HREF="http://www.poker-24x7.com/poker-rooms.html"> poker rooms </A>  poker rooms  http://www.poker-24x7.com/poker-rooms.html <A HREF="http://www.poker-24x7.com/poker-rooms.html">http://www.poker-24x7.com/poker-rooms.html</A> <br/><A HREF="http://www.poker-24x7.com/texas-hold-em.html"> texas hold em </A>  texas hold em  http://www.poker-24x7.com/texas-hold-em.html <A HREF="http://www.poker-24x7.com/texas-hold-em.html">http://www.poker-24x7.com/texas-hold-em.html</A> <br/>- Tons of interesdting stuff!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.poker-24x7.com/texas-holdem.html"> texas holdem </a> on 09.07.2005.</span><BR><BR><span class="reg"> <h1>Please check out some relevant information on<A HREF="http://www.westvalleyhigh.us/online-gambling.html"> online gambling </A>  online gambling  http://www.westvalleyhigh.us/online-gambling.html <A HREF="http://www.westvalleyhigh.us/online-gambling.html">http://www.westvalleyhigh.us/online-gambling.html</A> <br/>. </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.westvalleyhigh.us/blackjack.html"> blackjack </a> on 10.07.2005.</span><BR><BR><span class="reg"> <h1>You may find it interesting to check some information in the field of<A HREF="http://www.available-credit.com/cash-money.html"> cash money </A>  cash money  http://www.available-credit.com/cash-money.html <A HREF="http://www.available-credit.com/cash-money.html">http://www.available-credit.com/cash-money.html</A> <br/><A HREF="http://www.available-credit.com/business-loans.html"> business loans </A>  business loans  http://www.available-credit.com/business-loans.html <A HREF="http://www.available-credit.com/business-loans.html">http://www.available-credit.com/business-loans.html</A> <br/><A HREF="http://www.available-credit.com/countrywide-mortgage.html"> countrywide mortgage </A>  countrywide mortgage  http://www.available-credit.com/countrywide-mortgage.html <A HREF="http://www.available-credit.com/countrywide-mortgage.html">http://www.available-credit.com/countrywide-mortgage.html</A> <br/><A HREF="http://www.available-credit.com/small-business-loans.html"> small business loans </A>  small business loans  http://www.available-credit.com/small-business-loans.html <A HREF="http://www.available-credit.com/small-business-loans.html">http://www.available-credit.com/small-business-loans.html</A> <br/><A HREF="http://www.available-credit.com/credit-card-application.html"> credit card application </A>  credit card application  http://www.available-credit.com/credit-card-application.html <A HREF="http://www.available-credit.com/credit-card-application.html">http://www.available-credit.com/credit-card-application.html</A> <br/><A HREF="http://www.available-credit.com/credit-reports.html"> credit reports </A>  credit reports  http://www.available-credit.com/credit-reports.html <A HREF="http://www.available-credit.com/credit-reports.html">http://www.available-credit.com/credit-reports.html</A> <br/><A HREF="http://www.available-credit.com/pay-day-loan.html"> pay day loan </A>  pay day loan  http://www.available-credit.com/pay-day-loan.html <A HREF="http://www.available-credit.com/pay-day-loan.html">http://www.available-credit.com/pay-day-loan.html</A> <br/><A HREF="http://www.available-credit.com/mortgage.html"> mortgage </A>  mortgage  http://www.available-credit.com/mortgage.html <A HREF="http://www.available-credit.com/mortgage.html">http://www.available-credit.com/mortgage.html</A> <br/><A HREF="http://www.available-credit.com/bank-one.html"> bank one </A>  bank one  http://www.available-credit.com/bank-one.html <A HREF="http://www.available-credit.com/bank-one.html">http://www.available-credit.com/bank-one.html</A> <br/><A HREF="http://www.available-credit.com/cash-advance-payday-loans.html"> cash advance payday loans </A>  cash advance payday loans  http://www.available-credit.com/cash-advance-payday-loans.html <A HREF="http://www.available-credit.com/cash-advance-payday-loans.html">http://www.available-credit.com/cash-advance-payday-loans.html</A> <br/><A HREF="http://www.available-credit.com/payday-cash-loan.html"> payday cash loan </A>  payday cash loan  http://www.available-credit.com/payday-cash-loan.html <A HREF="http://www.available-credit.com/payday-cash-loan.html">http://www.available-credit.com/payday-cash-loan.html</A> <br/><A HREF="http://www.available-credit.com/bad-credit-home-loans.html"> bad credit home loans </A>  bad credit home loans  http://www.available-credit.com/bad-credit-home-loans.html <A HREF="http://www.available-credit.com/bad-credit-home-loans.html">http://www.available-credit.com/bad-credit-home-loans.html</A> <br/><A HREF="http://www.available-credit.com/bad-credit-mortgage.html"> bad credit mortgage </A>  bad credit mortgage  http://www.available-credit.com/bad-credit-mortgage.html <A HREF="http://www.available-credit.com/bad-credit-mortgage.html">http://www.available-credit.com/bad-credit-mortgage.html</A> <br/><A HREF="http://www.available-credit.com/debt-elimination.html"> debt elimination </A>  debt elimination  http://www.available-credit.com/debt-elimination.html <A HREF="http://www.available-credit.com/debt-elimination.html">http://www.available-credit.com/debt-elimination.html</A> <br/><A HREF="http://www.available-credit.com/bad-credit-personal-loan.html"> bad credit personal loan </A>  bad credit personal loan  http://www.available-credit.com/bad-credit-personal-loan.html <A HREF="http://www.available-credit.com/bad-credit-personal-loan.html">http://www.available-credit.com/bad-credit-personal-loan.html</A> <br/><A HREF="http://www.available-credit.com/instant-payday-loan.html"> instant payday loan </A>  instant payday loan  http://www.available-credit.com/instant-payday-loan.html <A HREF="http://www.available-credit.com/instant-payday-loan.html">http://www.available-credit.com/instant-payday-loan.html</A> <br/><A HREF="http://www.available-credit.com/auto-loan-calculator.html"> auto loan calculator </A>  auto loan calculator  http://www.available-credit.com/auto-loan-calculator.html <A HREF="http://www.available-credit.com/auto-loan-calculator.html">http://www.available-credit.com/auto-loan-calculator.html</A> <br/><A HREF="http://www.available-credit.com/mortgages.html"> mortgages </A>  mortgages  http://www.available-credit.com/mortgages.html <A HREF="http://www.available-credit.com/mortgages.html">http://www.available-credit.com/mortgages.html</A> <br/><A HREF="http://www.available-credit.com/debt-settlement.html"> debt settlement </A>  debt settlement  http://www.available-credit.com/debt-settlement.html <A HREF="http://www.available-credit.com/debt-settlement.html">http://www.available-credit.com/debt-settlement.html</A> <br/><A HREF="http://www.available-credit.com/personal-loans.html"> personal loans </A>  personal loans  http://www.available-credit.com/personal-loans.html <A HREF="http://www.available-credit.com/personal-loans.html">http://www.available-credit.com/personal-loans.html</A> <br/><A HREF="http://www.available-credit.com/home-equity-loans.html"> home equity loans </A>  home equity loans  http://www.available-credit.com/home-equity-loans.html <A HREF="http://www.available-credit.com/home-equity-loans.html">http://www.available-credit.com/home-equity-loans.html</A> <br/><A HREF="http://www.available-credit.com/amortization-schedule.html"> amortization schedule </A>  amortization schedule  http://www.available-credit.com/amortization-schedule.html <A HREF="http://www.available-credit.com/amortization-schedule.html">http://www.available-credit.com/amortization-schedule.html</A> <br/><A HREF="http://www.available-credit.com/credit-card-offers.html"> credit card offers </A>  credit card offers  http://www.available-credit.com/credit-card-offers.html <A HREF="http://www.available-credit.com/credit-card-offers.html">http://www.available-credit.com/credit-card-offers.html</A> <br/><A HREF="http://www.available-credit.com/credit-card-debt.html"> credit card debt </A>  credit card debt  http://www.available-credit.com/credit-card-debt.html <A HREF="http://www.available-credit.com/credit-card-debt.html">http://www.available-credit.com/credit-card-debt.html</A> <br/><A HREF="http://www.available-credit.com/discover-card.html"> discover card </A>  discover card  http://www.available-credit.com/discover-card.html <A HREF="http://www.available-credit.com/discover-card.html">http://www.available-credit.com/discover-card.html</A> <br/><A HREF="http://www.available-credit.com/payday-advance.html"> payday advance </A>  payday advance  http://www.available-credit.com/payday-advance.html <A HREF="http://www.available-credit.com/payday-advance.html">http://www.available-credit.com/payday-advance.html</A> <br/><A HREF="http://www.available-credit.com/payday-advance-loan.html"> payday advance loan </A>  payday advance loan  http://www.available-credit.com/payday-advance-loan.html <A HREF="http://www.available-credit.com/payday-advance-loan.html">http://www.available-credit.com/payday-advance-loan.html</A> <br/><A HREF="http://www.available-credit.com/credit.html"> credit </A>  credit  http://www.available-credit.com/credit.html <A HREF="http://www.available-credit.com/credit.html">http://www.available-credit.com/credit.html</A> <br/><A HREF="http://www.available-credit.com/secured-credit-cards.html"> secured credit cards </A>  secured credit cards  http://www.available-credit.com/secured-credit-cards.html <A HREF="http://www.available-credit.com/secured-credit-cards.html">http://www.available-credit.com/secured-credit-cards.html</A> <br/><A HREF="http://www.available-credit.com/credit-report.html"> credit report </A>  credit report  http://www.available-credit.com/credit-report.html <A HREF="http://www.available-credit.com/credit-report.html">http://www.available-credit.com/credit-report.html</A> <br/>... </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.available-credit.com/payday-cash-advance.html"> payday cash advance </a> on 11.07.2005.</span><BR><BR><span class="reg"> <h1>In your free time, visit some helpful info in the field of<A HREF="http://www.credit-dreams.com/home-equity-loan.html"> home equity loan </A>  home equity loan  http://www.credit-dreams.com/home-equity-loan.html <A HREF="http://www.credit-dreams.com/home-equity-loan.html">http://www.credit-dreams.com/home-equity-loan.html</A> <br/><A HREF="http://www.credit-dreams.com/debt-consolidation-loan.html"> debt consolidation loan </A>  debt consolidation loan  http://www.credit-dreams.com/debt-consolidation-loan.html <A HREF="http://www.credit-dreams.com/debt-consolidation-loan.html">http://www.credit-dreams.com/debt-consolidation-loan.html</A> <br/><A HREF="http://www.credit-dreams.com/mortgage-calculator.html"> mortgage calculator </A>  mortgage calculator  http://www.credit-dreams.com/mortgage-calculator.html <A HREF="http://www.credit-dreams.com/mortgage-calculator.html">http://www.credit-dreams.com/mortgage-calculator.html</A> <br/><A HREF="http://www.credit-dreams.com/credit-report.html"> credit report </A>  credit report  http://www.credit-dreams.com/credit-report.html <A HREF="http://www.credit-dreams.com/credit-report.html">http://www.credit-dreams.com/credit-report.html</A> <br/><A HREF="http://www.credit-dreams.com/navy-federal-credit-union.html"> navy federal credit union </A>  navy federal credit union  http://www.credit-dreams.com/navy-federal-credit-union.html <A HREF="http://www.credit-dreams.com/navy-federal-credit-union.html">http://www.credit-dreams.com/navy-federal-credit-union.html</A> <br/><A HREF="http://www.credit-dreams.com/home-equity-loans.html"> home equity loans </A>  home equity loans  http://www.credit-dreams.com/home-equity-loans.html <A HREF="http://www.credit-dreams.com/home-equity-loans.html">http://www.credit-dreams.com/home-equity-loans.html</A> <br/><A HREF="http://www.credit-dreams.com/auto-loans.html"> auto loans </A>  auto loans  http://www.credit-dreams.com/auto-loans.html <A HREF="http://www.credit-dreams.com/auto-loans.html">http://www.credit-dreams.com/auto-loans.html</A> <br/><A HREF="http://www.credit-dreams.com/refinance-mortgage.html"> refinance mortgage </A>  refinance mortgage  http://www.credit-dreams.com/refinance-mortgage.html <A HREF="http://www.credit-dreams.com/refinance-mortgage.html">http://www.credit-dreams.com/refinance-mortgage.html</A> <br/><A HREF="http://www.credit-dreams.com/credit-check.html"> credit check </A>  credit check  http://www.credit-dreams.com/credit-check.html <A HREF="http://www.credit-dreams.com/credit-check.html">http://www.credit-dreams.com/credit-check.html</A> <br/><A HREF="http://www.credit-dreams.com/refinance-home-mortgage.html"> refinance home mortgage </A>  refinance home mortgage  http://www.credit-dreams.com/refinance-home-mortgage.html <A HREF="http://www.credit-dreams.com/refinance-home-mortgage.html">http://www.credit-dreams.com/refinance-home-mortgage.html</A> <br/><A HREF="http://www.credit-dreams.com/mortgage-interest-rates.html"> mortgage interest rates </A>  mortgage interest rates  http://www.credit-dreams.com/mortgage-interest-rates.html <A HREF="http://www.credit-dreams.com/mortgage-interest-rates.html">http://www.credit-dreams.com/mortgage-interest-rates.html</A> <br/><A HREF="http://www.credit-dreams.com/countrywide-mortgage.html"> countrywide mortgage </A>  countrywide mortgage  http://www.credit-dreams.com/countrywide-mortgage.html <A HREF="http://www.credit-dreams.com/countrywide-mortgage.html">http://www.credit-dreams.com/countrywide-mortgage.html</A> <br/><A HREF="http://www.credit-dreams.com/mortgage-refinance.html"> mortgage refinance </A>  mortgage refinance  http://www.credit-dreams.com/mortgage-refinance.html <A HREF="http://www.credit-dreams.com/mortgage-refinance.html">http://www.credit-dreams.com/mortgage-refinance.html</A> <br/><A HREF="http://www.credit-dreams.com/free-credit-report-online.html"> free credit report online </A>  free credit report online  http://www.credit-dreams.com/free-credit-report-online.html <A HREF="http://www.credit-dreams.com/free-credit-report-online.html">http://www.credit-dreams.com/free-credit-report-online.html</A> <br/><A HREF="http://www.credit-dreams.com/mortgage-interest-rate.html"> mortgage interest rate </A>  mortgage interest rate  http://www.credit-dreams.com/mortgage-interest-rate.html <A HREF="http://www.credit-dreams.com/mortgage-interest-rate.html">http://www.credit-dreams.com/mortgage-interest-rate.html</A> <br/><A HREF="http://www.credit-dreams.com/bad-credit.html"> bad credit </A>  bad credit  http://www.credit-dreams.com/bad-credit.html <A HREF="http://www.credit-dreams.com/bad-credit.html">http://www.credit-dreams.com/bad-credit.html</A> <br/><A HREF="http://www.credit-dreams.com/consumer-credit-counseling.html"> consumer credit counseling </A>  consumer credit counseling  http://www.credit-dreams.com/consumer-credit-counseling.html <A HREF="http://www.credit-dreams.com/consumer-credit-counseling.html">http://www.credit-dreams.com/consumer-credit-counseling.html</A> <br/><A HREF="http://www.credit-dreams.com/credit-scores.html"> credit scores </A>  credit scores  http://www.credit-dreams.com/credit-scores.html <A HREF="http://www.credit-dreams.com/credit-scores.html">http://www.credit-dreams.com/credit-scores.html</A> <br/><A HREF="http://www.credit-dreams.com/credit-report-repair.html"> credit report repair </A>  credit report repair  http://www.credit-dreams.com/credit-report-repair.html <A HREF="http://www.credit-dreams.com/credit-report-repair.html">http://www.credit-dreams.com/credit-report-repair.html</A> <br/><A HREF="http://www.credit-dreams.com/discover-credit-card.html"> discover credit card </A>  discover credit card  http://www.credit-dreams.com/discover-credit-card.html <A HREF="http://www.credit-dreams.com/discover-credit-card.html">http://www.credit-dreams.com/discover-credit-card.html</A> <br/><A HREF="http://www.credit-dreams.com/ford-motor-credit.html"> ford motor credit </A>  ford motor credit  http://www.credit-dreams.com/ford-motor-credit.html <A HREF="http://www.credit-dreams.com/ford-motor-credit.html">http://www.credit-dreams.com/ford-motor-credit.html</A> <br/><A HREF="http://www.credit-dreams.com/mortgage-lenders.html"> mortgage lenders </A>  mortgage lenders  http://www.credit-dreams.com/mortgage-lenders.html <A HREF="http://www.credit-dreams.com/mortgage-lenders.html">http://www.credit-dreams.com/mortgage-lenders.html</A> <br/><A HREF="http://www.credit-dreams.com/car-loan-calculator.html"> car loan calculator </A>  car loan calculator  http://www.credit-dreams.com/car-loan-calculator.html <A HREF="http://www.credit-dreams.com/car-loan-calculator.html">http://www.credit-dreams.com/car-loan-calculator.html</A> <br/><A HREF="http://www.credit-dreams.com/loan-calculators.html"> loan calculators </A>  loan calculators  http://www.credit-dreams.com/loan-calculators.html <A HREF="http://www.credit-dreams.com/loan-calculators.html">http://www.credit-dreams.com/loan-calculators.html</A> <br/><A HREF="http://www.credit-dreams.com/pay-day-loans.html"> pay day loans </A>  pay day loans  http://www.credit-dreams.com/pay-day-loans.html <A HREF="http://www.credit-dreams.com/pay-day-loans.html">http://www.credit-dreams.com/pay-day-loans.html</A> <br/><A HREF="http://www.credit-dreams.com/lowest-mortgage-rates.html"> lowest mortgage rates </A>  lowest mortgage rates  http://www.credit-dreams.com/lowest-mortgage-rates.html <A HREF="http://www.credit-dreams.com/lowest-mortgage-rates.html">http://www.credit-dreams.com/lowest-mortgage-rates.html</A> <br/><A HREF="http://www.credit-dreams.com/free-copy-of-credit-report.html"> free copy of credit report </A>  free copy of credit report  http://www.credit-dreams.com/free-copy-of-credit-report.html <A HREF="http://www.credit-dreams.com/free-copy-of-credit-report.html">http://www.credit-dreams.com/free-copy-of-credit-report.html</A> <br/><A HREF="http://www.credit-dreams.com/mortgage-insurance.html"> mortgage insurance </A>  mortgage insurance  http://www.credit-dreams.com/mortgage-insurance.html <A HREF="http://www.credit-dreams.com/mortgage-insurance.html">http://www.credit-dreams.com/mortgage-insurance.html</A> <br/><A HREF="http://www.credit-dreams.com/mortgage-net-branches-oppurtinities.html"> mortgage net branches oppurtinities </A>  mortgage net branches oppurtinities  http://www.credit-dreams.com/mortgage-net-branches-oppurtinities.html <A HREF="http://www.credit-dreams.com/mortgage-net-branches-oppurtinities.html">http://www.credit-dreams.com/mortgage-net-branches-oppurtinities.html</A> <br/><A HREF="http://www.credit-dreams.com/mortgage-rate-calculator.html"> mortgage rate calculator </A>  mortgage rate calculator  http://www.credit-dreams.com/mortgage-rate-calculator.html <A HREF="http://www.credit-dreams.com/mortgage-rate-calculator.html">http://www.credit-dreams.com/mortgage-rate-calculator.html</A> <br/>... </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.credit-dreams.com/debt-consolidation-loans.html"> debt consolidation loans </a> on 29.07.2005.</span><BR><BR><span class="reg"> <h1>In your free time, check some relevant information about<A HREF="http://www.poker-new.com/texas-hold-em.html"> texas hold em </A>  texas hold em  http://www.poker-new.com/texas-hold-em.html <A HREF="http://www.poker-new.com/texas-hold-em.html">http://www.poker-new.com/texas-hold-em.html</A> <br/><A HREF="http://www.poker-new.com/poker-rule.html"> poker rule </A>  poker rule  http://www.poker-new.com/poker-rule.html <A HREF="http://www.poker-new.com/poker-rule.html">http://www.poker-new.com/poker-rule.html</A> <br/><A HREF="http://www.poker-new.com/texas-holdem-tables.html"> texas holdem tables </A>  texas holdem tables  http://www.poker-new.com/texas-holdem-tables.html <A HREF="http://www.poker-new.com/texas-holdem-tables.html">http://www.poker-new.com/texas-holdem-tables.html</A> <br/><A HREF="http://www.poker-new.com/free-poker-game-download.html"> free poker game download </A>  free poker game download  http://www.poker-new.com/free-poker-game-download.html <A HREF="http://www.poker-new.com/free-poker-game-download.html">http://www.poker-new.com/free-poker-game-download.html</A> <br/><A HREF="http://www.poker-new.com/poker-rules.html"> poker rules </A>  poker rules  http://www.poker-new.com/poker-rules.html <A HREF="http://www.poker-new.com/poker-rules.html">http://www.poker-new.com/poker-rules.html</A> <br/><A HREF="http://www.poker-new.com/poker-download.html"> poker download </A>  poker download  http://www.poker-new.com/poker-download.html <A HREF="http://www.poker-new.com/poker-download.html">http://www.poker-new.com/poker-download.html</A> <br/><A HREF="http://www.poker-new.com/free-texas-hold-em-poker.html"> free texas hold em poker </A>  free texas hold em poker  http://www.poker-new.com/free-texas-hold-em-poker.html <A HREF="http://www.poker-new.com/free-texas-hold-em-poker.html">http://www.poker-new.com/free-texas-hold-em-poker.html</A> <br/><A HREF="http://www.poker-new.com/free-rules-for-poker.html"> free rules for poker </A>  free rules for poker  http://www.poker-new.com/free-rules-for-poker.html <A HREF="http://www.poker-new.com/free-rules-for-poker.html">http://www.poker-new.com/free-rules-for-poker.html</A> <br/><A HREF="http://www.poker-new.com/hold-em-poker.html"> hold em poker </A>  hold em poker  http://www.poker-new.com/hold-em-poker.html <A HREF="http://www.poker-new.com/hold-em-poker.html">http://www.poker-new.com/hold-em-poker.html</A> <br/><A HREF="http://www.poker-new.com/cowboy-poker.html"> cowboy poker </A>  cowboy poker  http://www.poker-new.com/cowboy-poker.html <A HREF="http://www.poker-new.com/cowboy-poker.html">http://www.poker-new.com/cowboy-poker.html</A> <br/><A HREF="http://www.poker-new.com/video-poker-strategy.html"> video poker strategy </A>  video poker strategy  http://www.poker-new.com/video-poker-strategy.html <A HREF="http://www.poker-new.com/video-poker-strategy.html">http://www.poker-new.com/video-poker-strategy.html</A> <br/><A HREF="http://www.poker-new.com/free-online-poker.html"> free online poker </A>  free online poker  http://www.poker-new.com/free-online-poker.html <A HREF="http://www.poker-new.com/free-online-poker.html">http://www.poker-new.com/free-online-poker.html</A> <br/><A HREF="http://www.poker-new.com/poker-terms.html"> poker terms </A>  poker terms  http://www.poker-new.com/poker-terms.html <A HREF="http://www.poker-new.com/poker-terms.html">http://www.poker-new.com/poker-terms.html</A> <br/><A HREF="http://www.poker-new.com/free-poker-tournaments.html"> free poker tournaments </A>  free poker tournaments  http://www.poker-new.com/free-poker-tournaments.html <A HREF="http://www.poker-new.com/free-poker-tournaments.html">http://www.poker-new.com/free-poker-tournaments.html</A> <br/><A HREF="http://www.poker-new.com/poker-rooms.html"> poker rooms </A>  poker rooms  http://www.poker-new.com/poker-rooms.html <A HREF="http://www.poker-new.com/poker-rooms.html">http://www.poker-new.com/poker-rooms.html</A> <br/><A HREF="http://www.poker-new.com/free-texas-hold-em-poker-games.html"> free texas hold em poker games </A>  free texas hold em poker games  http://www.poker-new.com/free-texas-hold-em-poker-games.html <A HREF="http://www.poker-new.com/free-texas-hold-em-poker-games.html">http://www.poker-new.com/free-texas-hold-em-poker-games.html</A> <br/><A HREF="http://www.poker-new.com/celebrity-poker.html"> celebrity poker </A>  celebrity poker  http://www.poker-new.com/celebrity-poker.html <A HREF="http://www.poker-new.com/celebrity-poker.html">http://www.poker-new.com/celebrity-poker.html</A> <br/><A HREF="http://www.poker-new.com/free-poker-chip-set.html"> free poker chip set </A>  free poker chip set  http://www.poker-new.com/free-poker-chip-set.html <A HREF="http://www.poker-new.com/free-poker-chip-set.html">http://www.poker-new.com/free-poker-chip-set.html</A> <br/><A HREF="http://www.poker-new.com/poker-table.html"> poker table </A>  poker table  http://www.poker-new.com/poker-table.html <A HREF="http://www.poker-new.com/poker-table.html">http://www.poker-new.com/poker-table.html</A> <br/><A HREF="http://www.poker-new.com/texas-holdem-software.html"> texas holdem software </A>  texas holdem software  http://www.poker-new.com/texas-holdem-software.html <A HREF="http://www.poker-new.com/texas-holdem-software.html">http://www.poker-new.com/texas-holdem-software.html</A> <br/><A HREF="http://www.poker-new.com/poker-sites.html"> poker sites </A>  poker sites  http://www.poker-new.com/poker-sites.html <A HREF="http://www.poker-new.com/poker-sites.html">http://www.poker-new.com/poker-sites.html</A> <br/><A HREF="http://www.poker-new.com/video-poker-games.html"> video poker games </A>  video poker games  http://www.poker-new.com/video-poker-games.html <A HREF="http://www.poker-new.com/video-poker-games.html">http://www.poker-new.com/video-poker-games.html</A> <br/><A HREF="http://www.poker-new.com/world-series-of-poker.html"> world series of poker </A>  world series of poker  http://www.poker-new.com/world-series-of-poker.html <A HREF="http://www.poker-new.com/world-series-of-poker.html">http://www.poker-new.com/world-series-of-poker.html</A> <br/><A HREF="http://www.poker-new.com/basic-rules-of-poker.html"> basic rules of poker </A>  basic rules of poker  http://www.poker-new.com/basic-rules-of-poker.html <A HREF="http://www.poker-new.com/basic-rules-of-poker.html">http://www.poker-new.com/basic-rules-of-poker.html</A> <br/><A HREF="http://www.poker-new.com/poker-tables.html"> poker tables </A>  poker tables  http://www.poker-new.com/poker-tables.html <A HREF="http://www.poker-new.com/poker-tables.html">http://www.poker-new.com/poker-tables.html</A> <br/><A HREF="http://www.poker-new.com/video-poker-software.html"> video poker software </A>  video poker software  http://www.poker-new.com/video-poker-software.html <A HREF="http://www.poker-new.com/video-poker-software.html">http://www.poker-new.com/video-poker-software.html</A> <br/><A HREF="http://www.poker-new.com/rules-for-texas-hold-em.html"> rules for texas hold em </A>  rules for texas hold em  http://www.poker-new.com/rules-for-texas-hold-em.html <A HREF="http://www.poker-new.com/rules-for-texas-hold-em.html">http://www.poker-new.com/rules-for-texas-hold-em.html</A> <br/><A HREF="http://www.poker-new.com/card-poker.html"> card poker </A>  card poker  http://www.poker-new.com/card-poker.html <A HREF="http://www.poker-new.com/card-poker.html">http://www.poker-new.com/card-poker.html</A> <br/><A HREF="http://www.poker-new.com/free-texas-hold-em.html"> free texas hold em </A>  free texas hold em  http://www.poker-new.com/free-texas-hold-em.html <A HREF="http://www.poker-new.com/free-texas-hold-em.html">http://www.poker-new.com/free-texas-hold-em.html</A> <br/><A HREF="http://www.poker-new.com/gambling-poker.html"> gambling poker </A>  gambling poker  http://www.poker-new.com/gambling-poker.html <A HREF="http://www.poker-new.com/gambling-poker.html">http://www.poker-new.com/gambling-poker.html</A> <br/>... Thanks!!! </h1></span><BR>
+<span class="tiny" style="color: #555555;">- <a href="http://www.poker-new.com/poker-tables.html"> poker tables </a> on 05.08.2005.</span><BR><BR><HR><BR>
+<span class="tiny">Comments remain the property of whoever made them. If you've got a problem with someone's addition, there's sod all I can do about it.</span>
+<BR>
+<BR>
+
+<div align="center"><table>
+<tr>
+<td>
+<SPAN CLASS="comment"><div align="center">..comment on this entry:</div></SPAN>
+<form method="post" action="/comments.php">
+<input type="hidden" name="id" value="00303">
+<span class="tiny">Name:</SPAN><br>
+<input type="text" name="comment_name" value="" style="width:300px;" class="inputtxt">
+          <br>
+          <span class="tiny">E-mail:</SPAN> <SPAN CLASS="red">*</SPAN><br>
+          <input type="text" name="comment_email" value="" style="width:300px;" class="inputtxt">
+          <br>
+          <span class="tiny">Homepage (include "http://"):</SPAN><br>
+          <input type="text" name="comment_homepage" value="" style="width:300px;" class="inputtxt">
+          <br>
+          <span class="tiny">Comment:</SPAN><br>
+          <textarea name="comment" style="width:300px; height:120px;" class="inputtxt"></textarea><br>
+          <br>
+          <DIV style="text-align: center;"><input type="submit" name="add" value="Post my toast, baby." style="width: 150px;" class="input"></DIV>
+      </form>
+</td>
+</tr>
+</table>
+<BR>
+<SPAN CLASS="tiny"><SPAN CLASS="red">*</SPAN> Your e-mail will not be displayed publicly on the comments page, but it will be stored in the database should we wish to contact you. Feel free to view the <a href="privacy.php">privacy policy</a>.</SPAN>
+<BR>
+</div>
+
+<table width="100%">
+<tr>
+    <td align=center><BR><SPAN CLASS="reg">Powered by: <a href="http://www.scratchforward.com/scratchlog" target="_blank">ScratchLog</a></SPAN><BR></td>
+  </tr>
+</table>
+
+</TD>
+<TD BACKGROUND="ui/rightshade.jpg" WIDTH="10"></TD>
+</TR>
+<TR>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/bottomleftshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+<TD BACKGROUND="ui/bottomshade.jpg"></TD>
+<TD WIDTH="10" HEIGHT="9"><IMG SRC="ui/bottomrightshade.jpg" WIDTH="10" HEIGHT="9" /></TD>
+</TR>
+</TABLE>
+
+
+</TD>
+
+<TD WIDTH="120" BGCOLOR="#1A1A32" VALIGN="top">
+
+<BR />
+
+<DIV ALIGN="center">
+<A HREF="linkto.php" TITLE="Link to colonpipe.com"><IMG SRC="buttons/dzcom/colonpipe88x31.gif" WIDTH="88" HEIGHT="31" BORDER="0" ALT="colonpipe.com" /></A><BR />
+<BR />
+<A HREF="linkto.php" TITLE="Link to data-zoid.com"><IMG SRC="buttons/colonpipe_sms_88x31.gif" WIDTH="88" HEIGHT="31" BORDER="0" ALT="data-zoid.com" /></A><BR />
+<BR />
+<A HREF="http://fraxyl.data-zoid.com/" TITLE="fraxyl Design."><IMG SRC="fraxyl/images/frxyl88x31.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://fraxyl.data-zoid.com/roughing" TITLE="Roughing It."><IMG SRC="fraxyl/roughing/ri88x31.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.the-underdogs.org/" TARGET="new" TITLE="Home Of The Underdogs."><IMG SRC="images/hotu.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.thewhitlams.com/" TARGET="new" TITLE="The Whitlams."><IMG SRC="buttons/whitlams.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://www.deviantart.com/" TARGET="new" TITLE="DeviantART: Where Art Meets Application."><IMG SRC="buttons/deviantART.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<a href="http://www.rantmorgan.com/" target="_blank">
+<img src="http://www.rantmorgan.com/images/button.gif" border="0" alt="Rant Morgan's 'How To' Guides, quizzes, polls, and more!" title="Rant Morgan's 'How To' Guides, quizzes, polls, and more!" WIDTH="88" HEIGHT="31" ></a><BR />
+<BR />
+<a href="http://www.makemeking.com" title="Make Me King!"><img src="http://www.makemeking.com/images/king.gif" width="88" height="31"></a><BR />
+<BR /><A HREF="http://www.cockeyed.com/" TARGET="new" TITLE="cockeyed.com!"><IMG SRC="buttons/cockeyed.gif" WIDTH="79" HEIGHT="63" BORDER="0" /></A><BR />
+<BR />
+<A HREF="http://kevan.org/brain.cgi?name=Datazoid" CLASS="reg">munch!</A><BR />
+<BR />
+<A HREF="http://www.alterianlegends.net/" TARGET="new" TITLE="Alterian Legends. Blame BK, or something."><IMG SRC="alterianlegends/alterianlegends_88x31blue.gif" WIDTH="88" HEIGHT="31" BORDER="0" /></A><BR />
+<BR />
+<a href="http://geourl.org/near/?p=http://www.data-zoid.com/" title="check out my neighbors in meatspace"><img src="http://geourl.org/geourl.png" border=0 width=52 height=14 /></a><BR />
+<BR />
+<A HREF="http://www.boycott-riaa.com" CLASS="reg">RIAA</A><BR />
+<BR />
+
+<BR />
+<BR /></DIV>
+
+</TD>
+
+<TD WIDTH="7" CLASS="rightSide"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="1"></TD>
+
+</TABLE>
+
+
+
+
+
+<TABLE HEIGHT="7" WIDTH="100%" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="7" CLASS="botLeft"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+<TD CLASS="botCenter" WIDTH="100%"><IMG SRC="ui/spacer.gif" HEIGHT="1"></TD>
+<TD WIDTH="7" CLASS="botRight"><IMG SRC="ui/spacer.gif" WIDTH="7" HEIGHT="7"></TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="100%" HEIGHT="6" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD CLASS="log" ALIGN="center">
+<BR>
+<table width="90%"><tr><td>
+<DIV ALIGN="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-9034153012081733";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_channel ="";
+google_alternate_color = "000000";
+google_color_border = ["2D5893","333333","191933"];
+google_color_bg = ["99AACC","000000","333366"];
+google_color_link = ["000000","FFFFFF","99CC33"];
+google_color_url = ["000099","999999","FFCC00"];
+google_color_text = ["003366","CCCCCC","FFFFFF"];
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<BR>
+<BR>
+<IMG SRC="ad_shirtshop.jpg" WIDTH="468" HEIGHT="60" border="0">
+<BR>
+<BR>
+<SPAN CLASS="tiny">All content is &copy; Russ Gawthorpe, 2003 and all subsequent years, unless otherwise credited. So, uh, no copy-and-pasting, you bastard. Yeah.
+<BR>
+<BR>
+This page was generated in your mind.
+<BR>
+<BR></SPAN></div>
+<SPAN  class="tiny" STYLE="color: #555555;">So. You're reading the bit at the bottom again. how about I suggest some things you could be doing instead? Then, when you get to the end of the paragraph, you can feel vaguely fulfilled and perhaps even go out and do one or all of them? Or you can just think "Hey, he's just knocking off ideas from Monkey Island!", but it's all good in the end. Anyhow, why not wash the car, or buy some groceries? Donate someone's body to science! Invent a new way to varnish wood! Learn a new language! Learn two new languages! Find some bugs! Then race 'em! Kill the losers.<BR>
+<BR>
+<DIV style="text-align: center;"><SPAN STYLE="color: #FF0000;">This webpage best viewed with a monitor resolution of 9x2 and a depth of 12 fathoms. A web browser is recommended, but not entirely necessary.</SPAN></DIV>
+<BR>
+Some random words to make the search engines freak out:<BR>
+Saggitarius Stroodle! Garlic Mungbean! Serendipitous Tutu! Abnormal Finch! Mongbotty Organist! Sputnik Charmer! Lilliputian Spectator! Nipple Garnish! Splade Turnip! Funk Delicious! Gosling Batter! Chip Supreme! Retentive Scorpion! Sardine Wrangler! Aerodynamic Kumquat!</SPAN><BR>
+</td></tr></table>
+<BR>
+<BR>
+</TD>
+</TR>
+
+ </TABLE>
+
+</DIV>
+
+</BODY>
+</HTML>

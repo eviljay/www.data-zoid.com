@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<title>PJIRC Chat-Applet</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="css.php">
+<script language="JavaScript" type="text/javascript" src="chat.js"></script>
+</head>
+
+<body onLoad="document.login.nick.focus();">
+
+<div align=center>
+<form name="login" action="/irc/index.php" method="get" onSubmit="return chkForm();">
+	<input type="hidden" name="page" value="chat">
+	<table width="45%" class="border"><tr><td align=center>
+		<table width="100%" cellpadding=18>
+			<tr>
+				<td align=center valign=top class="tall">
+					<hr>Welcome to the PJIRC Chat-Applet<hr><br>
+					<a href="http://www.pjirc.com" target="_blank">
+					<img src="img/pjirclogo.gif" width="131" height="102" border=0 alt="PJIRC - IRC Chat Solutions"></a>
+				</td>
+			</tr>
+		</table>
+		<table width="80%">
+			<tr>
+				<td align=right class="medium">Nickname:&nbsp;</td>
+				<td><input name="nick" type="text" class="input"></td>
+			</tr><tr>
+				<td align=right class="medium">Password:&nbsp;</td>
+				<td><input name=pass type="password" class="input"></td>
+			</tr><tr>
+				<td align=right class="medium">Applet&nbsp;Style:&nbsp;</td>
+				<td>
+					<select name="style" size=1 class="input">
+						<option>Silver</option>
+						<option>Brown</option>
+						<option>Default</option>
+					</select>
+				</td>
+			</tr><tr>
+				<td align=right class="medium">Font:&nbsp;</td>
+				<td>
+					<select name="font" size=1 class="input">
+						<option>Dialog</option>
+						<option selected>SansSerif</option>
+						<option>Serif</option>
+						<option>Monospaced</option>
+						<option>DialogInput</option>
+						<option>Verdana</option>
+					</select>
+				</td>
+			</tr><tr>
+				<td align=right class="medium">Size:&nbsp;</td>
+				<td>
+					<select name="font2" size=1>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option selected>14</option>
+						<option>15</option>
+						<option>16</option>
+					</select>
+				</td>
+			</tr><tr>
+				<td align=right class="medium">Smileys:&nbsp;</td>
+				<td>
+					<input name="smileys" type="radio" value="1" checked>Yes&nbsp;
+					<input name="smileys" type="radio" value="0">No&nbsp;
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td align=center height=20><input type="submit" value="Login"></td>
+			</tr><tr>
+				<td align=center height=20 class="small"><a href="/irc/index.php">normal settings</a></td>
+			</tr>
+		</table>
+	</td></tr></table>
+</form>
+</div>
+
+</body></html>

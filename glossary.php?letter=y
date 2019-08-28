@@ -1,0 +1,159 @@
+
+
+
+<HTML>
+<HEAD>
+<title>www.data-zoid.com { glossary }</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><meta name="Description" content="PHPGlossar Version Beta 0.74 - by Andreas Robertz 02/2002 - http://www.crear.de"><meta name="author" content="Design and Scripting Andreas Robertz 2000,2001 - www.CreAr.de"><meta name="keywords" content="Glossar, PHP, PHPGlossar, Andreas Robertz, MySQL, http://www.crear.de, Search, Suche, Glossary"><meta name="expires" content="129600"><meta name="robots" content="index follow"><LINK rel="stylesheet" href="ui/dz.css"></HEAD>
+<HTML>
+
+<BODY BGCOLOR="#000000" LEFTMARGIN="0" TOPMARGIN="5" RIGHTMARGIN="0" BOTTOMMARGIN="5">
+
+<!-- outer 1-pixel border -->
+<CENTER>
+<TABLE WIDTH="742"CELLPADDING="1" CELLSPACING="0">
+<TR>
+<TD CLASS="outer">
+<!-- outer 1-pixel border -->
+<TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0">
+<!-- stripey bar --><TR>
+<TD CLASS="stripes" ALIGN="right">
+<span class"lineyear">Screaming at the top of your lungs can be a good stress-buster.
+</span>&nbsp;
+</TD>
+</TR>
+<! -- ye olde title graphic -->
+<TR>
+<TD CLASS="dark">
+<IMG SRC="ui/images/blue_orange_title_z.jpg" WIDTH="740" HEIGHT="68"><BR>
+<TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD align="left">
+<IMG SRC="ui/images/bottom_of_z.jpg" WIDTH="162" HEIGHT="22" ALT="Z">
+<TD ALIGN="right">
+&nbsp;&nbsp;<A HREF="fraxyl"><IMG SRC="ui/images/butt_frax.jpg" WIDTH="56" HEIGHT="20" ALT="fraxyl" BORDER="0"></a>&nbsp;
+<A HREF="flatline"><IMG SRC="ui/images/butt_flat.jpg" WIDTH="73" HEIGHT="20" ALT="Flatline" BORDER="0"></a>&nbsp;
+<A HREF="natchcomics"><IMG SRC="ui/images/butt_dan.jpg" WIDTH="126" HEIGHT="20" ALT="NatchComics" BORDER="0"></a>&nbsp;
+<A HREF="brutallyhonest"><IMG SRC="ui/images/butt_chris.jpg" WIDTH="143" HEIGHT="20" ALT="BrutallyHonest" BORDER="0"></a>&nbsp;
+<A HREF="rafters"><IMG SRC="ui/images/butt_forum.jpg" WIDTH="73" HEIGHT="20" ALT="Rafters" BORDER="0"></a>&nbsp;&nbsp;
+</TD>
+
+
+
+
+</TR>
+</TABLE>
+<IMG SRC="ui/images/bottomshadow.jpg" WIDTH="740" HEIGHT="10">
+</TR><TR>
+<TD CLASS="light" HEIGHT="100%">
+<! -- ye main content, 3px spacing -->
+<TABLE WIDTH="100%" CELLPADDING="3" CELLSPACING="0">
+<TR>
+<TD WIDTH="146" VALIGN="top">
+<!-- left menu -->
+<TABLE WIDTH="140" HEIGHT="100%" CELLSPACING="0" CELLPADDING="0" ALIGN="LEFT" CLASS="outline">
+<TR>
+<TD CLASS="title" HEIGHT="13">
+&nbsp;Creed
+</TD>
+</TR>
+<TR>
+<TD CLASS="items">
+A long time ago, in a final frontier ...<BR>
+The Rebel Alliance has fallen apart, the Galactic Empire has gone to Bingo night, and Starfleet has taken the day off. <BR>
+The Borg are asleep, the Klingons are hung over, and the Romulans are still trying to figure out why square drinking glasses don't leave rings on coffee tables.<BR>
+ET has phoned home, the Men in Black have gone paisley, and HAL has finally done that, Dave.<BR>
+The Outer Limits have been reached, the Twilight Zone has reached daylight, and the X-Files have been filed.<BR>
+In a world without science fiction, life exists in only one place ...<BR>
+<BR>
+Our last, best hope for confusion ...<BR>
+<BR>
+Datazoid's Reality.<FONT SIZE=1 COLOR="#F76C02">*</FONT><BR>
+<BR>
+<FONT SIZE=1 COLOR="#F76C02">*</FONT> Not to be taken internally.<BR>
+<BR>
+</TD>
+</TR>
+<TR>
+<TD CLASS="title" HEIGHT="13">
+&nbsp;Prior Art-O-Matic
+</TD>
+</TR>
+<TR>
+<TD CLASS="items" HEIGHT="100%" VALIGN="top">
+<P ALIGN="right"><A HREF="http://www.thesurrealist.co.uk/priorart.cgi" TARGET="new" CLASS="menuitems" TITLE="Prior Art-o-Matic!">..lives here!</a></P>
+
+- <I>Datazoid</I> is a waffle iron! It connects to the web!<BR>
+<BR>
+- <I>fraxyl</I> is like a normal key-ring, but it swears.<BR>
+<BR>
+- <I>Flatline</I> is like a normal fridge magnet, but it disinfects work surfaces.<BR>
+<BR>
+- <I>Natch</I> is a first-aid kit that's heavier than it looks, explodes when dropped and purifies water.<BR>
+<BR>
+- <I>Gremmi</I> is a housebrick that fires plastic darts, is perfectly safe to use and receives data from any nearby security camera.<BR>
+<BR>
+- <I>Rafters</I> is a hole-punch! It mimics the movements of a lizard!<BR>
+<BR>
+- <I>Leem</I> is like a normal letter-opener, but it can go from 0 to 60mph in three seconds.
+</TD>
+</TR>
+</TABLE></TD>
+<TD VALIGN="top">
+<TABLE WIDTH="100%" CLASS="outline" BORDER="0" CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD CLASS="title" ALIGN="center" HEIGHT="13">
+Flat Pickled Glossary
+</TD>
+</TR>
+</TABLE>
+<BR>
+
+<TABLE width=100% align=center border=0 cellspacing=0 cellpadding=0>
+<TR align=center valign=middle > <TD colspan=1 align=center height=24 valign=middle background="extras/buttons/standard/background-grey.jpg"><A HREF=glossary.php?letter=A><b>A</b></A>
+<A HREF=glossary.php?letter=B><b>B</b></A>
+<A HREF=glossary.php?letter=C><b>C</b></A>
+<A HREF=glossary.php?letter=D><b>D</b></A>
+<A HREF=glossary.php?letter=E><b>E</b></A>
+<A HREF=glossary.php?letter=F><b>F</b></A>
+<A HREF=glossary.php?letter=G><b>G</b></A>
+<A HREF=glossary.php?letter=H><b>H</b></A>
+<A HREF=glossary.php?letter=I><b>I</b></A>
+<A HREF=glossary.php?letter=J><b>J</b></A>
+<A HREF=glossary.php?letter=K><b>K</b></A>
+<A HREF=glossary.php?letter=L><b>L</b></A>
+<A HREF=glossary.php?letter=M><b>M</b></A>
+<A HREF=glossary.php?letter=N><b>N</b></A>
+<A HREF=glossary.php?letter=O><b>O</b></A>
+<A HREF=glossary.php?letter=P><b>P</b></A>
+<A HREF=glossary.php?letter=Q><b>Q</b></A>
+<A HREF=glossary.php?letter=R><b>R</b></A>
+<A HREF=glossary.php?letter=S><b>S</b></A>
+<A HREF=glossary.php?letter=T><b>T</b></A>
+<A HREF=glossary.php?letter=U><b>U</b></A>
+<A HREF=glossary.php?letter=V><b>V</b></A>
+<A HREF=glossary.php?letter=W><b>W</b></A>
+<A HREF=glossary.php?letter=X><b>X</b></A>
+<A HREF=glossary.php?letter=Y><b>Y</b></A>
+<A HREF=glossary.php?letter=Z><b>Z</b></A>
+</TD> 
+<TD align=left height=24 valign=middle background="extras/buttons/standard/background-grey.jpg">- <A HREF=glossary.php?letter=*>view All</A> 
+</TD> 
+</TR></TABLE> 
+<TABLE width=450 align=center border=0 cellspacing=0 cellpadding=0><TR align=center valign=middle> 
+<TD colspan=2 align=center valign=middle> 
+ 
+No Entry / Entries beginning with "y" 
+ 
+<TR align=center valign=middle> 
+<TD colspan=2 align=center valign=middle> 
+ 
+<font size=2; face=Verdana> 
+<form action="glossary.php" method="post">Word: &nbsp;<input type="text" name="word">&nbsp;<input type="submit" value=Search></form></font></TD> 
+</TR> 
+<TR align=center valign=middle> 
+<TD colspan=2 align=center valign=middle> 
+ 
+ 
+ <!-- DON'T REMOVE THE COPYRIGHT OR YOU OFFEND AGAINST THE LICENSE AGREEMENT!! //--> 
+<DIV ALIGN="center"><FONT SIZE="1">Copyright &copy; 2001 Andreas Robertz</FONT> <FONT SIZE="1"><B><A HREF="http://www.crear.de" TARGET=_blank ONFOCUS="filter:blur()">http://www.crear.de</A></B></FONT></DIV></TD></TR></TABLE></tr></table><br>
